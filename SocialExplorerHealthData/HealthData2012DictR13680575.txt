@@ -1,0 +1,704 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13680575
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Health Data 2012 Release
+Dataset:          Health Data 2012
+Tables:
+
+      1. Quality of Life
+         Universe:  
+         Name:      T1
+         Variables:
+            T001_001:   Physically Unhealthy Days per Month
+            T001_002:   Mentally Unhealthy Days per Month
+
+
+      2. Quality of Life Sample Size
+         Universe:  
+         Name:      NV2
+         Variables:
+            NV002_001:   Physically Unhealthy Days per Month (Adults)
+            NV002_002:   Mentally Unhealthy Days per Month (Adults)
+
+
+      3. Fair or Poor Health
+         Universe:  
+         Name:      T2
+         Variables:
+            T002_001:   Adults That Report Fair or Poor Health
+
+
+      4. Fair or Poor Health Sample Size
+         Universe:  
+         Name:      NV3
+         Variables:
+            NV003_001:   Adults That Report Fair or Poor Health
+
+
+      5. Low Birthweight
+         Universe:  
+         Name:      T3
+         Variables:
+            T003_001:   Low Birthweight Births (<2.5kg)
+
+
+      6. Low Birthweight Count
+         Universe:  
+         Name:      NV4
+         Variables:
+            NV004_001:   Low Birthweight Births (<2.5kg)
+
+
+      7. Health Care Providers
+         Universe:  
+         Name:      T4
+         Variables:
+            T004_001:   Primary Care Physicians (PCP)
+            T004_002:   Mental Health Providers (MHP)
+            T004_003:   Dentists
+
+
+      8. Health Care Providers Rates
+         Universe:  
+         Name:      NV5
+         Variables:
+            NV005_001:   Primary Care Physicians (PCP) Rate per 100,000 Population
+            NV005_002:   Mental Health Providers (MHP) Rate per 100,000 Population
+            NV005_003:   Dentists Rate per 100,000 Population
+
+
+      9. Limited Access to Doctor Due to Costs
+         Universe:  
+         Name:      T5
+         Variables:
+            T005_001:   Adults with Limited Access to Doctor Due to Costs
+            T005_002:   Health Care Costs Price-adjusted Medicare Reimbursements
+
+
+      10. Health Insurance
+          Universe:  
+          Name:      T6
+          Variables:
+             T006_001:   Persons Without Insurance (Population 18 to 64 Years, 2009 est.)
+             T006_002:   Persons Without Insurance (Population Under 65 Years, 2009 est.)
+
+
+      11. Health Insurance Count
+          Universe:  
+          Name:      NV7
+          Variables:
+             NV007_001:   Persons Without Insurance (Population 18 to 64 Years, 2009 est.)
+             NV007_002:   Persons Without Insurance (Population Under 65 Years, 2009 est.)
+
+
+      12. Years of Potential Life Lost
+          Universe:  
+          Name:      T7
+          Variables:
+             T007_001:   Premature Deaths (Less than 75 Years)
+             T007_002:   Years of Potential Life Lost (YPLL) Rate per 100,000 Population (Less than 75 Years)
+
+
+      13. Diabetes
+          Universe:  
+          Name:      T8
+          Variables:
+             T008_001:   Diabetic Medicare Enrollees Receiving Hba1c Test
+
+
+      14. Diabetes Count
+          Universe:  
+          Name:      NV8
+          Variables:
+             NV008_001:   Diabetic Medicare Enrollees (Out of Total Medicare Enrolles)
+
+
+      15. Sexual Activity
+          Universe:  
+          Name:      T9
+          Variables:
+             T009_001:   Chlamydia Cases
+
+
+      16. Sexual Activity Rates
+          Universe:  
+          Name:      NV9
+          Variables:
+             NV009_001:   Chlamydia Cases Rate per 100,000 Population
+
+
+      17. Tobacco and Alcohol Usage
+          Universe:  
+          Name:      T10
+          Variables:
+             T010_001:   Current Smokers (Persons 18 Years and Over)
+             T010_002:   Drinking Adults (Persons 18 Years and Over)
+
+
+      18. Tobacco and Alcohol Usage Sample Size
+          Universe:  
+          Name:      NV10
+          Variables:
+             NV010_001:   Current Smokers (Persons 18 Years and Over)
+             NV010_002:   Drinking Adults (Persons 18 Years and Over)
+
+
+      19. Diet and Exercise
+          Universe:  
+          Name:      T11
+          Variables:
+             T011_001:   Persons with Limited Access to Healthy Foods
+             T011_002:   Obese Persons (20 Years and Over)
+             T011_003:   Physically Inactive Persons (20 Years and Over)
+
+
+      20. Diet and Exercise Count
+          Universe:  
+          Name:      NV11
+          Variables:
+             NV011_001:   Persons with Limited Access to Healthy Foods
+             NV011_002:   Obese Persons (20 Years and Over)
+             NV011_003:   Physically Inactive Persons (20 Years and Over)
+
+
+      21. Physical Environment
+          Universe:  
+          Name:      T16
+          Variables:
+             T016_001:   Air Pollution Particulate Matter Average Daily Pm2.5
+             T016_007:   Percent of Driving Alone to Work
+
+
+
+
+
+Survey:           Health Data 2012 Release
+Dataset:          Original Tables
+Tables:
+
+      1. Additional Demographics
+         Universe:  none
+         Name:      HD2012_008
+         Variables:
+            HD2012_008_HEALTH_T6_V25:   Population
+            HD2012_008_HEALTH_T6_V12:   Population (%, < 18 Years)
+            HD2012_008_HEALTH_T6_V13:   Population (%, 65 Years and Over)
+            HD2012_008_HEALTH_T6_V14:   Population (%, African American)
+            HD2012_008_HEALTH_T6_V15:   Population (%, American Indian/ Alaskan Native)
+            HD2012_008_HEALTH_T6_V16:   Population (%, Asian)
+            HD2012_008_HEALTH_T6_V19:   Population (%, Native Hawaiian/ Other Pacific Islander)
+            HD2012_008_HEALTH_T6_V18:   Population (%, Hispanic)
+            HD2012_008_HEALTH_T6_V21:   Population (%, Not Proficient in English)
+            HD2012_008_HEALTH_T6_V17:   Population (%, Female)
+            HD2012_008_HEALTH_T6_V22:   Population (%, Rural)
+
+
+      2. Additional Health Factors  Physical Environment
+         Universe:  none
+         Name:      HD2012_009
+         Variables:
+            HD2012_009_HEALTH_T11_V2:   Recreational Facilities
+            HD2012_009_HEALTH_T11_V5:   Recreational Facilities Rate
+            HD2012_009_HEALTH_T11_V4:   Recreational Facilities Rate Quartile
+
+
+      3. Additional Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2012_010
+         Variables:
+            HD2012_010_HEALTH_T8_V13:   Motor Vehicle Crash Deaths Unreliable
+            HD2012_010_HEALTH_T8_V8:   Motor Vehicle Crash Deaths
+            HD2012_010_HEALTH_T8_V11:   Motor Vehicle Crash Mortality Rate per 100,000 Population
+            HD2012_010_HEALTH_T8_V10:   Motor Vehicle Crash Deaths 95% Confidence Interval - Low
+            HD2012_010_HEALTH_T8_V9:   Motor Vehicle Crash Deaths 95% Confidence Interval - High
+            HD2012_010_HEALTH_T8_V12:   Motor Vehicle Crash Deaths Quartile 
+            HD2012_010_HEALTH_T8_V5:   Persons with Limited Access to Healthy Foods
+            HD2012_010_HEALTH_T8_V6:   Percent of Persons with Limited Access to Healthy Foods
+            HD2012_010_HEALTH_T8_V7:   Persons with Limited Access to Healthy Foods Quartile
+
+
+      4. Additional Health Factors Health Care
+         Universe:  none
+         Name:      HD2012_011
+         Variables:
+            HD2012_011_HEALTH_T9_V5:   Health Care Costs Price-adjusted Medicare Reimbursements
+            HD2012_011_HEALTH_T9_V8:   Persons Without Insurance (Population 18 to 64 Years, 2013 est.)
+            HD2012_011_HEALTH_T9_V9:   Percent Persons Without Insurance (Population 18 to 64 Years, 2013 est.)
+            HD2012_011_HEALTH_T9_V11:   Persons Without Insurance (Population 18 to 64 Years, 2013 est.) 95% Confidence Interval - Low
+            HD2012_011_HEALTH_T9_V10:   Persons Without Insurance (Population 18 to 64 Years, 2013 est.) 95% Confidence Interval - High
+            HD2012_011_HEALTH_T9_V4:   Could Not See Doctor Due To Cost Sample Size
+            HD2012_011_HEALTH_T9_V1:   Percent of Persons That Could Not See Doctor Due To Cost
+            HD2012_011_HEALTH_T9_V19:   Persons That Could Not See Doctor Due To Cost
+            HD2012_011_HEALTH_T9_V17:   Uninsured  - Quartile
+
+
+      5. Additional Health Factors Social Economic Factors
+         Universe:  none
+         Name:      HD2012_012
+         Variables:
+            HD2012_012_HEALTH_T10_V16:   Median Household Income
+            HD2012_012_HEALTH_T10_V15:   Median Household Income 95% Confidence Interval - Low
+            HD2012_012_HEALTH_T10_V14:   Median Household Income 95% Confidence Interval - High
+            HD2012_012_HEALTH_T10_V6:   High Housing Costs
+            HD2012_012_HEALTH_T10_V8:   High Housing Costs Households
+            HD2012_012_HEALTH_T10_V7:   Percent High Housing Costs
+            HD2012_012_HEALTH_T10_V5:   Children Eligible for Free Lunch (Persons < 18 Years)
+            HD2012_012_HEALTH_T10_V1:   Percent Illiterate
+            HD2012_012_HEALTH_T10_V3:   Illiterate 95% Confidence Interval - Low
+            HD2012_012_HEALTH_T10_V2:   Illiterate 95% Confidence Interval - High
+            HD2012_012_HEALTH_T10_V11:   Homicides Rate
+            HD2012_012_HEALTH_T10_V10:   Homicides 95% Confidence Interval - Low
+            HD2012_012_HEALTH_T10_V9:   Homicides 95% Confidence Interval - High
+
+
+      6. Additional Health Outcomes
+         Universe:  none
+         Name:      HD2012_013
+         Variables:
+            HD2012_013_HEALTH_T7_V6:   Percent of Diabetics
+            HD2012_013_HEALTH_T7_V8:   Diabetics 95% Confidence Interval - Low
+            HD2012_013_HEALTH_T7_V7:   Diabetics 95% Confidence Interval - High
+            HD2012_013_HEALTH_T7_V11:   Population
+            HD2012_013_HEALTH_T7_V12:   HIV Prevalence Rate per 100,000 Population
+
+
+      7. Health Factors Clinical Care
+         Universe:  none
+         Name:      HD2012_014
+         Variables:
+            HD2012_014_HEALTH_T3_V41:   Persons Without Insurance (Population Under 65 Years, 2013 est.)
+            HD2012_014_HEALTH_T3_V42:   Percent of Persons Without Insurance (Population Under 65 Years, 2013 est.)
+            HD2012_014_HEALTH_T3_V44:   Persons Without Insurance (Population Under 65 Years, 2013 est.) 95% Confidence Interval - Low
+            HD2012_014_HEALTH_T3_V43:   Persons Without Insurance (Population Under 65 Years, 2013 est.) 95% Confidence Interval - High
+            HD2012_014_HEALTH_T3_V34:   Primary Care Physicians (PCP)
+            HD2012_014_HEALTH_T3_V35:   Primary Care Physicians (PCP) Rate per 100,000 Population
+            HD2012_014_HEALTH_T3_V36:   Primary Care Physicians (PCP) Ratio
+            HD2012_014_HEALTH_T3_V28:   Previous Primary Care Physician  (PCP) Data Used To Calculate Rankings* - PCP
+            HD2012_014_HEALTH_T3_V29:   Previous Primary Care Physician  (PCP) Data Used To Calculate Rankings* - Rate
+            HD2012_014_HEALTH_T3_V30:   Previous Primary Care Physician  (PCP) Data Used To Calculate Rankings* - Ratio
+            HD2012_014_HEALTH_T3_V32:   Previous Primary Care Physician  (PCP) Data Used To Calculate Rankings*  - Quartile
+            HD2012_014_HEALTH_T3_V22:   Preventable Hospital Stays Medicare Enrollees
+            HD2012_014_HEALTH_T3_V25:   Preventable Hospital Stays Rate
+            HD2012_014_HEALTH_T3_V24:   Preventable Hospital Stays 95% Confidence Interval - Low
+            HD2012_014_HEALTH_T3_V23:   Preventable Hospital Stays 95% Confidence Interval - High
+            HD2012_014_HEALTH_T3_V26:   Preventable Hospital Stays Quartile
+            HD2012_014_HEALTH_T3_V6:   Diabetic Medicare Enrollees Receiving Hba1c Test
+            HD2012_014_HEALTH_T3_V7:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+            HD2012_014_HEALTH_T3_V9:   Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - Low
+            HD2012_014_HEALTH_T3_V8:   Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - High
+            HD2012_014_HEALTH_T3_V10:   Diabetic Medicare Enrollees Receiving Hba1c Test Quartile
+            HD2012_014_HEALTH_T3_V16:   Medicare Enrollees Having Mammography Screening
+            HD2012_014_HEALTH_T3_V17:   Percent of Medicare Enrollees Having Mammography Screening
+            HD2012_014_HEALTH_T3_V19:   Medicare Enrollees Having Mammography Screening 95% Confidence Interval - Low
+            HD2012_014_HEALTH_T3_V18:   Medicare Enrollees Having Mammography Screening 95% Confidence Interval - High
+            HD2012_014_HEALTH_T3_V20:   Medicare Enrollees Having Mammography Screening Quartile
+            HD2012_014_HEALTH_T3_V1:   Dentists
+            HD2012_014_HEALTH_T3_V2:   Dentists Rate per 100,000 Population
+            HD2012_014_HEALTH_T3_V3:   Dentists Ratio
+
+
+      8. Health Factors Environment
+         Universe:  none
+         Name:      HD2012_015
+         Variables:
+            HD2012_015_HEALTH_T5_V11:   Air Pollution Particulate Matter Days
+            HD2012_015_HEALTH_T5_V12:   Air Pollution Particulate Matter Days Quartile
+            HD2012_015_HEALTH_T5_V9:   Air Pollution Ozone Days
+            HD2012_015_HEALTH_T5_V10:   Air Pollution Ozone Days Quartile
+            HD2012_015_HEALTH_T5_V28:   Fast Food Restaurants
+            HD2012_015_HEALTH_T5_V29:   Percent Fast Food Restaurants
+            HD2012_015_HEALTH_T5_V30:   Fast Food Restaurants Quartile
+            HD2012_015_HEALTH_T5_V20:   Driving Alone to Work
+            HD2012_015_HEALTH_T5_V21:   Driving Alone To Work - Workers
+            HD2012_015_HEALTH_T5_V23:   Percent of Driving Alone to Work
+            HD2012_015_HEALTH_T5_V5:   Access To Healthy Foods Zip Codes with Healthy Foods
+            HD2012_015_HEALTH_T5_V1:   Access To Healthy Foods Zip Codes
+            HD2012_015_HEALTH_T5_V2:   Percent Access To Healthy Foods
+
+
+      9. Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2012_016
+         Variables:
+            HD2012_016_HEALTH_T2_V10:   Percent of Current Smokers (Persons 18 Years and Over)
+            HD2012_016_HEALTH_T2_V49:   Current Smokers (Persons 18 Years and Over) 
+            HD2012_016_HEALTH_T2_V14:   Current Smokers (Persons 18 Years and Over) Sample Size
+            HD2012_016_HEALTH_T2_V12:   Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2012_016_HEALTH_T2_V11:   Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2012_016_HEALTH_T2_V13:   Current Smokers (Persons 18 Years and Over) Quartile
+            HD2012_016_HEALTH_T2_V5:   Percent of Obese Persons (20 Years and Over)
+            HD2012_016_HEALTH_T2_V7:   Obese Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2012_016_HEALTH_T2_V6:   Obese Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2012_016_HEALTH_T2_V8:   Obese Persons (20 Years and Over) Quartile
+            HD2012_016_HEALTH_T2_V30:   Percent of Physically Inactive Persons (20 Years and Over)
+            HD2012_016_HEALTH_T2_V32:   Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2012_016_HEALTH_T2_V31:   Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2012_016_HEALTH_T2_V33:   Physically Inactive Persons (20 Years and Over) Quartile
+            HD2012_016_HEALTH_T2_V21:   Percent of Drinking Adults (Persons 18 Years and Over)
+            HD2012_016_HEALTH_T2_V50:   Drinking Adults (Persons 18 Years and Over) 
+            HD2012_016_HEALTH_T2_V25:   Drinking Adults (Persons 18 Years and Over) Sample Size
+            HD2012_016_HEALTH_T2_V23:   Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2012_016_HEALTH_T2_V22:   Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2012_016_HEALTH_T2_V24:   Drinking Adults (Persons 18 Years and Over) Quartile
+            HD2012_016_HEALTH_T2_V35:   Chlamydia Cases
+            HD2012_016_HEALTH_T2_V36:   Chlamydia Cases Rate per 100,000 Population
+            HD2012_016_HEALTH_T2_V38:   Chlamydia Cases Quartile
+            HD2012_016_HEALTH_T2_V45:   Teen Births
+            HD2012_016_HEALTH_T2_V47:   Teen Population (Females 15 to 19 Years)
+            HD2012_016_HEALTH_T2_V44:   Teen Births Rate per 1,000 Population (Females 15 to 19 Years)
+            HD2012_016_HEALTH_T2_V42:   Teen Births (Females 15-19 Years) 95% Confidence Interval - Low
+            HD2012_016_HEALTH_T2_V41:   Teen Births (Females 15-19 Years) 95% Confidence Interval - High
+            HD2012_016_HEALTH_T2_V43:   Teen Births (Females 15-19 Years) Quartile
+
+
+      10. Health Factors Social Economic Factors
+          Universe:  none
+          Name:      HD2012_017
+          Variables:
+             HD2012_017_HEALTH_T4_V18:   High School Graduation Rate
+             HD2012_017_HEALTH_T4_V19:   High School Graduation Quartile
+             HD2012_017_HEALTH_T4_V46:   Adults Having Some Post-secondary Education (Persons 25-44 Years)
+             HD2012_017_HEALTH_T4_V50:   Population (Persons 25-44 Years)
+             HD2012_017_HEALTH_T4_V47:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+             HD2012_017_HEALTH_T4_V49:   Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - Low
+             HD2012_017_HEALTH_T4_V48:   Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - High
+             HD2012_017_HEALTH_T4_V51:   Adults Having Some Post-secondary Education (Persons 25-44 Years) Quartile
+             HD2012_017_HEALTH_T4_V53:   Unemployed (Persons 16 Years and Over)
+             HD2012_017_HEALTH_T4_V57:   Labor Force
+             HD2012_017_HEALTH_T4_V54:   Percent of Unemployed (Persons 16 Years and Over)
+             HD2012_017_HEALTH_T4_V58:   Percent of Unemployed (Persons 16 Years and Over) Quartile
+             HD2012_017_HEALTH_T4_V1:   Children in Poverty
+             HD2012_017_HEALTH_T4_V2:   Percent of Children in Poverty
+             HD2012_017_HEALTH_T4_V4:   Children in Poverty 95% Confidence Interval - Low
+             HD2012_017_HEALTH_T4_V3:   Children in Poverty 95% Confidence Interval - High
+             HD2012_017_HEALTH_T4_V5:   Children in Poverty Quartile
+             HD2012_017_HEALTH_T4_V22:   Percent No Social-Emotional Support
+             HD2012_017_HEALTH_T4_V65:   No Social-Emotional Support (Count)
+             HD2012_017_HEALTH_T4_V26:   No Social-Emotional Support Sample Size
+             HD2012_017_HEALTH_T4_V24:   No Social-Emotional Support 95% Confidence Interval - Low
+             HD2012_017_HEALTH_T4_V23:   No Social-Emotional Support 95% Confidence Interval - High
+             HD2012_017_HEALTH_T4_V25:   No Social-Emotional Support Quartile
+             HD2012_017_HEALTH_T4_V8:   Children in Single-Parent Households
+             HD2012_017_HEALTH_T4_V7:   Children in Single-Parent Households Households
+             HD2012_017_HEALTH_T4_V9:   Percent Children in Single-Parent Households Households
+             HD2012_017_HEALTH_T4_V11:   Children in Single-Parent Households 95% Confidence Interval - Low
+             HD2012_017_HEALTH_T4_V10:   Children in Single-Parent Households 95% Confidence Interval - High
+             HD2012_017_HEALTH_T4_V12:   Children in Single-Parent Households Quartile
+             HD2012_017_HEALTH_T4_V60:   Violent Crimes
+             HD2012_017_HEALTH_T4_V63:   Violent Crime Rate
+             HD2012_017_HEALTH_T4_V62:   Violent Crime Quartile
+
+
+      11. Health Outcome
+          Universe:  none
+          Name:      HD2012_018
+          Variables:
+             HD2012_018_HEALTH_T1_V39:   Premature Deaths (Less than 75 Years) Unreliable
+             HD2012_018_HEALTH_T1_V34:   Premature Deaths (Less than 75 Years)
+             HD2012_018_HEALTH_T1_V40:   Years of Potential Life Lost (YPLL) Rate per 100,000 Population (Less than 75 Years)
+             HD2012_018_HEALTH_T1_V36:   Premature Deaths (Less than 75 Years) 95% Confidence Interval - Low
+             HD2012_018_HEALTH_T1_V35:   Premature Deaths (Less than 75 Years) 95% Confidence Interval - High
+             HD2012_018_HEALTH_T1_V38:   Premature Deaths (Less than 75 Years) Quartile
+             HD2012_018_HEALTH_T1_V26:   Adults That Report Fair or Poor Health Sample Size
+             HD2012_018_HEALTH_T1_V22:   Adults That Report Fair or Poor Health
+             HD2012_018_HEALTH_T1_V24:   Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+             HD2012_018_HEALTH_T1_V23:   Adults That Report Fair or Poor Health 95% Confidence Interval - High
+             HD2012_018_HEALTH_T1_V25:   Adults That Report Fair or Poor Health Quartile
+             HD2012_018_HEALTH_T1_V32:   Physically Unhealthy Days per Month Sample Size
+             HD2012_018_HEALTH_T1_V30:   Physically Unhealthy Days per Month
+             HD2012_018_HEALTH_T1_V29:   Physically Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2012_018_HEALTH_T1_V28:   Physically Unhealthy Days per Month 95% Confidence Interval - High
+             HD2012_018_HEALTH_T1_V31:   Physically Unhealthy Days per Month Quartile
+             HD2012_018_HEALTH_T1_V20:   Mentally Unhealthy Days per Month Sample Size
+             HD2012_018_HEALTH_T1_V18:   Mentally Unhealthy Days per Month
+             HD2012_018_HEALTH_T1_V17:   Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2012_018_HEALTH_T1_V16:   Mentally Unhealthy Days per Month 95% Confidence Interval - High
+             HD2012_018_HEALTH_T1_V19:   Mentally Unhealthy Days per Month Quartile
+             HD2012_018_HEALTH_T1_V8:   Low Birthweight Births (<2.5kg) Unreliable
+             HD2012_018_HEALTH_T1_V2:   Low Birthweight Births (<2.5kg)
+             HD2012_018_HEALTH_T1_V43:   Low Birthweight Births (<2.5kg) Count
+             HD2012_018_HEALTH_T1_V7:   Low Birthweight Births (<2.5kg) Sample Size
+             HD2012_018_HEALTH_T1_V3:   Percent of Low Birthweight Births (<2.5kg)
+             HD2012_018_HEALTH_T1_V5:   Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+             HD2012_018_HEALTH_T1_V4:   Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+             HD2012_018_HEALTH_T1_V6:   Low Birthweight Births (<2.5kg) Quartile
+             HD2012_018_HEALTH_T1_V10:   Mental Health Providers (MHP)
+             HD2012_018_HEALTH_T1_V11:   Mental Health Providers (MHP) Rate per 100,000 Population
+             HD2012_018_HEALTH_T1_V12:   Mental Health Providers (MHP) Ratio
+             HD2012_018_HEALTH_T1_V42:   Poor or Fair Health - Number of Fair/Poor
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      STATE:          State
+      COUNTY:         County
+      T001_001:       Physically Unhealthy Days per Month (Persons 18 Years and Over)
+      T001_002:       Mentally Unhealthy Days per Month (Persons 18 Years and Over)
+      NV002_001:      Physically Unhealthy Days per Month (Adults)
+      NV002_002:      Mentally Unhealthy Days per Month (Adults)
+      T002_001:       Percent Adults That Report Fair or Poor Health (Persons 18 Years and Over)
+      NV003_001:      Adults That Report Fair or Poor Health
+      T003_001:       Percent of Low Birthweight Births (<2.5kg)
+      NV004_001:      Low Birthweight Births (<2.5kg)
+      T004_001:       Primary Care Physicians (PCP)
+      T004_002:       Mental Health Providers (MHP)
+      T004_003:       Dentists
+      NV005_001:      Primary Care Physicians (PCP) Rate per 100,000 Population
+      NV005_002:      Mental Health Providers (MHP) Rate per 100,000 Population
+      NV005_003:      Dentists Rate per 100,000 Population
+      T005_001:       Percent Adults with Limited Access to Doctor Due to Costs
+      T005_002:       Health Care Costs Price-adjusted Medicare Reimbursements
+      T006_001:       Percent of Persons Without Insurance (Population 18 to 64 Years, 2009 est.)
+      T006_002:       Percent of Persons Without Insurance (Population Under 65 Years, 2009 est.)
+      NV007_001:      Persons Without Insurance (Population 18 to 64 Years, 2009 est.)
+      NV007_002:      Persons Without Insurance (Population Under 65 Years, 2009 est.)
+      T007_001:       Premature Deaths (Less than 75 Years)
+      T007_002:       Years of Potential Life Lost (YPLL) Rate per 100,000 Population (Less than 75 Years)
+      T008_001:       Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+      NV008_001:      Diabetic Medicare Enrollees (Out of Total Medicare Enrolles)
+      T009_001:       Chlamydia Cases (Count)
+      NV009_001:      Chlamydia Cases Rate per 100,000 Population
+      T010_001:       Percent Current Smokers (Persons 18 Years and Over)
+      T010_002:       Percent Drinking Adults (Persons 18 Years and Over)
+      NV010_001:      Current Smokers (Persons 18 Years and Over)
+      NV010_002:      Drinking Adults (Persons 18 Years and Over)
+      T011_001:       Percent of Persons with Limited Access to Healthy Foods
+      T011_002:       Percent Obese Persons (20 Years and Over)
+      T011_003:       Percent Physically Inactive Persons (20 Years and Over)
+      NV011_001:      Persons with Limited Access to Healthy Foods
+      NV011_002:      Obese Persons (20 Years and Over)
+      NV011_003:      Physically Inactive Persons (20 Years and Over)
+      T016_001:       Air Pollution Particulate Matter Average Daily Pm2.5
+      T016_007:       Percent of Driving Alone to Work
+      HD2012_008_HEALTH_T6_V25: Demographics - Population
+      HD2012_008_HEALTH_T6_V12: Demographics - % < 18
+      HD2012_008_HEALTH_T6_V13: Demographics - % 65 and Over
+      HD2012_008_HEALTH_T6_V14: Demographics - % African American
+      HD2012_008_HEALTH_T6_V15: Demographics - % American Indian/ Alaskan Native
+      HD2012_008_HEALTH_T6_V16: Demographics - % Asian
+      HD2012_008_HEALTH_T6_V19: Demographics - % Native Hawaiian/ Other Pacific Islander
+      HD2012_008_HEALTH_T6_V18: Demographics - % Hispanic
+      HD2012_008_HEALTH_T6_V21: Demographics - % Not Proficient in English
+      HD2012_008_HEALTH_T6_V17: Demographics - % Female
+      HD2012_008_HEALTH_T6_V22: Demographics - % Rural
+      HD2012_009_HEALTH_T11_V2: Access To Recreational Facilities - Recreational Facilities
+      HD2012_009_HEALTH_T11_V5: Access To Recreational Facilities - Recreational Facility Rate
+      HD2012_009_HEALTH_T11_V4: Access To Recreational Facilities  - Quartile
+      HD2012_010_HEALTH_T8_V13: Motor Vehicle Crash Deaths - Unreliable
+      HD2012_010_HEALTH_T8_V8: Motor Vehicle Crash Deaths - Motor Vehicle Deaths
+      HD2012_010_HEALTH_T8_V11: Motor Vehicle Crash Deaths - Mortality Rate
+      HD2012_010_HEALTH_T8_V10: Motor Vehicle Crash Deaths - 95% Confidence Interval - Low
+      HD2012_010_HEALTH_T8_V9: Motor Vehicle Crash Deaths - 95% Confidence Interval - High
+      HD2012_010_HEALTH_T8_V12: Motor Vehicle Crash Deaths  - Quartile 
+      HD2012_010_HEALTH_T8_V5: Limited Access To Healthy Foods - Limited Access
+      HD2012_010_HEALTH_T8_V6: Limited Access To Healthy Foods - % Limited Access
+      HD2012_010_HEALTH_T8_V7: Limited Access To Healthy Foods  - Quartile
+      HD2012_011_HEALTH_T9_V5: Health Care Costs - Costs
+      HD2012_011_HEALTH_T9_V8: Uninsured Adults - Uninsured
+      HD2012_011_HEALTH_T9_V9: Uninsured Adults - % Uninsured
+      HD2012_011_HEALTH_T9_V11: Uninsured Adults - 95% Confidence Interval - Low
+      HD2012_011_HEALTH_T9_V10: Uninsured Adults - 95% Confidence Interval - High
+      HD2012_011_HEALTH_T9_V4: Could Not See Doctor Due To Cost Sample Size
+      HD2012_011_HEALTH_T9_V1: Could Not See Doctor Due To Cost - % Couldn't Access
+      HD2012_011_HEALTH_T9_V19: Could Not See Doctor Due To Cost - Number of Couldn't Access
+      HD2012_011_HEALTH_T9_V17: Uninsured  - Quartile
+      HD2012_012_HEALTH_T10_V16: Median Household Income - Household Income
+      HD2012_012_HEALTH_T10_V15: Median Household Income - 95% Confidence Interval - Low
+      HD2012_012_HEALTH_T10_V14: Median Household Income - 95% Confidence Interval - High
+      HD2012_012_HEALTH_T10_V6: High Housing Costs - High Housing Costs
+      HD2012_012_HEALTH_T10_V8: High Housing Costs - Households
+      HD2012_012_HEALTH_T10_V7: High Housing Costs - % High Housing Costs
+      HD2012_012_HEALTH_T10_V5: Children Eligible for Free Lunch - % Free Lunch 
+      HD2012_012_HEALTH_T10_V1: % Illiterate - % Illiterate
+      HD2012_012_HEALTH_T10_V3: % Illiterate - 95% Confidence Interval - Low
+      HD2012_012_HEALTH_T10_V2: % Illiterate - 95% Confidence Interval - High
+      HD2012_012_HEALTH_T10_V11: Homicides - Homicide Rate
+      HD2012_012_HEALTH_T10_V10: Homicides - 95% Confidence Interval - Low
+      HD2012_012_HEALTH_T10_V9: Homicides - 95% Confidence Interval - High
+      HD2012_013_HEALTH_T7_V6: Diabetes - % Diabetic
+      HD2012_013_HEALTH_T7_V8: Diabetes - 95% Confidence Interval - Low
+      HD2012_013_HEALTH_T7_V7: Diabetes - 95% Confidence Interval - High
+      HD2012_013_HEALTH_T7_V11: Hiv Prevalence - Population
+      HD2012_013_HEALTH_T7_V12: HIV Prevalence Rate
+      HD2012_014_HEALTH_T3_V41: Uninsured - Uninsured
+      HD2012_014_HEALTH_T3_V42: Uninsured - % Uninsured
+      HD2012_014_HEALTH_T3_V44: Uninsured - 95% Confidence Interval - Low
+      HD2012_014_HEALTH_T3_V43: Uninsured - 95% Confidence Interval - High
+      HD2012_014_HEALTH_T3_V34: Primary Care Physicians - Primary Care Physicians
+      HD2012_014_HEALTH_T3_V35: Primary Care Physicians - Rate
+      HD2012_014_HEALTH_T3_V36: Primary Care Physicians - Ratio
+      HD2012_014_HEALTH_T3_V28: Previous Primary Care Physician Data--Used To Calculate Rankings* - Pcp
+      HD2012_014_HEALTH_T3_V29: Previous Primary Care Physician Data--Used To Calculate Rankings* - Rate
+      HD2012_014_HEALTH_T3_V30: Previous Primary Care Physician Data--Used To Calculate Rankings* - Ratio
+      HD2012_014_HEALTH_T3_V32: Previous Primary Care Physician Data--Used To Calculate Rankings*  - Quartile
+      HD2012_014_HEALTH_T3_V22: Preventable Hospital Stays - Medicare Enrollees
+      HD2012_014_HEALTH_T3_V25: Preventable Hospital Stays - Preventable Hospital Rate
+      HD2012_014_HEALTH_T3_V24: Preventable Hospital Stays - 95% Confidence Interval - Low
+      HD2012_014_HEALTH_T3_V23: Preventable Hospital Stays - 95% Confidence Interval - High
+      HD2012_014_HEALTH_T3_V26: Preventable Hospital Stays  - Quartile
+      HD2012_014_HEALTH_T3_V6: Diabetic Monitoring - Diabetics
+      HD2012_014_HEALTH_T3_V7: Diabetic Monitoring - % Receiving Hba1c
+      HD2012_014_HEALTH_T3_V9: Diabetic Monitoring - 95% Confidence Interval - Low
+      HD2012_014_HEALTH_T3_V8: Diabetic Monitoring - 95% Confidence Interval - High
+      HD2012_014_HEALTH_T3_V10: Diabetic Monitoring  - Quartile
+      HD2012_014_HEALTH_T3_V16: Mammography Screening - Medicare Enrollees
+      HD2012_014_HEALTH_T3_V17: Mammography Screening - % Mammography
+      HD2012_014_HEALTH_T3_V19: Mammography Screening - 95% Confidence Interval - Low
+      HD2012_014_HEALTH_T3_V18: Mammography Screening - 95% Confidence Interval - High
+      HD2012_014_HEALTH_T3_V20: Mammography Screening  - Quartile
+      HD2012_014_HEALTH_T3_V1: Dentists - Dentists
+      HD2012_014_HEALTH_T3_V2: Dentists - Dentist Rate
+      HD2012_014_HEALTH_T3_V3: Dentists - Dentist Ratio
+      HD2012_015_HEALTH_T5_V11: Air Pollution-Particulate Matter Days
+      HD2012_015_HEALTH_T5_V12: Air Pollution-Particulate Matter Days  - Quartile
+      HD2012_015_HEALTH_T5_V9: Air Pollution-Ozone Days
+      HD2012_015_HEALTH_T5_V10: Air Pollution-Ozone Days  - Quartile
+      HD2012_015_HEALTH_T5_V28: Fast Food Restaurants - Fast Foods
+      HD2012_015_HEALTH_T5_V29: Fast Food Restaurants - % Fast Foods
+      HD2012_015_HEALTH_T5_V30: Fast Food Restaurants  - Quartile
+      HD2012_015_HEALTH_T5_V20: Driving Alone To Work - Drive Alone
+      HD2012_015_HEALTH_T5_V21: Driving Alone To Work - Workers
+      HD2012_015_HEALTH_T5_V23: Driving Alone To Work - % Drive Alone
+      HD2012_015_HEALTH_T5_V5: Access To Healthy Foods - Zip Codes with Healthy Foods
+      HD2012_015_HEALTH_T5_V1: Access To Healthy Foods - Zip Codes
+      HD2012_015_HEALTH_T5_V2: Access To Healthy Foods - % Healthy Foods
+      HD2012_016_HEALTH_T2_V10: Adult Smoking - % Smokers
+      HD2012_016_HEALTH_T2_V49: Adult Smoking - Number of Smokers
+      HD2012_016_HEALTH_T2_V14: Adult Smoking Sample Size
+      HD2012_016_HEALTH_T2_V12: Adult Smoking - 95% Confidence Interval - Low
+      HD2012_016_HEALTH_T2_V11: Adult Smoking - 95% Confidence Interval - High
+      HD2012_016_HEALTH_T2_V13: Adult Smoking  - Quartile
+      HD2012_016_HEALTH_T2_V5: Adult Obesity - % Obese
+      HD2012_016_HEALTH_T2_V7: Adult Obesity - 95% Confidence Interval - Low
+      HD2012_016_HEALTH_T2_V6: Adult Obesity - 95% Confidence Interval - High
+      HD2012_016_HEALTH_T2_V8: Adult Obesity  - Quartile
+      HD2012_016_HEALTH_T2_V30: Physical Inactivity - % Physically Inactive
+      HD2012_016_HEALTH_T2_V32: Physical Inactivity - 95% Confidence Interval - Low
+      HD2012_016_HEALTH_T2_V31: Physical Inactivity - 95% Confidence Interval - High
+      HD2012_016_HEALTH_T2_V33: Physical Inactivity  - Quartile
+      HD2012_016_HEALTH_T2_V21: Excessive Drinking - % Excessive Drinking
+      HD2012_016_HEALTH_T2_V50: Excessive Drinking - Number of Excessive Drinking
+      HD2012_016_HEALTH_T2_V25: Excessive Drinking Sample Size
+      HD2012_016_HEALTH_T2_V23: Excessive Drinking - 95% Confidence Interval - Low
+      HD2012_016_HEALTH_T2_V22: Excessive Drinking - 95% Confidence Interval - High
+      HD2012_016_HEALTH_T2_V24: Excessive Drinking  - Quartile
+      HD2012_016_HEALTH_T2_V35: Sexually Transmitted Infections - Chlamydia Cases
+      HD2012_016_HEALTH_T2_V36: Sexually Transmitted Infections Chlamydia Rate
+      HD2012_016_HEALTH_T2_V38: Sexually Transmitted Infections  - Quartile
+      HD2012_016_HEALTH_T2_V45: Teen Births Teen Births
+      HD2012_016_HEALTH_T2_V47: Teen Births Teen Population
+      HD2012_016_HEALTH_T2_V44: Teen Births Teen Birth Rate
+      HD2012_016_HEALTH_T2_V42: Teen Births - 95% Confidence Interval - Low
+      HD2012_016_HEALTH_T2_V41: Teen Births - 95% Confidence Interval - High
+      HD2012_016_HEALTH_T2_V43: Teen Births  - Quartile
+      HD2012_017_HEALTH_T4_V18: High School Graduation - Graduation Rate
+      HD2012_017_HEALTH_T4_V19: High School Graduation  - Quartile
+      HD2012_017_HEALTH_T4_V46: Some College - Some College
+      HD2012_017_HEALTH_T4_V50: Some College - Population
+      HD2012_017_HEALTH_T4_V47: Some College - % Some College
+      HD2012_017_HEALTH_T4_V49: Some College - 95% Confidence Interval - Low
+      HD2012_017_HEALTH_T4_V48: Some College - 95% Confidence Interval - High
+      HD2012_017_HEALTH_T4_V51: Some College  - Quartile
+      HD2012_017_HEALTH_T4_V53: Unemployment - Unemployed
+      HD2012_017_HEALTH_T4_V57: Unemployment - Labor Force
+      HD2012_017_HEALTH_T4_V54: Unemployment - % Unemployed
+      HD2012_017_HEALTH_T4_V58: Unemployment  - Quartile
+      HD2012_017_HEALTH_T4_V1: Children in Poverty - Children in Poverty
+      HD2012_017_HEALTH_T4_V2: Children in Poverty - % Children in Poverty
+      HD2012_017_HEALTH_T4_V4: Children in Poverty - 95% Confidence Interval - Low
+      HD2012_017_HEALTH_T4_V3: Children in Poverty - 95% Confidence Interval - High
+      HD2012_017_HEALTH_T4_V5: Children in Poverty  - Quartile
+      HD2012_017_HEALTH_T4_V22: Inadequate Social Support - % No Social-Emotional Support
+      HD2012_017_HEALTH_T4_V65: Inadequate Social Support - Number of No Social-Emotional Support
+      HD2012_017_HEALTH_T4_V26: Inadequate Social Support Sample Size
+      HD2012_017_HEALTH_T4_V24: Inadequate Social Support - 95% Confidence Interval - Low
+      HD2012_017_HEALTH_T4_V23: Inadequate Social Support - 95% Confidence Interval - High
+      HD2012_017_HEALTH_T4_V25: Inadequate Social Support  - Quartile
+      HD2012_017_HEALTH_T4_V8: Children in Single-Parent Households - Single-Parent Households
+      HD2012_017_HEALTH_T4_V7: Children in Single-Parent Households - Households
+      HD2012_017_HEALTH_T4_V9: Children in Single-Parent Households - % Single-Parent Households
+      HD2012_017_HEALTH_T4_V11: Children in Single-Parent Households - 95% Confidence Interval - Low
+      HD2012_017_HEALTH_T4_V10: Children in Single-Parent Households - 95% Confidence Interval - High
+      HD2012_017_HEALTH_T4_V12: Children in Single-Parent Households  - Quartile
+      HD2012_017_HEALTH_T4_V60: Violent Crime - Violent Crimes
+      HD2012_017_HEALTH_T4_V63: Violent Crime Rate
+      HD2012_017_HEALTH_T4_V62: Violent Crime  - Quartile
+      HD2012_018_HEALTH_T1_V39: Premature Death - Unreliable
+      HD2012_018_HEALTH_T1_V34: Premature Death - Deaths
+      HD2012_018_HEALTH_T1_V40: Premature Death - Years Of Potential Life Lost Rate
+      HD2012_018_HEALTH_T1_V36: Premature Death - 95% Confidence Interval - Low
+      HD2012_018_HEALTH_T1_V35: Premature Death - 95% Confidence Interval - High
+      HD2012_018_HEALTH_T1_V38: Premature Death  - Quartile
+      HD2012_018_HEALTH_T1_V26: Poor or Fair Health Sample Size
+      HD2012_018_HEALTH_T1_V22: Poor or Fair Health - % Fair/Poor
+      HD2012_018_HEALTH_T1_V24: Poor or Fair Health - 95% Confidence Interval - Low
+      HD2012_018_HEALTH_T1_V23: Poor or Fair Health - 95% Confidence Interval - High
+      HD2012_018_HEALTH_T1_V25: Poor or Fair Health  - Quartile
+      HD2012_018_HEALTH_T1_V32: Poor Physical Health Days Sample Size
+      HD2012_018_HEALTH_T1_V30: Poor Physical Health Days - Physically Unhealthy Days
+      HD2012_018_HEALTH_T1_V29: Poor Physical Health Days - 95% Confidence Interval - Low
+      HD2012_018_HEALTH_T1_V28: Poor Physical Health Days - 95% Confidence Interval - High
+      HD2012_018_HEALTH_T1_V31: Poor Physical Health Days  - Quartile
+      HD2012_018_HEALTH_T1_V20: Poor Mental Health Days Sample Size
+      HD2012_018_HEALTH_T1_V18: Poor Mental Health Days - Mentally Unhealthy Days
+      HD2012_018_HEALTH_T1_V17: Poor Mental Health Days - 95% Confidence Interval - Low
+      HD2012_018_HEALTH_T1_V16: Poor Mental Health Days - 95% Confidence Interval - High
+      HD2012_018_HEALTH_T1_V19: Poor Mental Health Days  - Quartile
+      HD2012_018_HEALTH_T1_V8: Low Birthweight - Unreliable
+      HD2012_018_HEALTH_T1_V2: Low Birthweight - Low Birthweight Births
+      HD2012_018_HEALTH_T1_V43: Low Birthweight - Number of Low Birthweight
+      HD2012_018_HEALTH_T1_V7: Low Birthweight Sample Size
+      HD2012_018_HEALTH_T1_V3: Low Birthweight - % Low Birthweight
+      HD2012_018_HEALTH_T1_V5: Low Birthweight - 95% Confidence Interval - Low
+      HD2012_018_HEALTH_T1_V4: Low Birthweight - 95% Confidence Interval - High
+      HD2012_018_HEALTH_T1_V6: Low Birthweight  - Quartile
+      HD2012_018_HEALTH_T1_V10: Mental Health Providers
+      HD2012_018_HEALTH_T1_V11: Mental Health Providers - Rate
+      HD2012_018_HEALTH_T1_V12: Mental Health Providers - Ratio
+      HD2012_018_HEALTH_T1_V42: Poor or Fair Health - Number of Fair/Poor
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2024
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13680575
+
+If you have any questions contact info@socialexplorer.com

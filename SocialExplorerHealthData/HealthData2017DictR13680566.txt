@@ -1,0 +1,1606 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13680566
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Health Data 2017 Release
+Dataset:          Health Data 2017
+Tables:
+
+      1. Quality of Life
+         Universe:  
+         Name:      T1
+         Variables:
+            T001_001:   Physically Unhealthy Days per Month
+            T001_002:   Mentally Unhealthy Days per Month
+
+
+      2. Fair or Poor Health
+         Universe:  
+         Name:      T2
+         Variables:
+            T002_001:   Adults That Report Fair or Poor Health
+
+
+      3. Low Birthweight
+         Universe:  
+         Name:      T3
+         Variables:
+            T003_001:   Percent of Low Birthweight Births (<2.5kg)
+
+
+      4. Low Birthweight Count
+         Universe:  
+         Name:      NV2
+         Variables:
+            NV002_001:   Low Birthweight Births (<2.5kg)
+
+
+      5. Health Care Providers
+         Universe:  
+         Name:      T4
+         Variables:
+            T004_001:   Primary Care Physicians (PCP)
+            T004_002:   Mental Health Providers (MHP)
+            T004_003:   Dentists
+
+
+      6. Health Care Providers Rates
+         Universe:  
+         Name:      NV3
+         Variables:
+            NV003_001:   Primary Care Physicians (PCP) Rate per 100 000 Population
+            NV003_002:   Mental Health Providers (MHP) Rate per 100 000 Population
+            NV003_003:   Dentists Rate per 100 000 Population
+
+
+      7. Limited Access to Doctor Due to Costs
+         Universe:  
+         Name:      T5
+         Variables:
+            T005_001:   Health Care Costs Price-adjusted Medicare Reimbursements
+
+
+      8. Health Insurance
+         Universe:  
+         Name:      T6
+         Variables:
+            T006_001:   Percent Persons Without Insurance (Population Under 19 Years)
+            T006_002:   Percent of Persons Without Insurance (Population Under 65 Years)
+
+
+      9. Health Insurance Count
+         Universe:  
+         Name:      NV5
+         Variables:
+            NV005_001:   Persons Without Insurance (Population Under 19 Years)
+            NV005_002:   Persons Without Insurance (Population Under 65 Years)
+
+
+      10. Years of Potential Life Lost
+          Universe:  
+          Name:      T7
+          Variables:
+             T007_001:   Premature Deaths (Less Than 75 Years)
+             T007_002:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+
+
+      11. Mortality
+          Universe:  
+          Name:      T8
+          Variables:
+             T008_001:   Child Mortality
+             T008_002:   Premature Age-adjusted Mortality
+             T008_003:   Drug Poisoning Mortality
+
+
+      12. Mortality Rates
+          Universe:  
+          Name:      NV6
+          Variables:
+             NV006_001:   Child Mortality Rate per 100 000 Population
+             NV006_002:   Premature Age-adjusted mortality rate per 100 000 Population
+             NV006_003:   Drug Poisoning Mortality Rate per 100 000 Population
+
+
+      13. Infant Mortality
+          Universe:  
+          Name:      T14
+          Variables:
+             T014_001:   Infant Mortality
+
+
+      14. Diabetes
+          Universe:  
+          Name:      T9
+          Variables:
+             T009_001:   Percent of Diabetics
+             T009_002:   Diabetic Medicare Enrollees Receiving Hba1c Test
+
+
+      15. Sexual Activity
+          Universe:  
+          Name:      T10
+          Variables:
+             T010_001:   Chlamydia Cases
+             T010_002:   HIV Prevalence
+
+
+      16. Sexual Activity Rates
+          Universe:  
+          Name:      NV8
+          Variables:
+             NV008_001:   Chlamydia Cases Rate per 100 000 Population
+             NV008_002:   HIV Prevalence Rate per 100,000 Population
+
+
+      17. Teen Births
+          Universe:  
+          Name:      T15
+          Variables:
+             T015_001:   Teen Births (Females 15-19 Years)
+
+
+      18. Teen Births Rates
+          Universe:  
+          Name:      NV10
+          Variables:
+             NV010_001:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+
+
+      19. Diet and Exercise
+          Universe:  
+          Name:      T12
+          Variables:
+             T012_001:   Persons with Limited Access to Healthy Foods
+             T012_002:   Children Eligible for Free Lunch (Persons < 18 Years)
+
+
+      20. Food Environment Index
+          Universe:  
+          Name:      T13
+          Variables:
+             T013_001:   Food Environment Index
+
+
+      21. Physical Environment
+          Universe:  
+          Name:      T16
+          Variables:
+             T016_001:   Air Pollution Particulate Matter Average Daily PM2.5
+             T016_002:   Presence of Drinking Water Violations
+             T016_003:   Percentage Of Households with Severe Housing Problems
+             T016_007:   Percent of Driving Alone to Work
+             T016_008:   Long Commute Driving Alone Workers Who Drive Alone
+             T016_009:   Percent of Long Commute Driving Alone Workers Who Drive Alone
+
+
+
+
+
+Survey:           Health Data 2017 Release
+Dataset:          Raw Data Tables
+Tables:
+
+      1. Access to exercise opportunities
+         Universe:  none
+         Name:      HD2017_001
+         Variables:
+            HD2017_001_ATEO_v1:   Percent of Persons with Access to Exercise Opportunities
+            HD2017_001_ATEO_v2:   Persons with Access to Exercise Opportunities Quartile
+
+
+      2. Adult obesity
+         Universe:  none
+         Name:      HD2017_002
+         Variables:
+            HD2017_002_AO_v1:   Percentage of Adults with Obesity
+            HD2017_002_AO_v2:   Percentage of Adults with Obesity 95% Confidence Interval - Low
+            HD2017_002_AO_v3:   Percentage of Adults with Obesity 95% Confidence Interval - High
+            HD2017_002_AO_v4:   Percentage of Adults with Obesity Quartile
+
+
+      3. Adult smoking
+         Universe:  none
+         Name:      HD2017_003
+         Variables:
+            HD2017_003_AS_v1:   Percent of Current Smokers (Persons 18 Years and Over)
+            HD2017_003_AS_v2:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2017_003_AS_v3:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2017_003_AS_v4:   Current Smokers (Persons 18 Years and Over) Quartile
+
+
+      4. Air pollution - particulate matter
+         Universe:  none
+         Name:      HD2017_004
+         Variables:
+            HD2017_004_AP_PM_v1:   Air Pollution Particulate Matter Average Daily PM2.5
+            HD2017_004_AP_PM_v2:   Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+
+
+      5. Alcohol-impaired driving deaths
+         Universe:  none
+         Name:      HD2017_005
+         Variables:
+            HD2017_005_ADD_v1:   Alcohol-impaired Driving Deaths
+            HD2017_005_ADD_v2:   Number of Driving Deaths
+            HD2017_005_ADD_v3:   Percentage of driving deaths with alcohol involvement
+            HD2017_005_ADD_v4:   Percentage of driving deaths with alcohol involvement 95% Confidence Interval - Low
+            HD2017_005_ADD_v5:   Percentage of driving deaths with alcohol involvement 95% Confidence Interval - High
+            HD2017_005_ADD_v6:   Percent of Alcohol-impaired Driving Deaths Quartile
+
+
+      6. Children eligible for free or reduced price lunch
+         Universe:  none
+         Name:      HD2017_006
+         Variables:
+            HD2017_006_CEFFORPL_v1:   Children Eligible for Free Lunch (Persons < 18 Years)
+
+
+      7. Children in poverty
+         Universe:  none
+         Name:      HD2017_007
+         Variables:
+            HD2017_007_CIP_v1:   Percent of Children in Poverty
+            HD2017_007_CIP_v2:   Percent of Children in Poverty 95% Confidence Interval - Low
+            HD2017_007_CIP_v3:   Percent of Children in Poverty 95% Confidence Interval - High
+            HD2017_007_CIP_v4:   Children in Poverty Quartile
+            HD2017_007_CIP_v5:   Percent of Children in Poverty for Black (Black)
+            HD2017_007_CIP_v6:   Percent of Children in Poverty for Hispanic (Hispanic)
+            HD2017_007_CIP_v7:   Percent of Children in Poverty for White (White)
+
+
+      8. Children in single-parent households
+         Universe:  none
+         Name:      HD2017_008
+         Variables:
+            HD2017_008_CISH_v1:   Single Parent Households
+            HD2017_008_CISH_v2:   Households
+            HD2017_008_CISH_v3:   Percent of Single Parent Households
+            HD2017_008_CISH_v4:   Percent of Single Parent Households 95% Confidence Interval - Low
+            HD2017_008_CISH_v5:   Percent of Single Parent Households 95% Confidence Interval - High
+            HD2017_008_CISH_v6:   Single Parent Households Quartile
+
+
+      9. Child mortality
+         Universe:  none
+         Name:      HD2017_009
+         Variables:
+            HD2017_009_CM_v1:   Child Mortality (Death Counts)
+            HD2017_009_CM_v2:   Child Mortality Rate
+            HD2017_009_CM_v3:   Child Mortality Rate 95% Confidence Interval - Low
+            HD2017_009_CM_v4:   Child Mortality Rate 95% Confidence Interval - High
+
+
+      10. Demographics
+          Universe:  none
+          Name:      HD2017_010
+          Variables:
+             HD2017_010_D_v1:   Population
+             HD2017_010_D_v2:   Population (%  < 18 Years)
+             HD2017_010_D_v3:   Population (%  65 Years and Over)
+             HD2017_010_D_v4:   Population (African American)
+             HD2017_010_D_v5:   Population (%  African American)
+             HD2017_010_D_v6:   Population  (American Indian/ Alaskan Native)
+             HD2017_010_D_v7:   Population (%  American Indian/ Alaskan Native)
+             HD2017_010_D_v8:   Population for Asian (Asian)
+             HD2017_010_D_v9:   Population (%  Asian)
+             HD2017_010_D_v10:   Population (Native Hawaiian/ Other Pacific Islander)
+             HD2017_010_D_v11:   Population (%  Native Hawaiian/ Other Pacific Islander)
+             HD2017_010_D_v12:   Population for Hispanic (Hispanic)
+             HD2017_010_D_v13:   Population (%  Hispanic)
+             HD2017_010_D_v14:   Population (Non-Hispanic White)
+             HD2017_010_D_v15:   Population (%  Non-Hispanic White)
+             HD2017_010_D_v16:   Population (Not Proficient in English)
+             HD2017_010_D_v17:   Population (%  Not Proficient in English)
+             HD2017_010_D_v18:   Population 95% Confidence Interval - Low
+             HD2017_010_D_v19:   Population 95% Confidence Interval - High
+             HD2017_010_D_v20:   Population (%  Female)
+             HD2017_010_D_v21:   Population (Rural)
+             HD2017_010_D_v22:   Population (%  Rural)
+             HD2017_010_D_v23:   State
+             HD2017_010_D_v24:   County
+
+
+      11. Dentists
+          Universe:  none
+          Name:      HD2017_011
+          Variables:
+             HD2017_011_D2nd_v1:   Dentists
+             HD2017_011_D2nd_v2:   Dentists Rate per 100 000 Population
+             HD2017_011_D2nd_v3:   Dentists Ratio
+             HD2017_011_D2nd_v4:   Dentists Quartile
+
+
+      12. Diabetes monitoring
+          Universe:  none
+          Name:      HD2017_012
+          Variables:
+             HD2017_012_DM_v1:   Diabetic Medicare Enrollees Receiving Hba1c Test
+             HD2017_012_DM_v2:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+             HD2017_012_DM_v3:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - Low
+             HD2017_012_DM_v4:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - High
+             HD2017_012_DM_v5:   Diabetic Medicare Enrollees Receiving Hba1c Test Quartile
+
+
+      13. Diabetes prevalence
+          Universe:  none
+          Name:      HD2017_013
+          Variables:
+             HD2017_013_DP_v1:   Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes
+             HD2017_013_DP_v2:   Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - Low
+             HD2017_013_DP_v3:   Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - High
+
+
+      14. Disconnected youth
+          Universe:  none
+          Name:      HD2017_014
+          Variables:
+             HD2017_014_DY_v1:   Percentage Of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School
+
+
+      15. Drinking water violations
+          Universe:  none
+          Name:      HD2017_015
+          Variables:
+             HD2017_015_DWV_v1:   Presence of Drinking Water Violations
+             HD2017_015_DWV_v2:   Presence of Drinking Water Violations Quartile
+
+
+      16. Driving alone to work
+          Universe:  none
+          Name:      HD2017_016
+          Variables:
+             HD2017_016_DATW_v1:   Percent of Driving Alone to Work
+             HD2017_016_DATW_v2:   Percent of Driving Alone to Work 95% Confidence Interval - Low
+             HD2017_016_DATW_v3:   Percent of Driving Alone to Work 95% Confidence Interval - High
+             HD2017_016_DATW_v4:   Driving Alone to Work Quartile
+             HD2017_016_DATW_v5:   Percent of Workers Who Drive Alone to Work for Black (Black)
+             HD2017_016_DATW_v6:   Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic)
+             HD2017_016_DATW_v7:   Percent of Workers Who Drive Alone to Work for White (White)
+
+
+      17. Drug overdose deaths
+          Universe:  none
+          Name:      HD2017_017
+          Variables:
+             HD2017_017_DOD_v1:   Drug Poisoning Death Counts
+             HD2017_017_DOD_v2:   Drug Poisoning Death Counts per 100 000 Population
+
+
+      18. Excessive drinking
+          Universe:  none
+          Name:      HD2017_018
+          Variables:
+             HD2017_018_ED_v1:   Percent of Drinking Adults (Persons 18 Years and Over)
+             HD2017_018_ED_v2:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+             HD2017_018_ED_v3:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+             HD2017_018_ED_v4:   Drinking Adults (Persons 18 Years and Over) Quartile
+
+
+      19. Firearm fatalities
+          Universe:  none
+          Name:      HD2017_019
+          Variables:
+             HD2017_019_FF_v1:   Number of deaths due to firearms
+             HD2017_019_FF_v2:   Number of deaths due to firearms per 100,000 population
+             HD2017_019_FF_v3:   Number of deaths due to firearms per 100,000 population 95% Confidence Interval - Low
+             HD2017_019_FF_v4:   Number of deaths due to firearms per 100,000 population 95% Confidence Interval - High
+
+
+      20. Food environment index
+          Universe:  none
+          Name:      HD2017_020
+          Variables:
+             HD2017_020_FEI_v1:   Food Environment Index
+             HD2017_020_FEI_v2:   Food Environment Index Quartile
+
+
+      21. Food insecurity
+          Universe:  none
+          Name:      HD2017_021
+          Variables:
+             HD2017_021_FI_v1:   Number Of Residents Who Lack Adequate Access to Food
+             HD2017_021_FI_v2:   Percentage Of Population Who Lack Adequate Access to Food
+
+
+      22. Frequent mental distress
+          Universe:  none
+          Name:      HD2017_022
+          Variables:
+             HD2017_022_FMD_v1:   Percentage of adults reporting 14 or more days of poor mental health per month
+             HD2017_022_FMD_v2:   Percentage of adults reporting 14 or more days of poor mental health per month 95% Confidence Interval - Low
+             HD2017_022_FMD_v3:   Percentage of adults reporting 14 or more days of poor mental health per month 95% Confidence Interval - High
+
+
+      23. Frequent physical distress
+          Universe:  none
+          Name:      HD2017_023
+          Variables:
+             HD2017_023_FPD_v1:   Percentage of adults reporting 14 or more days of poor physical health per month
+             HD2017_023_FPD_v2:   Percentage of adults reporting 14 or more days of poor physical health per month 95% Confidence Interval - Low
+             HD2017_023_FPD_v3:   Percentage of adults reporting 14 or more days of poor physical health per month 95% Confidence Interval - High
+
+
+      24. Health care costs
+          Universe:  none
+          Name:      HD2017_024
+          Variables:
+             HD2017_024_HCC_v1:   Health Care Costs Price-adjusted Medicare Reimbursements
+
+
+      25. High school graduation
+          Universe:  none
+          Name:      HD2017_025
+          Variables:
+             HD2017_025_HSG_v1:   High School Graduation Cohort Size
+             HD2017_025_HSG_v2:   High School Graduation Rate
+             HD2017_025_HSG_v3:   High School Graduation Quartile
+
+
+      26. HIV prevalence
+          Universe:  none
+          Name:      HD2017_026
+          Variables:
+             HD2017_026_HP_v1:   Number of people aged 13 years and older living with a diagnosis of human immunodeficiency virus (HIV) infection
+             HD2017_026_HP_v2:   Number of people aged 13 years and older living with a diagnosis of human immunodeficiency virus (HIV) infection per 100
+
+
+      27. Homicides
+          Universe:  none
+          Name:      HD2017_027
+          Variables:
+             HD2017_027_H_v1:   Homicides Rate
+             HD2017_027_H_v2:   Homicides Rate 95% Confidence Interval - Low
+             HD2017_027_H_v3:   Homicides Rate 95% Confidence Interval - High
+
+
+      28. Income inequality
+          Universe:  none
+          Name:      HD2017_028
+          Variables:
+             HD2017_028_II_v1:   Income Inequality 80th Percentile Income
+             HD2017_028_II_v2:   Income Inequality 20th Percentile Income
+             HD2017_028_II_v3:   Income Inequality Income Ratio
+             HD2017_028_II_v4:   Income Inequality Quartile
+
+
+      29. Infant mortality
+          Universe:  none
+          Name:      HD2017_029
+          Variables:
+             HD2017_029_IM_v1:   Infant Mortality (Death Counts)
+             HD2017_029_IM_v2:   Infant Mortality Rate per 1 000 Live Births
+             HD2017_029_IM_v3:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - Low
+             HD2017_029_IM_v4:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - High
+
+
+      30. Injury deaths
+          Universe:  none
+          Name:      HD2017_030
+          Variables:
+             HD2017_030_ID_v1:   Injury Deaths
+             HD2017_030_ID_v2:   Injury Death Rate
+             HD2017_030_ID_v3:   Injury Death Rate 95% Confidence Interval - Low
+             HD2017_030_ID_v4:   Injury Death Rate 95% Confidence Interval - High
+             HD2017_030_ID_v5:   Injury Deaths Quartile
+
+
+      31. Insufficient sleep
+          Universe:  none
+          Name:      HD2017_031
+          Variables:
+             HD2017_031_IS_v1:   Percentage of adults who report fewer than 7 hours of sleep on average
+             HD2017_031_IS_v2:   Percentage of adults who report fewer than 7 hours of sleep on average 95% Confidence Interval - Low
+             HD2017_031_IS_v3:   Percentage of adults who report fewer than 7 hours of sleep on average 95% Confidence Interval - High
+
+
+      32. Limited access to healthy foods
+          Universe:  none
+          Name:      HD2017_032
+          Variables:
+             HD2017_032_LATHF_v1:   Number Of Residents who are low-income and do not live close to a grocery store
+             HD2017_032_LATHF_v2:   Percentage of population who are low-income and do not live close to a grocery store
+
+
+      33. Long commute - driving alone
+          Universe:  none
+          Name:      HD2017_033
+          Variables:
+             HD2017_033_LC_DA_v1:   Long Commute Driving Alone Workers Who Drive Alone
+             HD2017_033_LC_DA_v2:   Percent of Long Commute Driving Alone Workers Who Drive Alone
+             HD2017_033_LC_DA_v3:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+             HD2017_033_LC_DA_v4:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+             HD2017_033_LC_DA_v5:   Long Commute Driving Alone Workers Who Drive Alone Quartile
+
+
+      34. Low birthweight
+          Universe:  none
+          Name:      HD2017_034
+          Variables:
+             HD2017_034_LB_v1:   Low Birthweight Births (<2.5kg) Unreliable
+             HD2017_034_LB_v2:   Low Birthweight Births (<2.5kg)
+             HD2017_034_LB_v3:   Number of live births
+             HD2017_034_LB_v4:   Percent of Low Birthweight Births (<2.5kg)
+             HD2017_034_LB_v5:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+             HD2017_034_LB_v6:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low 95% Confidence Interval - Low
+             HD2017_034_LB_v7:   Low Birthweight Births (<2.5kg) Quartile
+
+
+      35. Mammography screening
+          Universe:  none
+          Name:      HD2017_035
+          Variables:
+             HD2017_035_MS_v1:   Number of female Medicare enrollees having an annual mammogram (age 65-74)
+             HD2017_035_MS_v2:   Percentage of female Medicare enrollees having an annual mammogram (age 65-74)
+             HD2017_035_MS_v3:   Percentage of female Medicare enrollees having an annual mammogram (age 65-74) 95% Confidence Interval - Low
+             HD2017_035_MS_v4:   Percentage of female Medicare enrollees having an annual mammogram (age 65-74) 95% Confidence Interval - High
+             HD2017_035_MS_v5:   Mammography screening Quartile
+
+
+      36. Median household income
+          Universe:  none
+          Name:      HD2017_036
+          Variables:
+             HD2017_036_MHI_v1:   Median Household Income
+             HD2017_036_MHI_v2:   Median Household Income 95% Confidence Interval - Low
+             HD2017_036_MHI_v3:   Median Household Income 95% Confidence Interval - High
+
+
+      37. Mental health providers
+          Universe:  none
+          Name:      HD2017_037
+          Variables:
+             HD2017_037_MHP_v1:   Mental Health Providers (MHP)
+             HD2017_037_MHP_v2:   Mental Health Providers (MHP) Rate per 100 000 Population
+             HD2017_037_MHP_v3:   Mental Health Providers (MHP) Ratio
+             HD2017_037_MHP_v4:   Mental Health Providers (MHP) Quartile
+
+
+      38. Motor vehicle crash deaths
+          Universe:  none
+          Name:      HD2017_038
+          Variables:
+             HD2017_038_MVCD_v1:   Motor Vehicle Crash Deaths
+             HD2017_038_MVCD_v2:   Motor Vehicle Crash Deaths per 100 000 Population
+             HD2017_038_MVCD_v3:   Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - Low
+             HD2017_038_MVCD_v4:   Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - High
+
+
+      39. Other primary care providers
+          Universe:  none
+          Name:      HD2017_039
+          Variables:
+             HD2017_039_OPCP_v1:   Number of other primary care providers per 100
+             HD2017_039_OPCP_v2:   Ratio of population to primary care providers other than physicians
+
+
+      40. Physical inactivity
+          Universe:  none
+          Name:      HD2017_040
+          Variables:
+             HD2017_040_PI_v1:   Percent of Physically Inactive Persons (20 Years and Over)
+             HD2017_040_PI_v2:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+             HD2017_040_PI_v3:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+             HD2017_040_PI_v4:   Physically Inactive Persons (20 Years and Over) Quartile
+
+
+      41. Poor mental health days
+          Universe:  none
+          Name:      HD2017_041
+          Variables:
+             HD2017_041_PMHD_v1:   Mentally Unhealthy Days per Month
+             HD2017_041_PMHD_v2:   Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2017_041_PMHD_v3:   Mentally Unhealthy Days per Month 95% Confidence Interval - High
+             HD2017_041_PMHD_v4:   Mentally Unhealthy Days per Month Quartile
+
+
+      42. Poor or fair health
+          Universe:  none
+          Name:      HD2017_042
+          Variables:
+             HD2017_042_POFH_v1:   Adults That Report Fair or Poor Health
+             HD2017_042_POFH_v2:   Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+             HD2017_042_POFH_v3:   Adults That Report Fair or Poor Health 95% Confidence Interval - High
+             HD2017_042_POFH_v4:   Adults That Report Fair or Poor Health Quartile
+
+
+      43. Poor physical health days
+          Universe:  none
+          Name:      HD2017_043
+          Variables:
+             HD2017_043_PPHD_v1:   Physically Unhealthy Days per Month
+             HD2017_043_PPHD_v2:   Physically Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2017_043_PPHD_v3:   Physically Unhealthy Days per Month 95% Confidence Interval - High
+             HD2017_043_PPHD_v4:   Physically Unhealthy Days per Month Quartile
+
+
+      44. Premature age-adjusted mortality
+          Universe:  none
+          Name:      HD2017_044
+          Variables:
+             HD2017_044_PAM_v1:   Premature Age-adjusted mortality (Count Deaths)
+             HD2017_044_PAM_v2:   Premature Age-adjusted mortality rate per 100 000 Population
+             HD2017_044_PAM_v3:   Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - Low
+             HD2017_044_PAM_v4:   Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - High
+
+
+      45. Premature death
+          Universe:  none
+          Name:      HD2017_045
+          Variables:
+             HD2017_045_PD_v1:   Premature Deaths (Less Than 75 Years)
+             HD2017_045_PD_v2:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+             HD2017_045_PD_v3:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - Low
+             HD2017_045_PD_v4:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - High
+             HD2017_045_PD_v5:   Premature Deaths (Less than 75 Years) Quartile
+
+
+      46. Preventable hospital stays
+          Universe:  none
+          Name:      HD2017_046
+          Variables:
+             HD2017_046_PHS_v1:   Number of Medicare enrollees
+             HD2017_046_PHS_v2:   Preventable Hospital Stays Rate
+             HD2017_046_PHS_v3:   Preventable Hospital Stays Rate 95% Confidence Interval - Low
+             HD2017_046_PHS_v4:   Preventable Hospital Stays Rate 95% Confidence Interval - High
+             HD2017_046_PHS_v5:   Preventable Hospital Stays Quartile
+
+
+      47. Primary care physicians
+          Universe:  none
+          Name:      HD2017_047
+          Variables:
+             HD2017_047_PCP_v1:   Primary Care Physicians (PCP)
+             HD2017_047_PCP_v2:   Primary Care Physicians (PCP) Rate per 100 000 Population
+             HD2017_047_PCP_v3:   Primary Care Physicians (PCP) Ratio
+             HD2017_047_PCP_v4:   Primary Care Physicians (PCP) Quartile
+
+
+      48. Residential segregation - black white
+          Universe:  none
+          Name:      HD2017_048
+          Variables:
+             HD2017_048_RS_B_v1:   Residential Segregation - Black/ White Segregation Index
+
+
+      49. Residential segregation - non-white white
+          Universe:  none
+          Name:      HD2017_049
+          Variables:
+             HD2017_049_RS_N_v1:   Residential Segregation - Non-white/White Segregation Index
+
+
+      50. Severe housing problems
+          Universe:  none
+          Name:      HD2017_050
+          Variables:
+             HD2017_050_SHP_v1:   Number Of Households with Severe Housing Problems
+             HD2017_050_SHP_v2:   Percentage Of Households with Severe Housing Problems
+             HD2017_050_SHP_v3:   Percentage Of Households with Severe Housing Problems 95% Confidence Interval - Low
+             HD2017_050_SHP_v4:   Percentage Of Households with Severe Housing Problems 95% Confidence Interval - High
+             HD2017_050_SHP_v5:   Percentage Of Households with Severe Housing Problems Quartile
+
+
+      51. Sexually transmitted infections
+          Universe:  none
+          Name:      HD2017_051
+          Variables:
+             HD2017_051_STI_v1:   Chlamydia Cases
+             HD2017_051_STI_v2:   Chlamydia Cases Rate per 100 000 Population
+             HD2017_051_STI_v3:   Chlamydia Cases Quartile
+
+
+      52. Social associations
+          Universe:  none
+          Name:      HD2017_052
+          Variables:
+             HD2017_052_SA_v1:   Membership Associations
+             HD2017_052_SA_v2:   Membership Associations per 10 000 Population
+             HD2017_052_SA_v3:   Membership Associations Quartile
+
+
+      53. Some college
+          Universe:  none
+          Name:      HD2017_053
+          Variables:
+             HD2017_053_SC_v1:   Adults Having Some Post-secondary Education (Persons 25-44 Years)
+             HD2017_053_SC_v2:   Population (Persons 25-44 Years)
+             HD2017_053_SC_v3:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+             HD2017_053_SC_v4:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - Low
+             HD2017_053_SC_v5:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - High
+             HD2017_053_SC_v6:   Adults Having Some Post-secondary Education (25-44 Years) Quartile
+
+
+      54. Teen births
+          Universe:  none
+          Name:      HD2017_054
+          Variables:
+             HD2017_054_TB_v1:   Teen birth count, ages 15-19
+             HD2017_054_TB_v2:   Female population, ages 15-19
+             HD2017_054_TB_v3:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+             HD2017_054_TB_v4:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - Low
+             HD2017_054_TB_v5:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - High
+             HD2017_054_TB_v6:   Teen Births (Females 15-19 Years) Quartile
+
+
+      55. Unemployment
+          Universe:  none
+          Name:      HD2017_055
+          Variables:
+             HD2017_055_U2nd_v1:   Unemployed (Persons 16 Years and Over)
+             HD2017_055_U2nd_v2:   Labor Force (Persons 16 Years and Over)
+             HD2017_055_U2nd_v3:   Percent of Unemployed (Persons 16 Years and Over)
+             HD2017_055_U2nd_v4:   Unemployed Quartile
+
+
+      56. Uninsured
+          Universe:  none
+          Name:      HD2017_056
+          Variables:
+             HD2017_056_U_v1:   Number of people ages 16+ unemployed and looking for work
+             HD2017_056_U_v2:   Size of the labor force
+             HD2017_056_U_v3:   Percentage of population ages 16+ unemployed and looking for work
+             HD2017_056_U_v4:   Unemployment Quartile
+             HD2017_056_U_v5:   Uninsured Quartile
+
+
+      57. Uninsured adults
+          Universe:  none
+          Name:      HD2017_057
+          Variables:
+             HD2017_057_UA_v1:   Number of adults under age 65 without health insurance
+             HD2017_057_UA_v2:   Percentage of adults under age 65 without health insurance
+             HD2017_057_UA_v3:   Percentage of adults under age 65 without health insurance 95% Confidence Interval - Low
+             HD2017_057_UA_v4:   Percentage of adults under age 65 without health insurance 95% Confidence Interval - High
+
+
+      58. Uninsured children
+          Universe:  none
+          Name:      HD2017_058
+          Variables:
+             HD2017_058_UC_v1:   Number of children under age 19 without health insurance
+             HD2017_058_UC_v2:   Percentage of children under age 19 without health insurance
+             HD2017_058_UC_v3:   Percentage of children under age 19 without health insurance 95% Confidence Interval - Low
+             HD2017_058_UC_v4:   Percentage of children under age 19 without health insurance 95% Confidence Interval - High
+
+
+      59. Violent crime
+          Universe:  none
+          Name:      HD2017_059
+          Variables:
+             HD2017_059_VC_v1:   Violent Crimes
+             HD2017_059_VC_v2:   Violent Crime Rate
+             HD2017_059_VC_v3:   Violent Crimes Quartile
+
+
+
+
+
+Survey:           Health Data 2017 Release
+Dataset:          Tables Comparable with Previous Years
+Tables:
+
+      1. Additional Demographics
+         Universe:  none
+         Name:      HD2017_001
+         Variables:
+            HD2017_001_HEALTH_T6_V25:   Population
+            HD2017_001_HEALTH_T6_V24:   Population 95% Confidence Interval - Low
+            HD2017_001_HEALTH_T6_V23:   Population 95% Confidence Interval - High
+            HD2017_001_HEALTH_T6_V12:   Population (%  < 18 Years)
+            HD2017_001_HEALTH_T6_V13:   Population (%  65 Years and Over)
+            HD2017_001_HEALTH_T6_V3:   Population (African American)
+            HD2017_001_HEALTH_T6_V14:   Population (%  African American)
+            HD2017_001_HEALTH_T6_V4:   Population  (American Indian/ Alaskan Native)
+            HD2017_001_HEALTH_T6_V15:   Population (%  American Indian/ Alaskan Native)
+            HD2017_001_HEALTH_T6_V5:   Population for Asian (Asian)
+            HD2017_001_HEALTH_T6_V16:   Population (%  Asian)
+            HD2017_001_HEALTH_T6_V8:   Population (Native Hawaiian/ Other Pacific Islander)
+            HD2017_001_HEALTH_T6_V19:   Population (%  Native Hawaiian/ Other Pacific Islander)
+            HD2017_001_HEALTH_T6_V7:   Population for Hispanic (Hispanic)
+            HD2017_001_HEALTH_T6_V18:   Population (%  Hispanic)
+            HD2017_001_HEALTH_T6_V9:   Population (Non-Hispanic White)
+            HD2017_001_HEALTH_T6_V20:   Population (%  Non-Hispanic White)
+            HD2017_001_HEALTH_T6_V10:   Population (Not Proficient in English)
+            HD2017_001_HEALTH_T6_V21:   Population (%  Not Proficient in English)
+            HD2017_001_HEALTH_T6_V17:   Population (%  Female)
+            HD2017_001_HEALTH_T6_V11:   Population (Rural)
+            HD2017_001_HEALTH_T6_V22:   Population (%  Rural)
+
+
+      2. Additional Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2017_002
+         Variables:
+            HD2017_002_HEALTH_T8_V3:   Population Who Lack Adequate Access to Food
+            HD2017_002_HEALTH_T8_V4:   Percent Of Population Who Lack Adequate Access to Food
+            HD2017_002_HEALTH_T8_V5:   Persons with Limited Access to Healthy Foods
+            HD2017_002_HEALTH_T8_V6:   Percent of Persons with Limited Access to Healthy Foods
+            HD2017_002_HEALTH_T8_V1:   Drug Poisoning Death Counts
+            HD2017_002_HEALTH_T8_V2:   Drug Poisoning Mortality Rate per 100 000 Population
+            HD2017_002_HEALTH_T8_V8:   Motor Vehicle Crash Deaths
+            HD2017_002_HEALTH_T8_V11:   Motor Vehicle Mortality Rate per 100 000 Population
+            HD2017_002_HEALTH_T8_V10:   Motor Vehicle Mortality Rate per 100 000 Population 95% Confidence Interval - Low
+            HD2017_002_HEALTH_T8_V9:   Motor Vehicle Mortality Rate per 100 000 Population 95% Confidence Interval - High
+            HD2017_002_HEALTH_T8_V15:   Percent of Individuals with Insufficient Sleep
+
+
+      3. Additional Health Factors Health Care
+         Universe:  none
+         Name:      HD2017_003
+         Variables:
+            HD2017_003_HEALTH_T9_V5:   Health Care Costs Price-adjusted Medicare Reimbursements
+            HD2017_003_HEALTH_T9_V13:   Persons Without Insurance (Population Under 19 Years)
+            HD2017_003_HEALTH_T9_V14:   Percent Persons Without Insurance (Population Under 19 Years)
+            HD2017_003_HEALTH_T9_V16:   Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - Low
+            HD2017_003_HEALTH_T9_V15:   Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - High
+            HD2017_003_HEALTH_T9_V6:   Other Primary Care Providers (PCP) Rate per 100,000 Population
+            HD2017_003_HEALTH_T9_V7:   Other Primary Care Providers (PCP) Ratio
+
+
+      4. Additional Health Factors Social Economic Factors
+         Universe:  none
+         Name:      HD2017_004
+         Variables:
+            HD2017_004_HEALTH_T10_V16:   Median Household Income
+            HD2017_004_HEALTH_T10_V15:   Median Household Income 95% Confidence Interval - Low
+            HD2017_004_HEALTH_T10_V14:   Median Household Income 95% Confidence Interval - High
+            HD2017_004_HEALTH_T10_V4:   Children Eligible for Free Lunch (Persons < 18 Years)
+            HD2017_004_HEALTH_T10_V17:   Residential Segregation - Black/ White Segregation Index
+            HD2017_004_HEALTH_T10_V18:   Residential Segregation - Non-white/White Segregation Index
+            HD2017_004_HEALTH_T10_V11:   Homicides Rate
+            HD2017_004_HEALTH_T10_V10:   Homicides Rate 95% Confidence Interval - Low
+            HD2017_004_HEALTH_T10_V9:   Homicides Rate 95% Confidence Interval - High
+
+
+      5. Additional Health Outcomes
+         Universe:  none
+         Name:      HD2017_005
+         Variables:
+            HD2017_005_HEALTH_T7_V17:   Premature Age-adjusted mortality (Count Deaths)
+            HD2017_005_HEALTH_T7_V20:   Premature Age-adjusted mortality rate per 100 000 Population
+            HD2017_005_HEALTH_T7_V19:   Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - Low
+            HD2017_005_HEALTH_T7_V18:   Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - High
+            HD2017_005_HEALTH_T7_V1:   Child Mortality (Death Counts)
+            HD2017_005_HEALTH_T7_V4:   Child Mortality Rate per 100 000 Population
+            HD2017_005_HEALTH_T7_V3:   Child Mortality Rate per 100 000 Population 95% Confidence Interval - Low
+            HD2017_005_HEALTH_T7_V2:   Child Mortality Rate per 100 000 Population 95% Confidence Interval - High
+            HD2017_005_HEALTH_T7_V13:   Infant Mortality (Death Counts)
+            HD2017_005_HEALTH_T7_V16:   Infant Mortality Rate per 1 000 Live Births
+            HD2017_005_HEALTH_T7_V15:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - Low
+            HD2017_005_HEALTH_T7_V14:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - High
+            HD2017_005_HEALTH_T7_V6:   Percent of Diabetics
+            HD2017_005_HEALTH_T7_V8:   Percent of Diabetics 95% Confidence Interval - Low
+            HD2017_005_HEALTH_T7_V7:   Percent of Diabetics 95% Confidence Interval - High
+            HD2017_005_HEALTH_T7_V9:   HIV Prevalence
+            HD2017_005_HEALTH_T7_V10:   HIV Prevalence Rate per 100,000 Population
+
+
+      6. Health Factors Clinical Care
+         Universe:  none
+         Name:      HD2017_006
+         Variables:
+            HD2017_006_HEALTH_T3_V41:   Persons Without Insurance (Population Under 65 Years)
+            HD2017_006_HEALTH_T3_V42:   Percent of Persons Without Insurance (Population Under 65 Years)
+            HD2017_006_HEALTH_T3_V44:   Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - Low
+            HD2017_006_HEALTH_T3_V43:   Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - High
+            HD2017_006_HEALTH_T3_V34:   Primary Care Physicians (PCP)
+            HD2017_006_HEALTH_T3_V35:   Primary Care Physicians (PCP) Rate per 100 000 Population
+            HD2017_006_HEALTH_T3_V36:   Primary Care Physicians (PCP) Ratio
+            HD2017_006_HEALTH_T3_V38:   Primary Care Physicians (PCP) Quartile
+            HD2017_006_HEALTH_T3_V1:   Dentists
+            HD2017_006_HEALTH_T3_V2:   Dentists Rate per 100 000 Population
+            HD2017_006_HEALTH_T3_V3:   Dentists Ratio
+            HD2017_006_HEALTH_T3_V4:   Dentists Quartile
+            HD2017_006_HEALTH_T3_V22:   Preventable Hospital Stays Medicare enrollees
+            HD2017_006_HEALTH_T3_V25:   Preventable Hospital Stays Rate
+            HD2017_006_HEALTH_T3_V24:   Preventable Hospital Stays Rate 95% Confidence Interval - Low
+            HD2017_006_HEALTH_T3_V23:   Preventable Hospital Stays Rate 95% Confidence Interval - High
+            HD2017_006_HEALTH_T3_V26:   Preventable Hospital Stays Quartile
+            HD2017_006_HEALTH_T3_V6:   Diabetic Medicare Enrollees Receiving Hba1c Test
+            HD2017_006_HEALTH_T3_V7:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+            HD2017_006_HEALTH_T3_V9:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - Low
+            HD2017_006_HEALTH_T3_V8:   Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - High
+            HD2017_006_HEALTH_T3_V10:   Diabetic Medicare Enrollees Receiving Hba1c Test Quartile
+            HD2017_006_HEALTH_T3_V16:   Medicare Enrollees Having Mammography Screening
+            HD2017_006_HEALTH_T3_V17:   Percent of Medicare Enrollees Having Mammography Screening
+            HD2017_006_HEALTH_T3_V19:   Percent of Medicare Enrollees Having Mammography Screening 95% Confidence Interval - Low
+            HD2017_006_HEALTH_T3_V18:   Percent of Medicare Enrollees Having Mammography Screening 95% Confidence Interval - High
+            HD2017_006_HEALTH_T3_V20:   Medicare Enrollees Having Mammography Screening Quartile
+
+
+      7. Health Factors Environment
+         Universe:  none
+         Name:      HD2017_007
+         Variables:
+            HD2017_007_HEALTH_T5_V6:   Air Pollution Particulate Matter Average Daily PM2.5
+            HD2017_007_HEALTH_T5_V7:   Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+            HD2017_007_HEALTH_T5_V47:   Presence of Drinking Water Violations
+            HD2017_007_HEALTH_T5_V18:   Presence of Drinking Water Violations Quartile
+            HD2017_007_HEALTH_T5_V41:   Households with Severe  Problems
+            HD2017_007_HEALTH_T5_V42:   Percent Of Households with Severe  Problems
+            HD2017_007_HEALTH_T5_V44:   Percent Of Households with Severe  Problems 95% Confidence Interval - Low
+            HD2017_007_HEALTH_T5_V43:   Percent Of Households with Severe  Problems 95% Confidence Interval - High
+            HD2017_007_HEALTH_T5_V45:   Households with Severe  Problems Quartile
+            HD2017_007_HEALTH_T5_V23:   Percent of Driving Alone to Work
+            HD2017_007_HEALTH_T5_V25:   Percent of Driving Alone to Work 95% Confidence Interval - Low
+            HD2017_007_HEALTH_T5_V24:   Percent of Driving Alone to Work 95% Confidence Interval - High
+            HD2017_007_HEALTH_T5_V26:   Driving Alone to Work Quartile
+            HD2017_007_HEALTH_T5_V35:   Long Commute Driving Alone Workers Who Drive Alone
+            HD2017_007_HEALTH_T5_V36:   Percent of Long Commute Driving Alone Workers Who Drive Alone
+            HD2017_007_HEALTH_T5_V38:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+            HD2017_007_HEALTH_T5_V37:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+            HD2017_007_HEALTH_T5_V39:   Long Commute Driving Alone Workers Who Drive Alone Quartile
+
+
+      8. Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2017_008
+         Variables:
+            HD2017_008_HEALTH_T2_V10:   Percent of Current Smokers (Persons 18 Years and Over)
+            HD2017_008_HEALTH_T2_V12:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V11:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V13:   Current Smokers (Persons 18 Years and Over) Quartile
+            HD2017_008_HEALTH_T2_V5:   Percent of Obese Persons (20 Years and Over)
+            HD2017_008_HEALTH_T2_V7:   Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V6:   Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V8:   Obese Persons (20 Years and Over) Quartile
+            HD2017_008_HEALTH_T2_V27:   Food Environment Index
+            HD2017_008_HEALTH_T2_V28:   Food Environment Index Quartile
+            HD2017_008_HEALTH_T2_V30:   Percent of Physically Inactive Persons (20 Years and Over)
+            HD2017_008_HEALTH_T2_V32:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V31:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V33:   Physically Inactive Persons (20 Years and Over) Quartile
+            HD2017_008_HEALTH_T2_V2:   Percent of Persons with Access to Exercise Opportunities
+            HD2017_008_HEALTH_T2_V3:   Persons with Access to Exercise Opportunities Quartile
+            HD2017_008_HEALTH_T2_V21:   Percent of Drinking Adults (Persons 18 Years and Over)
+            HD2017_008_HEALTH_T2_V23:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V22:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V24:   Drinking Adults (Persons 18 Years and Over) Quartile
+            HD2017_008_HEALTH_T2_V16:   Alcohol-impaired Driving Deaths
+            HD2017_008_HEALTH_T2_V18:   Percent of Alcohol-impaired Driving Deaths
+            HD2017_008_HEALTH_T2_V49:   Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V50:   Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V19:   Percent of Alcohol-impaired Driving Deaths Quartile
+            HD2017_008_HEALTH_T2_V35:   Chlamydia Cases
+            HD2017_008_HEALTH_T2_V36:   Chlamydia Cases Rate per 100 000 Population
+            HD2017_008_HEALTH_T2_V38:   Chlamydia Cases Quartile
+            HD2017_008_HEALTH_T2_V46:   Teen Births (Females 15-19 Years)
+            HD2017_008_HEALTH_T2_V47:   Teen Population
+            HD2017_008_HEALTH_T2_V44:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+            HD2017_008_HEALTH_T2_V42:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - Low
+            HD2017_008_HEALTH_T2_V41:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - High
+            HD2017_008_HEALTH_T2_V43:   Teen Births (Females 15-19 Years) Quartile
+
+
+      9. Health Factors Social Economic Factors
+         Universe:  none
+         Name:      HD2017_009
+         Variables:
+            HD2017_009_HEALTH_T4_V15:   High School Graduation Cohort Size
+            HD2017_009_HEALTH_T4_V18:   High School Graduation Rate
+            HD2017_009_HEALTH_T4_V19:   High School Graduation Quartile
+            HD2017_009_HEALTH_T4_V46:   Adults Having Some Post-secondary Education (Persons 25-44 Years)
+            HD2017_009_HEALTH_T4_V50:   Population (Persons 25-44 Years)
+            HD2017_009_HEALTH_T4_V47:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+            HD2017_009_HEALTH_T4_V49:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - Low
+            HD2017_009_HEALTH_T4_V48:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - High
+            HD2017_009_HEALTH_T4_V51:   Adults Having Some Post-secondary Education (25-44 Years) Quartile
+            HD2017_009_HEALTH_T4_V53:   Unemployed (Persons 16 Years and Over)
+            HD2017_009_HEALTH_T4_V57:   Labor Force (Persons 16 Years and Over)
+            HD2017_009_HEALTH_T4_V54:   Percent of Unemployed (Persons 16 Years and Over)
+            HD2017_009_HEALTH_T4_V58:   Unemployed Quartile
+            HD2017_009_HEALTH_T4_V2:   Percent of Children in Poverty
+            HD2017_009_HEALTH_T4_V4:   Percent of Children in Poverty 95% Confidence Interval - Low
+            HD2017_009_HEALTH_T4_V3:   Percent of Children in Poverty 95% Confidence Interval - High
+            HD2017_009_HEALTH_T4_V5:   Children in Poverty Quartile
+            HD2017_009_HEALTH_T4_V28:   Income Inequality 80th Percentile Income
+            HD2017_009_HEALTH_T4_V27:   Income Inequality 20th Percentile Income
+            HD2017_009_HEALTH_T4_V30:   Income Inequality Income Ratio
+            HD2017_009_HEALTH_T4_V31:   Income Inequality Quartile
+            HD2017_009_HEALTH_T4_V8:   Single Parent Households
+            HD2017_009_HEALTH_T4_V7:   Households
+            HD2017_009_HEALTH_T4_V9:   Percent of Single Parent Households
+            HD2017_009_HEALTH_T4_V11:   Percent of Single Parent Households 95% Confidence Interval - Low
+            HD2017_009_HEALTH_T4_V10:   Percent of Single Parent Households 95% Confidence Interval - High
+            HD2017_009_HEALTH_T4_V12:   Single Parent Households Quartile
+            HD2017_009_HEALTH_T4_V43:   Membership Associations
+            HD2017_009_HEALTH_T4_V44:   Membership Associations per 10 000 Population
+            HD2017_009_HEALTH_T4_V65:   Membership Associations Quartile
+            HD2017_009_HEALTH_T4_V60:   Violent Crimes
+            HD2017_009_HEALTH_T4_V63:   Violent Crime Rate
+            HD2017_009_HEALTH_T4_V62:   Violent Crimes Quartile
+            HD2017_009_HEALTH_T4_V33:   Injury Deaths
+            HD2017_009_HEALTH_T4_V36:   Injury Death Rate
+            HD2017_009_HEALTH_T4_V35:   Injury Death Rate 95% Confidence Interval - Low
+            HD2017_009_HEALTH_T4_V34:   Injury Death Rate 95% Confidence Interval - High
+            HD2017_009_HEALTH_T4_V37:   Injury Deaths Quartile
+
+
+      10. Health Outcome
+          Universe:  none
+          Name:      HD2017_010
+          Variables:
+             HD2017_010_HEALTH_T1_V34:   Premature Deaths (Less Than 75 Years)
+             HD2017_010_HEALTH_T1_V40:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+             HD2017_010_HEALTH_T1_V36:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V35:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - High
+             HD2017_010_HEALTH_T1_V38:   Premature Deaths (Less than 75 Years) Quartile
+             HD2017_010_HEALTH_T1_V22:   Adults That Report Fair or Poor Health
+             HD2017_010_HEALTH_T1_V24:   Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V23:   Adults That Report Fair or Poor Health 95% Confidence Interval - High
+             HD2017_010_HEALTH_T1_V25:   Adults That Report Fair or Poor Health Quartile
+             HD2017_010_HEALTH_T1_V30:   Physically Unhealthy Days per Month
+             HD2017_010_HEALTH_T1_V29:   Physically Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V28:   Physically Unhealthy Days per Month 95% Confidence Interval - High
+             HD2017_010_HEALTH_T1_V31:   Physically Unhealthy Days per Month Quartile
+             HD2017_010_HEALTH_T1_V18:   Mentally Unhealthy Days per Month
+             HD2017_010_HEALTH_T1_V17:   Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V16:   Mentally Unhealthy Days per Month 95% Confidence Interval - High
+             HD2017_010_HEALTH_T1_V19:   Mentally Unhealthy Days per Month Quartile
+             HD2017_010_HEALTH_T1_V8:   Low Birthweight Births (<2.5kg) Unreliable
+             HD2017_010_HEALTH_T1_V2:   Low Birthweight Births (<2.5kg)
+             HD2017_010_HEALTH_T1_V1:   Live Births
+             HD2017_010_HEALTH_T1_V3:   Percent of Low Birthweight Births (<2.5kg)
+             HD2017_010_HEALTH_T1_V5:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V4:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V6:   Low Birthweight Births (<2.5kg) Quartile
+             HD2017_010_HEALTH_T1_V10:   Mental Health Providers (MHP)
+             HD2017_010_HEALTH_T1_V11:   Mental Health Providers (MHP) Rate per 100 000 Population
+             HD2017_010_HEALTH_T1_V12:   Mental Health Providers (MHP) Ratio
+             HD2017_010_HEALTH_T1_V14:   Mental Health Providers (MHP) Quartile
+             HD2017_010_HEALTH_T1_V42:   Percent of Frequent Physical Distress
+             HD2017_010_HEALTH_T1_V43:   Percent of Frequent Physical Distress 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V44:   Percent of Frequent Physical Distress 95% Confidence Interval - High
+             HD2017_010_HEALTH_T1_V45:   Percent of Mental Physical Distress
+             HD2017_010_HEALTH_T1_V46:   Percent of Mental Physical Distress 95% Confidence Interval - Low
+             HD2017_010_HEALTH_T1_V47:   Percent of Mental Physical Distress 95% Confidence Interval - High
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      T001_001:       Physically Unhealthy Days per Month
+      T001_002:       Mentally Unhealthy Days per Month
+      T002_001:       Adults That Report Fair or Poor Health
+      T003_001:       Percent of Low Birthweight Births (<2.5kg)
+      NV002_001:      Low Birthweight Births (<2.5kg)
+      T004_001:       Primary Care Physicians (PCP)
+      T004_002:       Mental Health Providers (MHP)
+      T004_003:       Dentists
+      NV003_001:      Primary Care Physicians (PCP) Rate per 100 000 Population
+      NV003_002:      Mental Health Providers (MHP) Rate per 100 000 Population
+      NV003_003:      Dentists Rate per 100 000 Population
+      T005_001:       Health Care Costs Price-adjusted Medicare Reimbursements
+      T006_001:       Percent Persons Without Insurance (Population Under 19 Years)
+      T006_002:       Percent of Persons Without Insurance (Population Under 65 Years)
+      NV005_001:      Persons Without Insurance (Population Under 19 Years)
+      NV005_002:      Persons Without Insurance (Population Under 65 Years)
+      T007_001:       Premature Deaths (Less Than 75 Years)
+      T007_002:       Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+      T008_001:       Child Mortality
+      T008_002:       Premature Age-adjusted Mortality
+      T008_003:       Drug Poisoning Mortality
+      NV006_001:      Child Mortality Rate per 100 000 Population
+      NV006_002:      Premature Age-adjusted mortality rate per 100 000 Population
+      NV006_003:      Drug Poisoning Mortality Rate per 100 000 Population
+      T014_001:       Infant Mortality
+      T009_001:       Percent of Diabetics
+      T009_002:       Diabetic Medicare Enrollees Receiving Hba1c Test
+      T010_001:       Chlamydia Cases
+      T010_002:       HIV Prevalence
+      NV008_001:      Chlamydia Cases Rate per 100 000 Population
+      NV008_002:      HIV Prevalence Rate per 100,000 Population
+      T015_001:       Teen Births (Females 15-19 Years)
+      NV010_001:      Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+      T012_001:       Persons with Limited Access to Healthy Foods
+      T012_002:       Children Eligible for Free Lunch (Persons < 18 Years)
+      T013_001:       Food Environment Index
+      T016_001:       Air Pollution Particulate Matter Average Daily PM2.5
+      T016_002:       Presence of Drinking Water Violations
+      T016_003:       Percentage Of Households with Severe Housing Problems
+      T016_007:       Percent of Driving Alone to Work
+      T016_008:       Long Commute Driving Alone Workers Who Drive Alone
+      T016_009:       Percent of Long Commute Driving Alone Workers Who Drive Alone
+      HD2017_001_ATEO_v1: Percent of Persons with Access to Exercise Opportunities
+      HD2017_001_ATEO_v2: Persons with Access to Exercise Opportunities Quartile
+      HD2017_002_AO_v1: Percentage of Adults with Obesity
+      HD2017_002_AO_v2: Percentage of Adults with Obesity 95% Confidence Interval - Low
+      HD2017_002_AO_v3: Percentage of Adults with Obesity 95% Confidence Interval - High
+      HD2017_002_AO_v4: Percentage of Adults with Obesity Quartile
+      HD2017_003_AS_v1: Percent of Current Smokers (Persons 18 Years and Over)
+      HD2017_003_AS_v2: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2017_003_AS_v3: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2017_003_AS_v4: Current Smokers (Persons 18 Years and Over) Quartile
+      HD2017_004_AP_PM_v1: Air Pollution Particulate Matter Average Daily PM2.5
+      HD2017_004_AP_PM_v2: Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+      HD2017_005_ADD_v1: Alcohol-impaired Driving Deaths
+      HD2017_005_ADD_v2: Number of Driving Deaths
+      HD2017_005_ADD_v3: Percentage of driving deaths with alcohol involvement
+      HD2017_005_ADD_v4: Percentage of driving deaths with alcohol involvement 95% Confidence Interval - Low
+      HD2017_005_ADD_v5: Percentage of driving deaths with alcohol involvement 95% Confidence Interval - High
+      HD2017_005_ADD_v6: Percent of Alcohol-impaired Driving Deaths Quartile
+      HD2017_006_CEFFORPL_v1: Children Eligible for Free Lunch (Persons < 18 Years)
+      HD2017_007_CIP_v1: Percent of Children in Poverty
+      HD2017_007_CIP_v2: Percent of Children in Poverty 95% Confidence Interval - Low
+      HD2017_007_CIP_v3: Percent of Children in Poverty 95% Confidence Interval - High
+      HD2017_007_CIP_v4: Children in Poverty Quartile
+      HD2017_007_CIP_v5: Percent of Children in Poverty for Black (Black)
+      HD2017_007_CIP_v6: Percent of Children in Poverty for Hispanic (Hispanic)
+      HD2017_007_CIP_v7: Percent of Children in Poverty for White (White)
+      HD2017_008_CISH_v1: Single Parent Households
+      HD2017_008_CISH_v2: Households
+      HD2017_008_CISH_v3: Percent of Single Parent Households
+      HD2017_008_CISH_v4: Percent of Single Parent Households 95% Confidence Interval - Low
+      HD2017_008_CISH_v5: Percent of Single Parent Households 95% Confidence Interval - High
+      HD2017_008_CISH_v6: Single Parent Households Quartile
+      HD2017_009_CM_v1: Child Mortality (Death Counts)
+      HD2017_009_CM_v2: Child Mortality Rate
+      HD2017_009_CM_v3: Child Mortality Rate 95% Confidence Interval - Low
+      HD2017_009_CM_v4: Child Mortality Rate 95% Confidence Interval - High
+      HD2017_010_D_v1: Population
+      HD2017_010_D_v2: Population (%  < 18 Years)
+      HD2017_010_D_v3: Population (%  65 Years and Over)
+      HD2017_010_D_v4: Population (African American)
+      HD2017_010_D_v5: Population (%  African American)
+      HD2017_010_D_v6: Population  (American Indian/ Alaskan Native)
+      HD2017_010_D_v7: Population (%  American Indian/ Alaskan Native)
+      HD2017_010_D_v8: Population for Asian (Asian)
+      HD2017_010_D_v9: Population (%  Asian)
+      HD2017_010_D_v10: Population (Native Hawaiian/ Other Pacific Islander)
+      HD2017_010_D_v11: Population (%  Native Hawaiian/ Other Pacific Islander)
+      HD2017_010_D_v12: Population for Hispanic (Hispanic)
+      HD2017_010_D_v13: Population (%  Hispanic)
+      HD2017_010_D_v14: Population (Non-Hispanic White)
+      HD2017_010_D_v15: Population (%  Non-Hispanic White)
+      HD2017_010_D_v16: Population (Not Proficient in English)
+      HD2017_010_D_v17: Population (%  Not Proficient in English)
+      HD2017_010_D_v18: Population 95% Confidence Interval - Low
+      HD2017_010_D_v19: Population 95% Confidence Interval - High
+      HD2017_010_D_v20: Population (%  Female)
+      HD2017_010_D_v21: Population (Rural)
+      HD2017_010_D_v22: Population (%  Rural)
+      HD2017_010_D_v23: State
+      HD2017_010_D_v24: County
+      HD2017_011_D2nd_v1: Dentists
+      HD2017_011_D2nd_v2: Dentists Rate per 100 000 Population
+      HD2017_011_D2nd_v3: Dentists Ratio
+      HD2017_011_D2nd_v4: Dentists Quartile
+      HD2017_012_DM_v1: Diabetic Medicare Enrollees Receiving Hba1c Test
+      HD2017_012_DM_v2: Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+      HD2017_012_DM_v3: Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - Low
+      HD2017_012_DM_v4: Percent of Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - High
+      HD2017_012_DM_v5: Diabetic Medicare Enrollees Receiving Hba1c Test Quartile
+      HD2017_013_DP_v1: Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes
+      HD2017_013_DP_v2: Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - Low
+      HD2017_013_DP_v3: Percentage Of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - High
+      HD2017_014_DY_v1: Percentage Of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School
+      HD2017_015_DWV_v1: Presence of Drinking Water Violations
+      HD2017_015_DWV_v2: Presence of Drinking Water Violations Quartile
+      HD2017_016_DATW_v1: Percent of Driving Alone to Work
+      HD2017_016_DATW_v2: Percent of Driving Alone to Work 95% Confidence Interval - Low
+      HD2017_016_DATW_v3: Percent of Driving Alone to Work 95% Confidence Interval - High
+      HD2017_016_DATW_v4: Driving Alone to Work Quartile
+      HD2017_016_DATW_v5: Percent of Workers Who Drive Alone to Work for Black (Black)
+      HD2017_016_DATW_v6: Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic)
+      HD2017_016_DATW_v7: Percent of Workers Who Drive Alone to Work for White (White)
+      HD2017_017_DOD_v1: Drug Poisoning Death Counts
+      HD2017_017_DOD_v2: Drug Poisoning Death Counts per 100 000 Population
+      HD2017_018_ED_v1: Percent of Drinking Adults (Persons 18 Years and Over)
+      HD2017_018_ED_v2: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2017_018_ED_v3: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2017_018_ED_v4: Drinking Adults (Persons 18 Years and Over) Quartile
+      HD2017_019_FF_v1: Number of deaths due to firearms
+      HD2017_019_FF_v2: Number of deaths due to firearms per 100,000 population
+      HD2017_019_FF_v3: Number of deaths due to firearms per 100,000 population 95% Confidence Interval - Low
+      HD2017_019_FF_v4: Number of deaths due to firearms per 100,000 population 95% Confidence Interval - High
+      HD2017_020_FEI_v1: Food Environment Index
+      HD2017_020_FEI_v2: Food Environment Index Quartile
+      HD2017_021_FI_v1: Number Of Residents Who Lack Adequate Access to Food
+      HD2017_021_FI_v2: Percentage Of Population Who Lack Adequate Access to Food
+      HD2017_022_FMD_v1: Percentage of adults reporting 14 or more days of poor mental health per month
+      HD2017_022_FMD_v2: Percentage of adults reporting 14 or more days of poor mental health per month 95% Confidence Interval - Low
+      HD2017_022_FMD_v3: Percentage of adults reporting 14 or more days of poor mental health per month 95% Confidence Interval - High
+      HD2017_023_FPD_v1: Percentage of adults reporting 14 or more days of poor physical health per month
+      HD2017_023_FPD_v2: Percentage of adults reporting 14 or more days of poor physical health per month 95% Confidence Interval - Low
+      HD2017_023_FPD_v3: Percentage of adults reporting 14 or more days of poor physical health per month 95% Confidence Interval - High
+      HD2017_024_HCC_v1: Health Care Costs Price-adjusted Medicare Reimbursements
+      HD2017_025_HSG_v1: High School Graduation Cohort Size
+      HD2017_025_HSG_v2: High School Graduation Rate
+      HD2017_025_HSG_v3: High School Graduation Quartile
+      HD2017_026_HP_v1: Number of people aged 13 years and older living with a diagnosis of human immunodeficiency virus (HIV) infection
+      HD2017_026_HP_v2: Number of people aged 13 years and older living with a diagnosis of human immunodeficiency virus (HIV) infection per 100
+      HD2017_027_H_v1: Homicides Rate
+      HD2017_027_H_v2: Homicides Rate 95% Confidence Interval - Low
+      HD2017_027_H_v3: Homicides Rate 95% Confidence Interval - High
+      HD2017_028_II_v1: Income Inequality 80th Percentile Income
+      HD2017_028_II_v2: Income Inequality 20th Percentile Income
+      HD2017_028_II_v3: Income Inequality Income Ratio
+      HD2017_028_II_v4: Income Inequality Quartile
+      HD2017_029_IM_v1: Infant Mortality (Death Counts)
+      HD2017_029_IM_v2: Infant Mortality Rate per 1 000 Live Births
+      HD2017_029_IM_v3: Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - Low
+      HD2017_029_IM_v4: Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - High
+      HD2017_030_ID_v1: Injury Deaths
+      HD2017_030_ID_v2: Injury Death Rate
+      HD2017_030_ID_v3: Injury Death Rate 95% Confidence Interval - Low
+      HD2017_030_ID_v4: Injury Death Rate 95% Confidence Interval - High
+      HD2017_030_ID_v5: Injury Deaths Quartile
+      HD2017_031_IS_v1: Percentage of adults who report fewer than 7 hours of sleep on average
+      HD2017_031_IS_v2: Percentage of adults who report fewer than 7 hours of sleep on average 95% Confidence Interval - Low
+      HD2017_031_IS_v3: Percentage of adults who report fewer than 7 hours of sleep on average 95% Confidence Interval - High
+      HD2017_032_LATHF_v1: Number Of Residents who are low-income and do not live close to a grocery store
+      HD2017_032_LATHF_v2: Percentage of population who are low-income and do not live close to a grocery store
+      HD2017_033_LC_DA_v1: Long Commute Driving Alone Workers Who Drive Alone
+      HD2017_033_LC_DA_v2: Percent of Long Commute Driving Alone Workers Who Drive Alone
+      HD2017_033_LC_DA_v3: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+      HD2017_033_LC_DA_v4: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+      HD2017_033_LC_DA_v5: Long Commute Driving Alone Workers Who Drive Alone Quartile
+      HD2017_034_LB_v1: Low Birthweight Births (<2.5kg) Unreliable
+      HD2017_034_LB_v2: Low Birthweight Births (<2.5kg)
+      HD2017_034_LB_v3: Number of live births
+      HD2017_034_LB_v4: Percent of Low Birthweight Births (<2.5kg)
+      HD2017_034_LB_v5: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+      HD2017_034_LB_v6: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low 95% Confidence Interval - Low
+      HD2017_034_LB_v7: Low Birthweight Births (<2.5kg) Quartile
+      HD2017_035_MS_v1: Number of female Medicare enrollees having an annual mammogram (age 65-74)
+      HD2017_035_MS_v2: Percentage of female Medicare enrollees having an annual mammogram (age 65-74)
+      HD2017_035_MS_v3: Percentage of female Medicare enrollees having an annual mammogram (age 65-74) 95% Confidence Interval - Low
+      HD2017_035_MS_v4: Percentage of female Medicare enrollees having an annual mammogram (age 65-74) 95% Confidence Interval - High
+      HD2017_035_MS_v5: Mammography screening Quartile
+      HD2017_036_MHI_v1: Median Household Income
+      HD2017_036_MHI_v2: Median Household Income 95% Confidence Interval - Low
+      HD2017_036_MHI_v3: Median Household Income 95% Confidence Interval - High
+      HD2017_037_MHP_v1: Mental Health Providers (MHP)
+      HD2017_037_MHP_v2: Mental Health Providers (MHP) Rate per 100 000 Population
+      HD2017_037_MHP_v3: Mental Health Providers (MHP) Ratio
+      HD2017_037_MHP_v4: Mental Health Providers (MHP) Quartile
+      HD2017_038_MVCD_v1: Motor Vehicle Crash Deaths
+      HD2017_038_MVCD_v2: Motor Vehicle Crash Deaths per 100 000 Population
+      HD2017_038_MVCD_v3: Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - Low
+      HD2017_038_MVCD_v4: Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - High
+      HD2017_039_OPCP_v1: Number of other primary care providers per 100
+      HD2017_039_OPCP_v2: Ratio of population to primary care providers other than physicians
+      HD2017_040_PI_v1: Percent of Physically Inactive Persons (20 Years and Over)
+      HD2017_040_PI_v2: Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2017_040_PI_v3: Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2017_040_PI_v4: Physically Inactive Persons (20 Years and Over) Quartile
+      HD2017_041_PMHD_v1: Mentally Unhealthy Days per Month
+      HD2017_041_PMHD_v2: Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2017_041_PMHD_v3: Mentally Unhealthy Days per Month 95% Confidence Interval - High
+      HD2017_041_PMHD_v4: Mentally Unhealthy Days per Month Quartile
+      HD2017_042_POFH_v1: Adults That Report Fair or Poor Health
+      HD2017_042_POFH_v2: Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+      HD2017_042_POFH_v3: Adults That Report Fair or Poor Health 95% Confidence Interval - High
+      HD2017_042_POFH_v4: Adults That Report Fair or Poor Health Quartile
+      HD2017_043_PPHD_v1: Physically Unhealthy Days per Month
+      HD2017_043_PPHD_v2: Physically Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2017_043_PPHD_v3: Physically Unhealthy Days per Month 95% Confidence Interval - High
+      HD2017_043_PPHD_v4: Physically Unhealthy Days per Month Quartile
+      HD2017_044_PAM_v1: Premature Age-adjusted mortality (Count Deaths)
+      HD2017_044_PAM_v2: Premature Age-adjusted mortality rate per 100 000 Population
+      HD2017_044_PAM_v3: Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - Low
+      HD2017_044_PAM_v4: Premature Age-adjusted mortality rate per 100 000 Population 95% Confidence Interval - High
+      HD2017_045_PD_v1: Premature Deaths (Less Than 75 Years)
+      HD2017_045_PD_v2: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+      HD2017_045_PD_v3: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - Low
+      HD2017_045_PD_v4: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - High
+      HD2017_045_PD_v5: Premature Deaths (Less than 75 Years) Quartile
+      HD2017_046_PHS_v1: Number of Medicare enrollees
+      HD2017_046_PHS_v2: Preventable Hospital Stays Rate
+      HD2017_046_PHS_v3: Preventable Hospital Stays Rate 95% Confidence Interval - Low
+      HD2017_046_PHS_v4: Preventable Hospital Stays Rate 95% Confidence Interval - High
+      HD2017_046_PHS_v5: Preventable Hospital Stays Quartile
+      HD2017_047_PCP_v1: Primary Care Physicians (PCP)
+      HD2017_047_PCP_v2: Primary Care Physicians (PCP) Rate per 100 000 Population
+      HD2017_047_PCP_v3: Primary Care Physicians (PCP) Ratio
+      HD2017_047_PCP_v4: Primary Care Physicians (PCP) Quartile
+      HD2017_048_RS_B_v1: Residential Segregation - Black/ White Segregation Index
+      HD2017_049_RS_N_v1: Residential Segregation - Non-white/White Segregation Index
+      HD2017_050_SHP_v1: Number Of Households with Severe Housing Problems
+      HD2017_050_SHP_v2: Percentage Of Households with Severe Housing Problems
+      HD2017_050_SHP_v3: Percentage Of Households with Severe Housing Problems 95% Confidence Interval - Low
+      HD2017_050_SHP_v4: Percentage Of Households with Severe Housing Problems 95% Confidence Interval - High
+      HD2017_050_SHP_v5: Percentage Of Households with Severe Housing Problems Quartile
+      HD2017_051_STI_v1: Chlamydia Cases
+      HD2017_051_STI_v2: Chlamydia Cases Rate per 100 000 Population
+      HD2017_051_STI_v3: Chlamydia Cases Quartile
+      HD2017_052_SA_v1: Membership Associations
+      HD2017_052_SA_v2: Membership Associations per 10 000 Population
+      HD2017_052_SA_v3: Membership Associations Quartile
+      HD2017_053_SC_v1: Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2017_053_SC_v2: Population (Persons 25-44 Years)
+      HD2017_053_SC_v3: Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2017_053_SC_v4: Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - Low
+      HD2017_053_SC_v5: Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years) 95% Confidence Interval - High
+      HD2017_053_SC_v6: Adults Having Some Post-secondary Education (25-44 Years) Quartile
+      HD2017_054_TB_v1: Teen birth count, ages 15-19
+      HD2017_054_TB_v2: Female population, ages 15-19
+      HD2017_054_TB_v3: Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+      HD2017_054_TB_v4: Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - Low
+      HD2017_054_TB_v5: Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - High
+      HD2017_054_TB_v6: Teen Births (Females 15-19 Years) Quartile
+      HD2017_055_U2nd_v1: Unemployed (Persons 16 Years and Over)
+      HD2017_055_U2nd_v2: Labor Force (Persons 16 Years and Over)
+      HD2017_055_U2nd_v3: Percent of Unemployed (Persons 16 Years and Over)
+      HD2017_055_U2nd_v4: Unemployed Quartile
+      HD2017_056_U_v1: Number of people ages 16+ unemployed and looking for work
+      HD2017_056_U_v2: Size of the labor force
+      HD2017_056_U_v3: Percentage of population ages 16+ unemployed and looking for work
+      HD2017_056_U_v4: Unemployment Quartile
+      HD2017_056_U_v5: Uninsured Quartile
+      HD2017_057_UA_v1: Number of adults under age 65 without health insurance
+      HD2017_057_UA_v2: Percentage of adults under age 65 without health insurance
+      HD2017_057_UA_v3: Percentage of adults under age 65 without health insurance 95% Confidence Interval - Low
+      HD2017_057_UA_v4: Percentage of adults under age 65 without health insurance 95% Confidence Interval - High
+      HD2017_058_UC_v1: Number of children under age 19 without health insurance
+      HD2017_058_UC_v2: Percentage of children under age 19 without health insurance
+      HD2017_058_UC_v3: Percentage of children under age 19 without health insurance 95% Confidence Interval - Low
+      HD2017_058_UC_v4: Percentage of children under age 19 without health insurance 95% Confidence Interval - High
+      HD2017_059_VC_v1: Violent Crimes
+      HD2017_059_VC_v2: Violent Crime Rate
+      HD2017_059_VC_v3: Violent Crimes Quartile
+      HD2017_001_HEALTH_T6_V25: Population
+      HD2017_001_HEALTH_T6_V24: Population 95%  Confidence Interval - Low
+      HD2017_001_HEALTH_T6_V23: Population 95% Confidence Interval - High
+      HD2017_001_HEALTH_T6_V12: Population (%  < 18 Years)
+      HD2017_001_HEALTH_T6_V13: Population (%  65 Years and Over)
+      HD2017_001_HEALTH_T6_V3: Population (African American)
+      HD2017_001_HEALTH_T6_V14: Population (%  African American)
+      HD2017_001_HEALTH_T6_V4: Population  (American Indian/ Alaskan Native)
+      HD2017_001_HEALTH_T6_V15: Population (%  American Indian/ Alaskan Native)
+      HD2017_001_HEALTH_T6_V5: Population for Asian (Asian)
+      HD2017_001_HEALTH_T6_V16: Population (%  Asian)
+      HD2017_001_HEALTH_T6_V8: Population (Native Hawaiian/ Other Pacific Islander)
+      HD2017_001_HEALTH_T6_V19: Population (%  Native Hawaiian/ Other Pacific Islander)
+      HD2017_001_HEALTH_T6_V7: Population for Hispanic (Hispanic)
+      HD2017_001_HEALTH_T6_V18: Population (%  Hispanic)
+      HD2017_001_HEALTH_T6_V9: Population (Non-Hispanic White)
+      HD2017_001_HEALTH_T6_V20: Population (%  Non-Hispanic White)
+      HD2017_001_HEALTH_T6_V10: Population (Not Proficient in English)
+      HD2017_001_HEALTH_T6_V21: Population (%  Not Proficient in English)
+      HD2017_001_HEALTH_T6_V17: Population (%  Female)
+      HD2017_001_HEALTH_T6_V11: Population (Rural)
+      HD2017_001_HEALTH_T6_V22: Population (%  Rural)
+      HD2017_002_HEALTH_T8_V3: Population Who Lack Adequate Access to Food
+      HD2017_002_HEALTH_T8_V4: Percent Of Population Who Lack Adequate Access to Food
+      HD2017_002_HEALTH_T8_V5: Persons with Limited Access to Healthy Foods
+      HD2017_002_HEALTH_T8_V6: Percent of Persons with Limited Access to Healthy Foods
+      HD2017_002_HEALTH_T8_V1: Drug Poisoning Death Counts
+      HD2017_002_HEALTH_T8_V2: Drug Poisoning Mortality Rate per 100 000 Population
+      HD2017_002_HEALTH_T8_V8: Motor Vehicle Crash Deaths
+      HD2017_002_HEALTH_T8_V11: Motor Vehicle Mortality Rate per 100 000 Population
+      HD2017_002_HEALTH_T8_V10: Motor Vehicle Crash Deaths 95% Confidence Interval - Low
+      HD2017_002_HEALTH_T8_V9: Motor Vehicle Crash Deaths 95% Confidence Interval - High
+      HD2017_002_HEALTH_T8_V15: Percent of Individuals with Insufficient Sleep
+      HD2017_003_HEALTH_T9_V5: Health Care Costs Price-adjusted Medicare Reimbursements
+      HD2017_003_HEALTH_T9_V13: Persons Without Insurance (Population Under 19 Years)
+      HD2017_003_HEALTH_T9_V14: Percent Persons Without Insurance (Population Under 19 Years)
+      HD2017_003_HEALTH_T9_V16: Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - Low
+      HD2017_003_HEALTH_T9_V15: Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - High
+      HD2017_003_HEALTH_T9_V6: Other Primary Care Providers (PCP) Rate per 100,000 Population
+      HD2017_003_HEALTH_T9_V7: Other Primary Care Providers (PCP) Ratio
+      HD2017_004_HEALTH_T10_V16: Median Household Income
+      HD2017_004_HEALTH_T10_V15: Median Household Income 95% Confidence Interval - Low
+      HD2017_004_HEALTH_T10_V14: Median Household Income 95% Confidence Interval - High
+      HD2017_004_HEALTH_T10_V4: Children Eligible for Free Lunch (Persons < 18 Years)
+      HD2017_004_HEALTH_T10_V17: Residential Segregation - Black/ White Segregation Index
+      HD2017_004_HEALTH_T10_V18: Residential Segregation - Non-white/White Segregation Index
+      HD2017_004_HEALTH_T10_V11: Homicides Rate
+      HD2017_004_HEALTH_T10_V10: Homicides Rate 95% Confidence Interval - Low
+      HD2017_004_HEALTH_T10_V9: Homicides Rate 95% Confidence Interval - High
+      HD2017_005_HEALTH_T7_V17: Premature Age-adjusted mortality (Count Deaths)
+      HD2017_005_HEALTH_T7_V20: Premature Age-adjusted mortality rate per 100 000 Population
+      HD2017_005_HEALTH_T7_V19: Premature Age-adjusted mortality (Count Deaths) 95% Confidence Interval - Low
+      HD2017_005_HEALTH_T7_V18: Premature Age-adjusted mortality (Count Deaths) 95% Confidence Interval - High
+      HD2017_005_HEALTH_T7_V1: Child Mortality (Death Counts)
+      HD2017_005_HEALTH_T7_V4: Child Mortality Rate per 100 000 Population
+      HD2017_005_HEALTH_T7_V3: Child Mortality (Death Counts) 95% Confidence Interval - Low
+      HD2017_005_HEALTH_T7_V2: Child Mortality (Death Counts) 95% Confidence Interval - High
+      HD2017_005_HEALTH_T7_V13: Infant Mortality (Death Counts)
+      HD2017_005_HEALTH_T7_V16: Infant Mortality Rate per 1 000 Live Births
+      HD2017_005_HEALTH_T7_V15: Infant Mortality (Death Counts) 95% Confidence Interval - Low
+      HD2017_005_HEALTH_T7_V14: Infant Mortality (Death Counts) 95% Confidence Interval - High
+      HD2017_005_HEALTH_T7_V6: Percent of Diabetics
+      HD2017_005_HEALTH_T7_V8: Diabetics 95% Confidence Interval - Low
+      HD2017_005_HEALTH_T7_V7: Diabetics 95% Confidence Interval - High
+      HD2017_005_HEALTH_T7_V9: HIV Prevalence
+      HD2017_005_HEALTH_T7_V10: HIV Prevalence Rate per 100,000 Population
+      HD2017_006_HEALTH_T3_V41: Persons Without Insurance (Population Under 65 Years)
+      HD2017_006_HEALTH_T3_V42: Percent of Persons Without Insurance (Population Under 65 Years)
+      HD2017_006_HEALTH_T3_V44: Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - Low
+      HD2017_006_HEALTH_T3_V43: Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - High
+      HD2017_006_HEALTH_T3_V34: Primary Care Physicians (PCP)
+      HD2017_006_HEALTH_T3_V35: Primary Care Physicians (PCP) Rate per 100 000 Population
+      HD2017_006_HEALTH_T3_V36: Primary Care Physicians (PCP) Ratio
+      HD2017_006_HEALTH_T3_V38: Primary Care Physicians (PCP) Quartile
+      HD2017_006_HEALTH_T3_V1: Dentists
+      HD2017_006_HEALTH_T3_V2: Dentists Rate per 100 000 Population
+      HD2017_006_HEALTH_T3_V3: Dentists Ratio
+      HD2017_006_HEALTH_T3_V4: Dentists Quartile
+      HD2017_006_HEALTH_T3_V22: Preventable Hospital Stays Medicare enrollees
+      HD2017_006_HEALTH_T3_V25: Preventable Hospital Stays Rate
+      HD2017_006_HEALTH_T3_V24: Preventable Hospital Stays Rate 95% Confidence Interval - Low
+      HD2017_006_HEALTH_T3_V23: Preventable Hospital Stays Rate 95% Confidence Interval - High
+      HD2017_006_HEALTH_T3_V26: Preventable Hospital Stays Quartile
+      HD2017_006_HEALTH_T3_V6: Diabetic Medicare Enrollees Receiving Hba1c Test
+      HD2017_006_HEALTH_T3_V7: Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+      HD2017_006_HEALTH_T3_V9: Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - Low
+      HD2017_006_HEALTH_T3_V8: Diabetic Medicare Enrollees Receiving Hba1c Test 95% Confidence Interval - High
+      HD2017_006_HEALTH_T3_V10: Diabetic Medicare Enrollees Receiving Hba1c Test Quartile
+      HD2017_006_HEALTH_T3_V16: Medicare Enrollees Having Mammography Screening
+      HD2017_006_HEALTH_T3_V17: Percent of Medicare Enrollees Having Mammography Screening
+      HD2017_006_HEALTH_T3_V19: Medicare Enrollees Having Mammography Screening 95% Confidence Interval - Low
+      HD2017_006_HEALTH_T3_V18: Medicare Enrollees Having Mammography Screening 95% Confidence Interval - High
+      HD2017_006_HEALTH_T3_V20: Medicare Enrollees Having Mammography Screening Quartile
+      HD2017_007_HEALTH_T5_V6: Air Pollution Particulate Matter Average Daily PM2.5
+      HD2017_007_HEALTH_T5_V7: Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+      HD2017_007_HEALTH_T5_V47: Presence of Drinking Water Violations
+      HD2017_007_HEALTH_T5_V18: Presence of Drinking Water Violations Quartile
+      HD2017_007_HEALTH_T5_V41: Households with Severe  Problems
+      HD2017_007_HEALTH_T5_V42: Percent Of Households with Severe  Problems
+      HD2017_007_HEALTH_T5_V44: Households with Severe  Problems 95% Confidence Interval - Low
+      HD2017_007_HEALTH_T5_V43: Households with Severe  Problems 95% Confidence Interval - High
+      HD2017_007_HEALTH_T5_V45: Households with Severe  Problems Quartile
+      HD2017_007_HEALTH_T5_V23: Percent of Driving Alone to Work
+      HD2017_007_HEALTH_T5_V25: Driving Alone to Work 95% Confidence Interval - Low
+      HD2017_007_HEALTH_T5_V24: Driving Alone to Work 95% Confidence Interval - High
+      HD2017_007_HEALTH_T5_V26: Driving Alone to Work Quartile
+      HD2017_007_HEALTH_T5_V35: Long Commute Driving Alone Workers Who Drive Alone
+      HD2017_007_HEALTH_T5_V36: Percent of Long Commute Driving Alone Workers Who Drive Alone
+      HD2017_007_HEALTH_T5_V38: Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+      HD2017_007_HEALTH_T5_V37: Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+      HD2017_007_HEALTH_T5_V39: Long Commute Driving Alone Workers Who Drive Alone Quartile
+      HD2017_008_HEALTH_T2_V10: Percent of Current Smokers (Persons 18 Years and Over)
+      HD2017_008_HEALTH_T2_V12: Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V11: Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V13: Current Smokers (Persons 18 Years and Over) Quartile
+      HD2017_008_HEALTH_T2_V5: Percent of Obese Persons (20 Years and Over)
+      HD2017_008_HEALTH_T2_V7: Obese Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V6: Obese Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V8: Obese Persons (20 Years and Over) Quartile
+      HD2017_008_HEALTH_T2_V27: Food Environment Index
+      HD2017_008_HEALTH_T2_V28: Food Environment Index Quartile
+      HD2017_008_HEALTH_T2_V30: Percent of Physically Inactive Persons (20 Years and Over)
+      HD2017_008_HEALTH_T2_V32: Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V31: Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V33: Physically Inactive Persons (20 Years and Over) Quartile
+      HD2017_008_HEALTH_T2_V2: Percent of Persons with Access to Exercise Opportunities
+      HD2017_008_HEALTH_T2_V3: Persons with Access to Exercise Opportunities Quartile
+      HD2017_008_HEALTH_T2_V21: Percent of Drinking Adults (Persons 18 Years and Over)
+      HD2017_008_HEALTH_T2_V23: Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V22: Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V24: Drinking Adults (Persons 18 Years and Over) Quartile
+      HD2017_008_HEALTH_T2_V16: Alcohol-impaired Driving Deaths
+      HD2017_008_HEALTH_T2_V18: Percent of Alcohol-impaired Driving Deaths
+      HD2017_008_HEALTH_T2_V49: Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V50: Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V19: Percent of Alcohol-impaired Driving Deaths Quartile
+      HD2017_008_HEALTH_T2_V35: Chlamydia Cases
+      HD2017_008_HEALTH_T2_V36: Chlamydia Cases Rate per 100 000 Population
+      HD2017_008_HEALTH_T2_V38: Chlamydia Cases Quartile
+      HD2017_008_HEALTH_T2_V46: Teen Births (Females 15-19 Years)
+      HD2017_008_HEALTH_T2_V47: Teen Population
+      HD2017_008_HEALTH_T2_V44: Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+      HD2017_008_HEALTH_T2_V42: Teen Births (Females 15-19 Years) 95% Confidence Interval - Low
+      HD2017_008_HEALTH_T2_V41: Teen Births (Females 15-19 Years) 95% Confidence Interval - High
+      HD2017_008_HEALTH_T2_V43: Teen Births (Females 15-19 Years) Quartile
+      HD2017_009_HEALTH_T4_V15: High School Graduation Cohort Size
+      HD2017_009_HEALTH_T4_V18: High School Graduation Rate
+      HD2017_009_HEALTH_T4_V19: High School Graduation Quartile
+      HD2017_009_HEALTH_T4_V46: Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2017_009_HEALTH_T4_V50: Population (Persons 25-44 Years)
+      HD2017_009_HEALTH_T4_V47: Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2017_009_HEALTH_T4_V49: Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - Low
+      HD2017_009_HEALTH_T4_V48: Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - High
+      HD2017_009_HEALTH_T4_V51: Adults Having Some Post-secondary Education (25-44 Years) Quartile
+      HD2017_009_HEALTH_T4_V53: Unemployed (Persons 16 Years and Over)
+      HD2017_009_HEALTH_T4_V57: Labor Force (Persons 16 Years and Over)
+      HD2017_009_HEALTH_T4_V54: Percent of Unemployed (Persons 16 Years and Over)
+      HD2017_009_HEALTH_T4_V58: Unemployed Quartile
+      HD2017_009_HEALTH_T4_V2: Percent of Children in Poverty
+      HD2017_009_HEALTH_T4_V4: Children in Poverty 95% Confidence Interval - Low
+      HD2017_009_HEALTH_T4_V3: Children in Poverty 95% Confidence Interval - High
+      HD2017_009_HEALTH_T4_V5: Children in Poverty Quartile
+      HD2017_009_HEALTH_T4_V28: Income Inequality 80th Percentile Income
+      HD2017_009_HEALTH_T4_V27: Income Inequality 20th Percentile Income
+      HD2017_009_HEALTH_T4_V30: Income Inequality Income Ratio
+      HD2017_009_HEALTH_T4_V31: Income Inequality Quartile
+      HD2017_009_HEALTH_T4_V8: Single Parent Households
+      HD2017_009_HEALTH_T4_V7: Households
+      HD2017_009_HEALTH_T4_V9: Percent of Single Parent Households
+      HD2017_009_HEALTH_T4_V11: Single Parent Households 95% Confidence Interval - Low
+      HD2017_009_HEALTH_T4_V10: Single Parent Households 95% Confidence Interval - High
+      HD2017_009_HEALTH_T4_V12: Single Parent Households Quartile
+      HD2017_009_HEALTH_T4_V43: Membership Associations
+      HD2017_009_HEALTH_T4_V44: Membership Associations per 10 000 Population
+      HD2017_009_HEALTH_T4_V65: Membership Associations Quartile
+      HD2017_009_HEALTH_T4_V60: Violent Crimes
+      HD2017_009_HEALTH_T4_V63: Violent Crime Rate
+      HD2017_009_HEALTH_T4_V62: Violent Crimes Quartile
+      HD2017_009_HEALTH_T4_V33: Injury Deaths
+      HD2017_009_HEALTH_T4_V36: Injury Death Rate
+      HD2017_009_HEALTH_T4_V35: Injury Deaths 95% Confidence Interval - Low
+      HD2017_009_HEALTH_T4_V34: Injury Deaths 95% Confidence Interval - High
+      HD2017_009_HEALTH_T4_V37: Injury Deaths Quartile
+      HD2017_010_HEALTH_T1_V34: Premature Deaths (Less Than 75 Years)
+      HD2017_010_HEALTH_T1_V40: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+      HD2017_010_HEALTH_T1_V36: Premature Deaths (Less than 75 Years) 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V35: Premature Deaths (Less than 75 Years) 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V38: Premature Deaths (Less than 75 Years) Quartile
+      HD2017_010_HEALTH_T1_V22: Adults That Report Fair or Poor Health
+      HD2017_010_HEALTH_T1_V24: Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V23: Adults That Report Fair or Poor Health 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V25: Adults That Report Fair or Poor Health Quartile
+      HD2017_010_HEALTH_T1_V30: Physically Unhealthy Days per Month
+      HD2017_010_HEALTH_T1_V29: Physically Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V28: Physically Unhealthy Days per Month 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V31: Physically Unhealthy Days per Month Quartile
+      HD2017_010_HEALTH_T1_V18: Mentally Unhealthy Days per Month
+      HD2017_010_HEALTH_T1_V17: Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V16: Mentally Unhealthy Days per Month 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V19: Mentally Unhealthy Days per Month Quartile
+      HD2017_010_HEALTH_T1_V8: Low Birthweight Births (<2.5kg) Unreliable
+      HD2017_010_HEALTH_T1_V2: Low Birthweight Births (<2.5kg)
+      HD2017_010_HEALTH_T1_V1: Number of live births
+      HD2017_010_HEALTH_T1_V3: Percent of Low Birthweight Births (<2.5kg)
+      HD2017_010_HEALTH_T1_V5: Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V4: Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V6: Low Birthweight Births (<2.5kg) Quartile
+      HD2017_010_HEALTH_T1_V10: Mental Health Providers (MHP)
+      HD2017_010_HEALTH_T1_V11: Mental Health Providers (MHP) Rate per 100 000 Population
+      HD2017_010_HEALTH_T1_V12: Mental Health Providers (MHP) Ratio
+      HD2017_010_HEALTH_T1_V14: Mental Health Providers (MHP) Quartile
+      HD2017_010_HEALTH_T1_V42: Percent of Frequent Physical Distress
+      HD2017_010_HEALTH_T1_V43: Frequent Physical Distress 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V44: Frequent Physical Distress 95% Confidence Interval - High
+      HD2017_010_HEALTH_T1_V45: Percent of Mental Physical Distress
+      HD2017_010_HEALTH_T1_V46: Mental Physical Distress 95% Confidence Interval - Low
+      HD2017_010_HEALTH_T1_V47: Mental Physical Distress 95% Confidence Interval - High
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2024
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13680566
+
+If you have any questions contact info@socialexplorer.com

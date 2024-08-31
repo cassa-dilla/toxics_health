@@ -1,0 +1,305 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13680574
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Health Data 2013 Release
+Dataset:          Health Data 2013
+Tables:
+
+      1. Quality of Life
+         Universe:  
+         Name:      T1
+         Variables:
+            T001_001:   Physically Unhealthy Days per Month
+            T001_002:   Mentally Unhealthy Days per Month
+
+
+      2. Quality of Life Sample Size
+         Universe:  
+         Name:      NV2
+         Variables:
+            NV002_001:   Physically Unhealthy Days per Month
+            NV002_002:   Mentally Unhealthy Days per Month
+
+
+      3. Fair or Poor Health
+         Universe:  
+         Name:      T2
+         Variables:
+            T002_001:   Adults That Report Fair or Poor Health
+
+
+      4. Fair or Poor Health Sample Size
+         Universe:  
+         Name:      NV3
+         Variables:
+            NV003_001:   Adults That Report Fair or Poor Health
+
+
+      5. Low Birthweight
+         Universe:  
+         Name:      T3
+         Variables:
+            T003_001:   Low Birthweight Births (<2.5kg)
+
+
+      6. Low Birthweight Count
+         Universe:  
+         Name:      NV4
+         Variables:
+            NV004_001:   Low Birthweight Births (<2.5kg)
+
+
+      7. Health Care Providers
+         Universe:  
+         Name:      T4
+         Variables:
+            T004_001:   Primary Care Physicians (PCP)
+            T004_002:   Mental Health Providers (MHP)
+            T004_003:   Dentists
+
+
+      8. Health Care Providers Rates
+         Universe:  
+         Name:      NV5
+         Variables:
+            NV005_001:   Primary Care Physicians (PCP) Rate per 100,000 Population
+            NV005_002:   Mental Health Providers (MHP) Rate per 100,000 Population
+            NV005_003:   Dentists Rate per 100,000 Population
+
+
+      9. Limited Access to Doctor Due to Costs
+         Universe:  
+         Name:      T5
+         Variables:
+            T005_001:   Adults with Limited Access to Doctor Due to Costs
+            T005_002:   Health Care Costs Price-adjusted Medicare Reimbursements
+
+
+      10. Health Insurance
+          Universe:  
+          Name:      T6
+          Variables:
+             T006_001:   Persons Without Insurance (Population Under 19 Years, 2010 est.)
+             T006_002:   Persons Without Insurance (Population 18 to 64 Years, 2010 est.)
+             T006_003:   Persons Without Insurance (Population Under 65 Years, 2010 est.)
+
+
+      11. Health Insurance Count
+          Universe:  
+          Name:      NV7
+          Variables:
+             NV007_001:   Persons Without Insurance (Population Under 19 Years, 2010 est.)
+             NV007_002:   Persons Without Insurance (Population 18 to 64 Years, 2010 est.)
+             NV007_003:   Persons Without Insurance (Population Under 65 Years, 2010 est.)
+
+
+      12. Years of Potential Life Lost
+          Universe:  
+          Name:      T7
+          Variables:
+             T007_001:   Premature Deaths (Less than 75 Years)
+             T007_002:   Years of Potential Life Lost (YPLL) Rate per 100,000 Population (Less than 75 Years)
+
+
+      13. Mortality
+          Universe:  
+          Name:      T8
+          Variables:
+             T008_001:   Child Mortality
+             T008_002:   Premature Age-adjusted Mortality
+
+
+      14. Mortality Rates
+          Universe:  
+          Name:      NV8
+          Variables:
+             NV008_001:   Child Mortality Rate per 1,000 Population
+             NV008_002:   Premature Age-adjusted Mortality Rate per 100,000 Population
+
+
+      15. Diabetes
+          Universe:  
+          Name:      T9
+          Variables:
+             T009_001:   Diabetic Medicare Enrollees Receiving Hba1c Test
+
+
+      16. Diabetes Count
+          Universe:  
+          Name:      NV9
+          Variables:
+             NV009_001:   Diabetic Medicare Enrollees (Out of Total Medicare Enrolles)
+
+
+      17. Sexual Activity
+          Universe:  
+          Name:      T10
+          Variables:
+             T010_002:   Chlamydia Cases
+             T010_003:   HIV Prevalence
+
+
+      18. Sexual Activity Rates
+          Universe:  
+          Name:      NV10
+          Variables:
+             NV010_002:   Chlamydia Cases Rate per 100,000 Population
+             NV010_003:   HIV Prevalence Rate per 100,000 Population
+
+
+      19. Tobacco and Alcohol Usage
+          Universe:  
+          Name:      T11
+          Variables:
+             T011_001:   Current Smokers (Persons 18 Years and Over)
+             T011_002:   Drinking Adults (Persons 18 Years and Over)
+
+
+      20. Tobacco and Alcohol Usage Sample Size
+          Universe:  
+          Name:      NV11
+          Variables:
+             NV011_001:   Current Smokers (Persons 18 Years and Over)
+             NV011_002:   Binge or Heavy Drinking Persons (Persons 18 Years and Over)
+
+
+      21. Diet and Exercise
+          Universe:  
+          Name:      T12
+          Variables:
+             T012_001:   Persons with Limited Access to Healthy Foods
+             T012_002:   Obese Persons (20 Years and Over)
+             T012_003:   Physically Inactive Persons (20 Years and Over)
+
+
+      22. Diet and Exercise Count
+          Universe:  
+          Name:      NV12
+          Variables:
+             NV012_001:   Persons with Limited Access to Healthy Foods
+             NV012_002:   Obese Persons (20 Years and Over)
+             NV012_003:   Physically Inactive Persons (20 Years and Over)
+
+
+      23. Teen Births
+          Universe:  
+          Name:      T15
+          Variables:
+             T015_001:   Teen Births (Females 15 to 19 Years)
+
+
+      24. Teen Births Rate
+          Universe:  
+          Name:      
+          Variables:
+             NV014_001:   Teen Births Rate per 1,000 Population (Females 15 to 19 Years)
+
+
+      25. Physical Environment
+          Universe:  
+          Name:      T16
+          Variables:
+             T016_001:   Air Pollution Particulate Matter Average Daily PM2.5
+             T016_002:   Population in Drinking Water Violations
+             T016_007:   Percent of Workers Driving Alone to Work
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      STATE:          State
+      COUNTY:         County
+      T001_001:       Physically Unhealthy Days per Month (Persons 18 Years and Over)
+      T001_002:       Mentally Unhealthy Days per Month (Persons 18 Years and Over)
+      NV002_001:      Physically Unhealthy Days per Month
+      NV002_002:      Mentally Unhealthy Days per Month
+      T002_001:       Percent of Adults That Report Fair or Poor Health (Persons 18 Years and Over)
+      NV003_001:      Adults That Report Fair or Poor Health
+      T003_001:       Percent of Low Birthweight Births (<2.5kg)
+      NV004_001:      Low Birthweight Births (<2.5kg)
+      T004_001:       Primary Care Physicians (PCP)
+      T004_002:       Mental Health Providers (MHP)
+      T004_003:       Dentists
+      NV005_001:      Primary Care Physicians (PCP) Rate per 100,000 Population
+      NV005_002:      Mental Health Providers (MHP) Rate per 100,000 Population
+      NV005_003:      Dentists Rate per 100,000 Population
+      T005_001:       Percent Adults with Limited Access to Doctor Due to Costs
+      T005_002:       Health Care Costs Price-adjusted Medicare Reimbursements
+      T006_001:       Percent of Persons Without Insurance (Population Under 19 Years, 2010 est.)
+      T006_002:       Percent of Persons Without Insurance (Population 18 to 64 Years, 2010 est.)
+      T006_003:       Percent of Persons Without Insurance (Population Under 65 Years, 2010 est.)
+      NV007_001:      Persons Without Insurance (Population Under 19 Years, 2010 est.)
+      NV007_002:      Persons Without Insurance (Population 18 to 64 Years, 2010 est.)
+      NV007_003:      Persons Without Insurance (Population Under 65 Years, 2010 est.)
+      T007_001:       Premature Deaths (Less than 75 Years)
+      T007_002:       Years of Potential Life Lost (YPLL) Rate per 100,000 Population (Less than 75 Years)
+      T008_001:       Child Mortality (Death Counts)
+      T008_002:       Premature Age-adjusted Mortality (Death Counts)
+      NV008_001:      Child Mortality Rate per 1,000 Population
+      NV008_002:      Premature Age-adjusted Mortality Rate per 100,000 Population
+      T009_001:       Percent of Diabetic Medicare Enrollees Receiving Hba1c Test
+      NV009_001:      Diabetic Medicare Enrollees (Out of Total Medicare Enrolles)
+      T010_002:       Chlamydia Cases (Count)
+      T010_003:       HIV Prevalence (Count)
+      NV010_002:      Chlamydia Cases Rate per 100,000 Population
+      NV010_003:      HIV Prevalence Rate per 100,000 Population
+      T011_001:       Percent Current Smokers (Persons 18 Years and Over)
+      T011_002:       Percent Drinking Adults (Persons 18 Years and Over)
+      NV011_001:      Current Smokers (Persons 18 Years and Over)
+      NV011_002:      Binge or Heavy Drinking Persons (Persons 18 Years and Over)
+      T012_001:       Percent of Persons with Limited Access to Healthy Foods
+      T012_002:       Percent Obese Persons (20 Years and Over)
+      T012_003:       Percent Physically Inactive Persons (20 Years and Over)
+      NV012_001:      Persons with Limited Access to Healthy Foods
+      NV012_002:      Obese Persons (20 Years and Over)
+      NV012_003:      Physically Inactive Persons (20 Years and Over)
+      T015_001:       Teen Births Count (Females 15 to 19 Years)
+      NV014_001:      Teen Births Rate per 1,000 Population (Females 15 to 19 Years)
+      T016_001:       Air Pollution - Particulate Matter Average Daily Pm2.5
+      T016_002:       Drinking Water Violations - Population in Violations
+      T016_007:       Driving Alone To Work - % Drive Alone
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2024
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13680574
+
+If you have any questions contact info@socialexplorer.com

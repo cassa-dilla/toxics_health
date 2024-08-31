@@ -1,0 +1,2086 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13670962
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Health Data 2023 Release
+Dataset:          Health Data 2023
+Tables:
+
+      1. Quality of Life
+         Universe:  
+         Name:      T1
+         Variables:
+            T001_001:   Physically Unhealthy Days per Month
+            T001_002:   Mentally Unhealthy Days per Month
+
+
+      2. Fair or Poor Health
+         Universe:  
+         Name:      T2
+         Variables:
+            T002_001:   Adults That Report Fair or Poor Health
+
+
+      3. Low Birthweight
+         Universe:  
+         Name:      T3
+         Variables:
+            T003_001:   Low Birthweight Births (<2.5kg)
+
+
+      4. Health Care Providers
+         Universe:  
+         Name:      T4
+         Variables:
+            T004_001:   Primary Care Physicians (PCP)
+            T004_002:   Mental Health Providers (MHP)
+            T004_003:   Dentists
+
+
+      5. Health Care Providers Rates
+         Universe:  
+         Name:      NV3
+         Variables:
+            NV003_001:   Primary Care Physicians (PCP) Rate per 100,000 Population
+            NV003_002:   Mental Health Providers (MHP) Rate per 100,000 Population
+            NV003_003:   Dentists Rate per 100,000 Population
+
+
+      6. Health Insurance
+         Universe:  
+         Name:      T6
+         Variables:
+            T006_001:   Persons Without Insurance (Population Under 19 Years, 2013 est.)
+            T006_003:   Persons Without Insurance (Population Under 65 Years, 2013 est.)
+
+
+      7. Health Insurance Count
+         Universe:  
+         Name:      NV5
+         Variables:
+            NV005_001:   Persons Without Insurance (Population Under 19 Years, 2013 est.)
+            NV005_003:   Persons Without Insurance (Population Under 65 Years, 2013 est.)
+
+
+      8. Mortality
+         Universe:  
+         Name:      T8
+         Variables:
+            T008_002:   Child Mortality
+            T008_003:   Premature Age-adjusted Mortality
+            T008_004:   Drug Poisoning Mortality
+
+
+      9. Mortality Rates
+         Universe:  
+         Name:      NV6
+         Variables:
+            NV006_002:   Child Mortality Rate per 100,000 Population
+            NV006_003:   Premature Age-adjusted Mortality Rate per 100,000 Population
+            NV006_004:   Drug Poisoning Mortality Rate per 100,000 Population
+
+
+      10. Infant Mortality
+          Universe:  
+          Name:      T14
+          Variables:
+             T014_001:   Infant Mortality
+
+
+      11. Infant Mortality Rates
+          Universe:  
+          Name:      NV9
+          Variables:
+             NV009_001:   Infant Mortality Rate per 1,000 Live Births
+
+
+      12. Diabetes
+          Universe:  
+          Name:      T9
+          Variables:
+             T009_001:   Diabetics
+
+
+      13. Diabetes Count
+          Universe:  
+          Name:      NV7
+          Variables:
+             NV007_001:   Diabetics
+
+
+      14. Sexual Activity
+          Universe:  
+          Name:      T10
+          Variables:
+             T010_002:   Chlamydia Cases
+             T010_003:   HIV Prevalence
+
+
+      15. Sexual Activity Rates
+          Universe:  
+          Name:      NV8
+          Variables:
+             NV008_002:   Chlamydia Cases Rate per 100,000 Population
+             NV008_003:   HIV Prevalence Rate per 100,000 Population
+
+
+      16. Tobacco and Alcohol Usage
+          Universe:  
+          Name:      T11
+          Variables:
+             T011_001:   Current Smokers (Persons 18 Years and Over)
+             T011_002:   Drinking Adults (Persons 18 Years and Over)
+
+
+      17. Diet and Exercise
+          Universe:  
+          Name:      T12
+          Variables:
+             T012_001:   Persons with Limited Access to Healthy Foods
+             T012_002:   Persons with Access to Exercise Opportunities
+             T012_003:   Obese Persons (20 Years and Over)
+             T012_004:   Physically Inactive Persons (20 Years and Over)
+             T012_005:   Children Eligible for Free Lunch (Persons < 18 Years)
+
+
+      18. Food Environment Index
+          Universe:  
+          Name:      T13
+          Variables:
+             T013_001:   Food Environment Index
+
+
+
+
+
+Survey:           Health Data 2023 Release
+Dataset:          Original Tables
+Tables:
+
+      1. Access To Exercise Opportunities
+         Universe:  none
+         Name:      HD2023_001
+         Variables:
+            HD2023_001_ATEO_v1:   Percent of Persons with Access to Exercise Opportunities
+            HD2023_001_ATEO_v2:   Persons with Access to Exercise Opportunities Quartile
+
+
+      2. Adult Obesity
+         Universe:  none
+         Name:      HD2023_002
+         Variables:
+            HD2023_002_AO_v1:   Percentage of Adults with Obesity
+            HD2023_002_AO_v2:   Percentage of Adults with Obesity 95% Confidence Interval - Low
+            HD2023_002_AO_v3:   Percentage of Adults with Obesity 95% Confidence Interval - High
+            HD2023_002_AO_v4:   Percentage of Adults with Obesity Quartile
+
+
+      3. Adult Smoking
+         Universe:  none
+         Name:      HD2023_003
+         Variables:
+            HD2023_003_AS_v1:   Percent of Current Smokers (Persons 18 Years and Over)
+            HD2023_003_AS_v2:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2023_003_AS_v3:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2023_003_AS_v4:   Current Smokers (Persons 18 Years and Over) Quartile
+
+
+      4. Air Pollution - Particulate Matter
+         Universe:  none
+         Name:      HD2023_004
+         Variables:
+            HD2023_004_AP_PM_v1:   Air Pollution Particulate Matter Average Daily Pm2.5
+            HD2023_004_AP_PM_v2:   Air Pollution Particulate Matter Average Daily Pm2.5 Quartile
+
+
+      5. Alcohol-Impaired Driving Deaths
+         Universe:  none
+         Name:      HD2023_005
+         Variables:
+            HD2023_005_ADD_v1:   Alcohol-Impaired Driving Deaths
+            HD2023_005_ADD_v2:   Number of Driving Deaths
+            HD2023_005_ADD_v3:   Percentage of Driving Deaths with Alcohol Involvement
+            HD2023_005_ADD_v4:   Percent of Alcohol-Impaired Driving Deaths 95% Confidence Interval - Low
+            HD2023_005_ADD_v5:   Percent of Alcohol-Impaired Driving Deaths 95% Confidence Interval - High
+            HD2023_005_ADD_v6:   Percent of Alcohol-Impaired Driving Deaths Quartile
+
+
+      6. Children Eligible For Free Or Reduced Price Lunch
+         Universe:  none
+         Name:      HD2023_006
+         Variables:
+            HD2023_006_CEFFORPL_v1:   Children Eligible for Free Lunch (Persons < 18 Years)
+
+
+      7. Children In Poverty
+         Universe:  none
+         Name:      HD2023_007
+         Variables:
+            HD2023_007_CIP_v1:   Percent of Children in Poverty
+            HD2023_007_CIP_v2:   Percent of Children in Poverty 95% Confidence Interval - Low
+            HD2023_007_CIP_v3:   Percent of Children in Poverty 95% Confidence Interval - High
+            HD2023_007_CIP_v4:   Children in Poverty Quartile
+            HD2023_007_CIP_v5:   Percent of Children in Poverty for American Indian/Alaska Native (Aian)
+            HD2023_007_CIP_v6:   Percent of Children in Poverty for Asian (Asian)
+            HD2023_007_CIP_v7:   Percent of Children in Poverty for Black (Black)
+            HD2023_007_CIP_v8:   Percent of Children in Poverty for Hispanic (Hispanic)
+            HD2023_007_CIP_v9:   Percent of Children in Poverty for White (White)
+
+
+      8. Children In Single-Parent Households
+         Universe:  none
+         Name:      HD2023_008
+         Variables:
+            HD2023_008_CISH_v1:   Single Parent Households
+            HD2023_008_CISH_v2:   Households
+            HD2023_008_CISH_v3:   Percent of Single Parent Households
+            HD2023_008_CISH_v4:   Percent of Single Parent Households 95% Confidence Interval - Low
+            HD2023_008_CISH_v5:   Percent of Single Parent Households 95% Confidence Interval - High
+            HD2023_008_CISH_v6:   Single Parent Households Quartile
+
+
+      9. Child Mortality
+         Universe:  none
+         Name:      HD2023_009
+         Variables:
+            HD2023_009_CM_v1:   Child Mortality (Death Counts)
+            HD2023_009_CM_v2:   Child Mortality Rate
+            HD2023_009_CM_v3:   Child Mortality Rate 95% Confidence Interval - Low
+            HD2023_009_CM_v4:   Child Mortality Rate 95% Confidence Interval - High
+            HD2023_009_CM_v5:   Child Mortality Rate for American Indian/Alaska Native (Aian)
+            HD2023_009_CM_v6:   Child Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+            HD2023_009_CM_v7:   Child Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+            HD2023_009_CM_v8:   Child Mortality Rate for Asian (Asian)
+            HD2023_009_CM_v9:   Child Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+            HD2023_009_CM_v10:   Child Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+            HD2023_009_CM_v11:   Child Mortality Rate for Black (Black)
+            HD2023_009_CM_v12:   Child Mortality Rate for Black (Black) 95% Confidence Interval - Low
+            HD2023_009_CM_v13:   Child Mortality Rate for Black (Black) 95% Confidence Interval - High
+            HD2023_009_CM_v14:   Child Mortality Rate for Hispanic (Hispanic)
+            HD2023_009_CM_v15:   Child Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+            HD2023_009_CM_v16:   Child Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+            HD2023_009_CM_v17:   Child Mortality Rate for White (White)
+            HD2023_009_CM_v18:   Child Mortality Rate for White (White) 95% Confidence Interval - Low
+            HD2023_009_CM_v19:   Child Mortality Rate for White (White) 95% Confidence Interval - High
+
+
+      10. Demographics
+          Universe:  none
+          Name:      HD2023_010
+          Variables:
+             HD2023_010_D_v1:   Population
+             HD2023_010_D_v2:   Population (%  < 18 Years)
+             HD2023_010_D_v3:   Population (%  65 Years and Over)
+             HD2023_010_D_v4:   Population (African American)
+             HD2023_010_D_v5:   Population (%  African American)
+             HD2023_010_D_v6:   Population  (American Indian/ Alaskan Native)
+             HD2023_010_D_v7:   Population (%  American Indian/ Alaskan Native)
+             HD2023_010_D_v8:   Population for Asian (Asian)
+             HD2023_010_D_v9:   Population (%  Asian)
+             HD2023_010_D_v10:   Population (Native Hawaiian/ Other Pacific Islander)
+             HD2023_010_D_v11:   Population (%  Native Hawaiian/ Other Pacific Islander)
+             HD2023_010_D_v12:   Population for Hispanic (Hispanic)
+             HD2023_010_D_v13:   Population (%  Hispanic)
+             HD2023_010_D_v14:   Population (Non-Hispanic White)
+             HD2023_010_D_v15:   Population (%  Non-Hispanic White)
+             HD2023_010_D_v16:   Population (Not Proficient in English)
+             HD2023_010_D_v17:   Population (%  Not Proficient in English)
+             HD2023_010_D_v18:   Population 95%  Confidence Interval - Low
+             HD2023_010_D_v19:   Population 95% Confidence Interval - High
+             HD2023_010_D_v20:   Population (%  Female)
+             HD2023_010_D_v21:   Population (Rural)
+             HD2023_010_D_v22:   Population (%  Rural)
+
+
+      11. Dentists
+          Universe:  none
+          Name:      HD2023_011
+          Variables:
+             HD2023_011_D2nd_v1:   Dentists
+             HD2023_011_D2nd_v2:   Dentists Rate Per 100 000 Population
+             HD2023_011_D2nd_v3:   Dentists Ratio
+             HD2023_011_D2nd_v4:   Dentists Quartile
+
+
+      12. Diabetes Prevalence
+          Universe:  none
+          Name:      HD2023_012
+          Variables:
+             HD2023_012_DP_v1:   Percentage of Adults Aged 20 and Above with Diagnosed Diabetes
+             HD2023_012_DP_v2:   Percentage of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - Low
+             HD2023_012_DP_v3:   Percentage of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - High
+
+
+      13. Disconnected Youth
+          Universe:  none
+          Name:      HD2023_013
+          Variables:
+             HD2023_013_DY_v1:   Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School
+             HD2023_013_DY_v2:   Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School 95% Confidence Interval - Low
+             HD2023_013_DY_v3:   Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School 95% Confidence Interval - High
+
+
+      14. Drinking Water Violations
+          Universe:  none
+          Name:      HD2023_014
+          Variables:
+             HD2023_014_DWV_v1:   Presence of Drinking Water Violations
+             HD2023_014_DWV_v2:   Presence of Drinking Water Violations Quartile
+
+
+      15. Driving Alone To Work
+          Universe:  none
+          Name:      HD2023_015
+          Variables:
+             HD2023_015_DATW_v1:   Percent of Driving Alone to Work
+             HD2023_015_DATW_v2:   Percent of Driving Alone to Work 95% Confidence Interval - Low
+             HD2023_015_DATW_v3:   Percent of Driving Alone to Work 95% Confidence Interval - High
+             HD2023_015_DATW_v4:   Driving Alone to Work Quartile
+             HD2023_015_DATW_v5:   Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian)
+             HD2023_015_DATW_v6:   Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_015_DATW_v7:   Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_015_DATW_v8:   Percent of Workers Who Drive Alone to Work for Asian (Asian)
+             HD2023_015_DATW_v9:   Percent of Workers Who Drive Alone to Work for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_015_DATW_v10:   Percent of Workers Who Drive Alone to Work (Asian) 95% Confidence Interval - High
+             HD2023_015_DATW_v11:   Percent of Workers Who Drive Alone to Work for Black (Black)
+             HD2023_015_DATW_v12:   Percent of Workers Who Drive Alone to Work for Black (Black) 95% Confidence Interval - Low
+             HD2023_015_DATW_v13:   Percent of Workers Who Drive Alone to Work for Black (Black) 95% Confidence Interval - High
+             HD2023_015_DATW_v14:   Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic)
+             HD2023_015_DATW_v15:   Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_015_DATW_v16:   Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_015_DATW_v17:   Percent of Workers Who Drive Alone to Work for White (White)
+             HD2023_015_DATW_v18:   Percent of Workers Who Drive Alone to Work for White (White) 95% Confidence Interval - Low
+             HD2023_015_DATW_v19:   Percent of Workers Who Drive Alone to Work for White (White) 95% Confidence Interval - High
+
+
+      16. Drug Overdose Deaths
+          Universe:  none
+          Name:      HD2023_016
+          Variables:
+             HD2023_016_DOD_v1:   Drug Poisoning Death Counts
+             HD2023_016_DOD_v2:   Drug Poisoning Death Counts Per 100 000 Population
+             HD2023_016_DOD_v3:   Drug Poisoning Death Counts Per 100 000 Population 95% Confidence Interval - Low
+             HD2023_016_DOD_v4:   Drug Poisoning Death Counts Per 100 000 Population 95% Confidence Interval - High
+             HD2023_016_DOD_v5:   Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian)
+             HD2023_016_DOD_v6:   Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_016_DOD_v7:   Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_016_DOD_v8:   Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian)
+             HD2023_016_DOD_v9:   Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_016_DOD_v10:   Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+             HD2023_016_DOD_v11:   Drug Poisoning Death Counts Per 100 000 Population for Black (Black)
+             HD2023_016_DOD_v12:   Drug Poisoning Death Counts Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+             HD2023_016_DOD_v13:   Drug Poisoning Death Counts Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+             HD2023_016_DOD_v14:   Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic)
+             HD2023_016_DOD_v15:   Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_016_DOD_v16:   Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_016_DOD_v17:   Drug Poisoning Death Counts Per 100 000 Population for White (White)
+             HD2023_016_DOD_v18:   Drug Poisoning Death Counts Per 100 000 Population for White (White) 95% Confidence Interval - Low
+             HD2023_016_DOD_v19:   Drug Poisoning Death Counts Per 100 000 Population for White (White) 95% Confidence Interval - High
+
+
+      17. Excessive Drinking
+          Universe:  none
+          Name:      HD2023_017
+          Variables:
+             HD2023_017_ED_v1:   Percent of Drinking Adults (Persons 18 Years and Over)
+             HD2023_017_ED_v2:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+             HD2023_017_ED_v3:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+             HD2023_017_ED_v4:   Drinking Adults (Persons 18 Years and Over) Quartile
+
+
+      18. Firearm Fatalities
+          Universe:  none
+          Name:      HD2023_018
+          Variables:
+             HD2023_018_FF_v1:   Number of Deaths Due to Firearms
+             HD2023_018_FF_v2:   Number of Deaths Due to Firearms Per 100 000 Population
+             HD2023_018_FF_v3:   Number of Deaths Due to Firearms Per 100 000 Population 95% Confidence Interval - Low
+             HD2023_018_FF_v4:   Number of Deaths Due to Firearms Per 100 000 Population 95% Confidence Interval - High
+             HD2023_018_FF_v5:   Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian)
+             HD2023_018_FF_v6:   Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_018_FF_v7:   Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_018_FF_v8:   Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian)
+             HD2023_018_FF_v9:   Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_018_FF_v10:   Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+             HD2023_018_FF_v11:   Number of Deaths Due to Firearms Per 100 000 Population for Black (Black)
+             HD2023_018_FF_v12:   Number of Deaths Due to Firearms Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+             HD2023_018_FF_v13:   Number of Deaths Due to Firearms Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+             HD2023_018_FF_v14:   Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic)
+             HD2023_018_FF_v15:   Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_018_FF_v16:   Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_018_FF_v17:   Number of Deaths Due to Firearms Per 100 000 Population for White (White)
+             HD2023_018_FF_v18:   Number of Deaths Due to Firearms Per 100 000 Population for White (White) 95% Confidence Interval - Low
+             HD2023_018_FF_v19:   Number of Deaths Due to Firearms Per 100 000 Population for White (White) 95% Confidence Interval - High
+
+
+      19. Flu Vaccinations
+          Universe:  none
+          Name:      HD2023_019
+          Variables:
+             HD2023_019_FV_v1:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination
+             HD2023_019_FV_v2:   Flu Vaccinations Quartile
+             HD2023_019_FV_v3:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for American Indian/Alaska Natives
+             HD2023_019_FV_v4:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Asian/Pacific Islanders
+             HD2023_019_FV_v5:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Blacks
+             HD2023_019_FV_v6:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Hispanics
+             HD2023_019_FV_v7:   Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Whites
+
+
+      20. Food Environment Index
+          Universe:  none
+          Name:      HD2023_020
+          Variables:
+             HD2023_020_FEI_v1:   Food Environment Index
+             HD2023_020_FEI_v2:   Food Environment Index Quartile
+
+
+      21. Food Insecurity
+          Universe:  none
+          Name:      HD2023_021
+          Variables:
+             HD2023_021_FI_v1:   Number of Residents Who Lack Adequate Access to Food
+             HD2023_021_FI_v2:   Percentage of Population Who Lack Adequate Access to Food
+
+
+      22. Frequent Mental Distress
+          Universe:  none
+          Name:      HD2023_022
+          Variables:
+             HD2023_022_FMD_v1:   Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month
+             HD2023_022_FMD_v2:   Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month 95% Confidence Interval - Low
+             HD2023_022_FMD_v3:   Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month 95% Confidence Interval - High
+
+
+      23. Frequent Physical Distress
+          Universe:  none
+          Name:      HD2023_023
+          Variables:
+             HD2023_023_FPD_v1:   Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month
+             HD2023_023_FPD_v2:   Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month 95% Confidence Interval - Low
+             HD2023_023_FPD_v3:   Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month 95% Confidence Interval - High
+
+
+      24. High School Graduation
+          Universe:  none
+          Name:      HD2023_024
+          Variables:
+             HD2023_024_HSG_v1:   High School Graduation Cohort Size
+             HD2023_024_HSG_v2:   High School Graduation Rate
+             HD2023_024_HSG_v3:   High School Graduation Quartile
+
+
+      25. Hiv Prevalence
+          Universe:  none
+          Name:      HD2023_025
+          Variables:
+             HD2023_025_HP_v1:   Number of People Aged 13 Years and Older Living with A Diagnosis of Human Immunodeficiency Virus (Hiv) Infection
+             HD2023_025_HP_v2:   Number of People Aged 13 Years and Older Living with A Diagnosis of Human Immunodeficiency Virus (Hiv) Infection Per 100 000 Population
+
+
+      26. Homeownership
+          Universe:  none
+          Name:      HD2023_026
+          Variables:
+             HD2023_026_H2nd_v1:   Number of Homeowners
+             HD2023_026_H2nd_v2:   Percentage of Homeowners
+             HD2023_026_H2nd_v3:   Percentage of Homeowners 95% Confidence Interval - Low
+             HD2023_026_H2nd_v4:   Percentage of Homeowners 95% Confidence Interval - High
+
+
+      27. Homicides
+          Universe:  none
+          Name:      HD2023_027
+          Variables:
+             HD2023_027_H_v1:   Homicides Rate
+             HD2023_027_H_v2:   Homicides Rate 95% Confidence Interval - Low
+             HD2023_027_H_v3:   Homicides Rate 95% Confidence Interval - High
+             HD2023_027_H_v4:   Homicide Rate for American Indian/Alaska Native (Aian)
+             HD2023_027_H_v5:   Homicide Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_027_H_v6:   Homicide Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_027_H_v7:   Homicide Rate for Asian (Asian)
+             HD2023_027_H_v8:   Homicide Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_027_H_v9:   Homicide Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_027_H_v10:   Homicide Rate for Black (Black)
+             HD2023_027_H_v11:   Homicide Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_027_H_v12:   Homicide Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_027_H_v13:   Homicide Rate for Hispanic (Hispanic)
+             HD2023_027_H_v14:   Homicide Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_027_H_v15:   Homicide Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_027_H_v16:   Homicide Rate for White (White)
+             HD2023_027_H_v17:   Homicide Rate for White (White) 95% Confidence Interval - Low
+             HD2023_027_H_v18:   Homicide Rate for White (White) 95% Confidence Interval - High
+
+
+      28. Income Inequality
+          Universe:  none
+          Name:      HD2023_028
+          Variables:
+             HD2023_028_II_v1:   Income Inequality 80th Percentile Income
+             HD2023_028_II_v2:   Income Inequality 20th Percentile Income
+             HD2023_028_II_v3:   Income Inequality Income Ratio
+             HD2023_028_II_v4:   Income Inequality Quartile
+
+
+      29. Infant Mortality
+          Universe:  none
+          Name:      HD2023_029
+          Variables:
+             HD2023_029_IM_v1:   Infant Mortality (Death Counts)
+             HD2023_029_IM_v2:   Infant Mortality Rate Per 1 000 Live Births
+             HD2023_029_IM_v3:   Infant Mortality Rate Per 1 000 Live Births 95% Confidence Interval - Low
+             HD2023_029_IM_v4:   Infant Mortality Rate Per 1 000 Live Births 95% Confidence Interval - High
+             HD2023_029_IM_v5:   Infant Mortality Rate for American Indian/Alaska Native (Aian)
+             HD2023_029_IM_v6:   Infant Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_029_IM_v7:   Infant Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_029_IM_v8:   Infant Mortality Rate for Asian (Asian)
+             HD2023_029_IM_v9:   Infant Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_029_IM_v10:   Infant Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_029_IM_v11:   Infant Mortality Rate for Black (Black)
+             HD2023_029_IM_v12:   Infant Mortality Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_029_IM_v13:   Infant Mortality Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_029_IM_v14:   Infant Mortality Rate for Hispanic (Hispanic)
+             HD2023_029_IM_v15:   Infant Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_029_IM_v16:   Infant Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_029_IM_v17:   Infant Mortality Rate for White (White)
+             HD2023_029_IM_v18:   Infant Mortality Rate for White (White) 95% Confidence Interval - Low
+             HD2023_029_IM_v19:   Infant Mortality Rate for White (White) 95% Confidence Interval - High
+
+
+      30. Injury Deaths
+          Universe:  none
+          Name:      HD2023_030
+          Variables:
+             HD2023_030_ID_v1:   Injury Deaths
+             HD2023_030_ID_v2:   Injury Death Rate
+             HD2023_030_ID_v3:   Injury Death Rate 95% Confidence Interval - Low
+             HD2023_030_ID_v4:   Injury Death Rate 95% Confidence Interval - High
+             HD2023_030_ID_v5:   Injury Deaths Quartile
+             HD2023_030_ID_v6:   Injury Death Rate for American Indian/Alaska Native (Aian)
+             HD2023_030_ID_v7:   Injury Death Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_030_ID_v8:   Injury Death Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_030_ID_v9:   Injury Death Rate for Asian (Asian)
+             HD2023_030_ID_v10:   Injury Death Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_030_ID_v11:   Injury Death Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_030_ID_v12:   Injury Death Rate for Black (Black)
+             HD2023_030_ID_v13:   Injury Death Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_030_ID_v14:   Injury Death Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_030_ID_v15:   Injury Death Rate for Hispanic (Hispanic)
+             HD2023_030_ID_v16:   Injury Death Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_030_ID_v17:   Injury Death Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_030_ID_v18:   Injury Death Rate for White (White)
+             HD2023_030_ID_v19:   Injury Death Rate for White (White) 95% Confidence Interval - Low
+             HD2023_030_ID_v20:   Injury Death Rate for White (White) 95% Confidence Interval - High
+
+
+      31. Insufficient Sleep
+          Universe:  none
+          Name:      HD2023_031
+          Variables:
+             HD2023_031_IS_v1:   Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average
+             HD2023_031_IS_v2:   Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average 95% Confidence Interval - Low
+             HD2023_031_IS_v3:   Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average 95% Confidence Interval - High
+
+
+      32. Juvenile Arrests
+          Universe:  none
+          Name:      HD2023_032
+          Variables:
+             HD2023_032_JA_v1:   Non-Petitioned Cases
+             HD2023_032_JA_v2:   Petitioned Cases
+             HD2023_032_JA_v3:   Denominator
+             HD2023_032_JA_v4:   Juvenile Arrest Rate
+
+
+      33. Life Expectancy
+          Universe:  none
+          Name:      HD2023_033
+          Variables:
+             HD2023_033_LE_v1:   Life Expectancy
+             HD2023_033_LE_v2:   Life Expectancy 95% Confidence Interval - Low
+             HD2023_033_LE_v3:   Life Expectancy 95% Confidence Interval - High
+             HD2023_033_LE_v4:   Life Expectancy for American Indian/Alaska Native (Aian)
+             HD2023_033_LE_v5:   Llife Expectancy for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_033_LE_v6:   Life Expectancy for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_033_LE_v7:   Life Expectancy for Asian (Asian)
+             HD2023_033_LE_v8:   Life Expectancy for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_033_LE_v9:   Life Expectancy for Asian (Asian) 95% Confidence Interval - High
+             HD2023_033_LE_v10:   Life Expectancy for Black (Black)
+             HD2023_033_LE_v11:   Life Expectancy for Black (Black) 95% Confidence Interval - Low
+             HD2023_033_LE_v12:   Life Expectancy for Black (Black) 95% Confidence Interval - High
+             HD2023_033_LE_v13:   Life Expectancy for Hispanic (Hispanic)
+             HD2023_033_LE_v14:   Life Expectancy for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_033_LE_v15:   Life Expectancy for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_033_LE_v16:   Life Expectancy for White (White)
+             HD2023_033_LE_v17:   Life Expectancy for White (White) 95% Confidence Interval - Low
+             HD2023_033_LE_v18:   Life Expectancy for White (White) 95% Confidence Interval - High
+
+
+      34. Limited Access To Healthy Foods
+          Universe:  none
+          Name:      HD2023_034
+          Variables:
+             HD2023_034_LATHF_v1:   Number of Residents Who Are Low-Income and Do Not Live Close to A Grocery Store
+             HD2023_034_LATHF_v2:   Percentage of Population Who Are Low-Income and Do Not Live Close to A Grocery Store
+
+
+      35. Long Commute - Driving Alone
+          Universe:  none
+          Name:      HD2023_035
+          Variables:
+             HD2023_035_LC_DA_v1:   Long Commute Driving Alone Workers Who Drive Alone
+             HD2023_035_LC_DA_v2:   Percent of Long Commute Driving Alone Workers Who Drive Alone
+             HD2023_035_LC_DA_v3:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+             HD2023_035_LC_DA_v4:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+             HD2023_035_LC_DA_v5:   Long Commute Driving Alone Workers Who Drive Alone Quartile
+
+
+      36. Low Birthweight
+          Universe:  none
+          Name:      HD2023_036
+          Variables:
+             HD2023_036_LB_v1:   Low Birthweight Births (<2.5kg) Unreliable
+             HD2023_036_LB_v2:   Percent of Low Birthweight Births (<2.5kg)
+             HD2023_036_LB_v3:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+             HD2023_036_LB_v4:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+             HD2023_036_LB_v5:   Low Birthweight Births (<2.5kg) Quartile
+             HD2023_036_LB_v6:   Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 
+             HD2023_036_LB_v7:   Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_036_LB_v8:   Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_036_LB_v9:   Percentage of Low Birthweight Births for Asian (Asian) 
+             HD2023_036_LB_v10:   Percentage of Low Birthweight Births for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_036_LB_v11:   Percentage of Low Birthweight Births for Asian (Asian) 95% Confidence Interval - High
+             HD2023_036_LB_v12:   Percentage of Low Birthweight Births for Black (Black)
+             HD2023_036_LB_v13:   Percentage of Low Birthweight Births for Black (Black) 95% Confidence Interval - Low
+             HD2023_036_LB_v14:   Percentage of Low Birthweight Births for Black (Black) 95% Confidence Interval - High
+             HD2023_036_LB_v15:   Percentage of Low Birthweight Births for Hispanic (Hispanic)
+             HD2023_036_LB_v16:   Percentage of Low Birthweight Births for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_036_LB_v17:   Percentage of Low Birthweight Births for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_036_LB_v18:   Percentage of Low Birthweight Births for White (White)
+             HD2023_036_LB_v19:   Percentage of Low Birthweight Births for White (White) 95% Confidence Interval - Low
+             HD2023_036_LB_v20:   Percentage of Low Birthweight Births for White (White) 95% Confidence Interval - High
+
+
+      37. Mammography Screening
+          Universe:  none
+          Name:      HD2023_037
+          Variables:
+             HD2023_037_MS2nd_v1:   Percentage of Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+             HD2023_037_MS2nd_v2:   Mammography Screening Quartile
+             HD2023_037_MS2nd_v3:   Percentage of American Indian/Alaska Native Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+             HD2023_037_MS2nd_v4:   Percentage of Asian/Pacific Islander Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+             HD2023_037_MS2nd_v5:   Percentage of Black Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+             HD2023_037_MS2nd_v6:   Percentage of Hispanic Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+             HD2023_037_MS2nd_v7:   Percentage of White Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+
+
+      38. Math Scores
+          Universe:  none
+          Name:      HD2023_038
+          Variables:
+             HD2023_038_MS_v1:   Average Grade Level Performance for 3rd Graders on Math Standardized Tests
+             HD2023_038_MS_v2:   Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Asian (Asian)
+             HD2023_038_MS_v3:   Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Black (Black)
+             HD2023_038_MS_v4:   Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Hispanic (Hispanic)
+             HD2023_038_MS_v5:   Average Grade Level Performance for 3rd Graders on Math Standardized Tests for White (White)
+
+
+      39. Median Household Income
+          Universe:  none
+          Name:      HD2023_039
+          Variables:
+             HD2023_039_MHI_v1:   Median Household Income
+             HD2023_039_MHI_v2:   Median Household Income 95% Confidence Interval - Low
+             HD2023_039_MHI_v3:   Median Household Income 95% Confidence Interval - High
+             HD2023_039_MHI_v4:   Median Household Income for American Indian/Alaska Native (Aian)
+             HD2023_039_MHI_v5:   Median Household Income for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_039_MHI_v6:   Median Household Income for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_039_MHI_v7:   Median Household Income for Asian (Asian)
+             HD2023_039_MHI_v8:   Median Household Income for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_039_MHI_v9:   Median Household Income for Asian (Asian) 95% Confidence Interval - High
+             HD2023_039_MHI_v10:   Median Household Income for Black (Black)
+             HD2023_039_MHI_v11:   Median Household Income for Black (Black) 95% Confidence Interval - Low
+             HD2023_039_MHI_v12:   Median Household Income for Black (Black) 95% Confidence Interval - High
+             HD2023_039_MHI_v13:   Median Household Income for Hispanic (Hispanic)
+             HD2023_039_MHI_v14:   Median Household Income for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_039_MHI_v15:   Median Household Income for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_039_MHI_v16:   Median Household Income for White (White)
+             HD2023_039_MHI_v17:   Median Household Income for White (White) 95% Confidence Interval - Low
+             HD2023_039_MHI_v18:   Median Household Income for White (White) 95% Confidence Interval - High
+
+
+      40. Mental Health Providers
+          Universe:  none
+          Name:      HD2023_040
+          Variables:
+             HD2023_040_MHP_v1:   Mental Health Providers (Mhp)
+             HD2023_040_MHP_v2:   Mental Health Providers (Mhp) Rate Per 100 000 Population
+             HD2023_040_MHP_v3:   Mental Health Providers (Mhp) Ratio
+             HD2023_040_MHP_v4:   Mental Health Providers (Mhp) Quartile
+
+
+      41. Motor Vehicle Crash Deaths
+          Universe:  none
+          Name:      HD2023_041
+          Variables:
+             HD2023_041_MVCD_v1:   Motor Vehicle Crash Deaths
+             HD2023_041_MVCD_v2:   Motor Vehicle Crash Deaths Per 100 000 Population
+             HD2023_041_MVCD_v3:   Motor Vehicle Crash Deaths Per 100 000 Population 95% Confidence Interval - Low
+             HD2023_041_MVCD_v4:   Motor Vehicle Crash Deaths Per 100 000 Population 95% Confidence Interval - High
+             HD2023_041_MVCD_v5:   Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian)
+             HD2023_041_MVCD_v6:   Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_041_MVCD_v7:   Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_041_MVCD_v8:   Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian)
+             HD2023_041_MVCD_v9:   Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_041_MVCD_v10:   Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+             HD2023_041_MVCD_v11:   Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black)
+             HD2023_041_MVCD_v12:   Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+             HD2023_041_MVCD_v13:   Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+             HD2023_041_MVCD_v14:   Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic)
+             HD2023_041_MVCD_v15:   Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_041_MVCD_v16:   Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_041_MVCD_v17:   Motor Vehicle Crash Deaths Per 100 000 Population for White (White)
+             HD2023_041_MVCD_v18:   Motor Vehicle Crash Deaths Per 100 000 Population for White (White) 95% Confidence Interval - Low
+             HD2023_041_MVCD_v19:   Motor Vehicle Crash Deaths Per 100 000 Population for White (White) 95% Confidence Interval - High
+
+
+      42. Other Primary Care Providers
+          Universe:  none
+          Name:      HD2023_042
+          Variables:
+             HD2023_042_OPCP_v1:   Number of Other Primary Care Providers Per 100 000 Population
+             HD2023_042_OPCP_v2:   Ratio of Population to Primary Care Providers Other Than Physicians
+
+
+      43. Physical Inactivity
+          Universe:  none
+          Name:      HD2023_043
+          Variables:
+             HD2023_043_PI_v1:   Percent of Physically Inactive Persons (20 Years and Over)
+             HD2023_043_PI_v2:   Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+             HD2023_043_PI_v3:   Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+             HD2023_043_PI_v4:   Physically Inactive Persons (20 Years and Over) Quartile
+
+
+      44. Poor Mental Health Days
+          Universe:  none
+          Name:      HD2023_044
+          Variables:
+             HD2023_044_PMHD_v1:   Mentally Unhealthy Days Per Month
+             HD2023_044_PMHD_v2:   Mentally Unhealthy Days Per Month 95% Confidence Interval - Low
+             HD2023_044_PMHD_v3:   Mentally Unhealthy Days Per Month 95% Confidence Interval - High
+             HD2023_044_PMHD_v4:   Mentally Unhealthy Days Per Month Quartile
+
+
+      45. Poor Or Fair Health
+          Universe:  none
+          Name:      HD2023_045
+          Variables:
+             HD2023_045_POFH_v1:   Adults That Report Fair or Poor Health
+             HD2023_045_POFH_v2:   Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+             HD2023_045_POFH_v3:   Adults That Report Fair or Poor Health 95% Confidence Interval - High
+             HD2023_045_POFH_v4:   Adults That Report Fair or Poor Health Quartile
+
+
+      46. Poor Physical Health Days
+          Universe:  none
+          Name:      HD2023_046
+          Variables:
+             HD2023_046_PPHD_v1:   Physically Unhealthy Days Per Month
+             HD2023_046_PPHD_v2:   Physically Unhealthy Days Per Month 95% Confidence Interval - Low
+             HD2023_046_PPHD_v3:   Physically Unhealthy Days Per Month 95% Confidence Interval - High
+             HD2023_046_PPHD_v4:   Physically Unhealthy Days Per Month Quartile
+
+
+      47. Premature Age-Adjusted Mortality
+          Universe:  none
+          Name:      HD2023_047
+          Variables:
+             HD2023_047_PAM_v1:   Premature Age-Adjusted Mortality (Count Deaths)
+             HD2023_047_PAM_v2:   Premature Age-Adjusted Mortality Rate Per 100 000 Population
+             HD2023_047_PAM_v3:   Premature Age-Adjusted Mortality Rate Per 100 000 Population 95% Confidence Interval - Low
+             HD2023_047_PAM_v4:   Premature Age-Adjusted Mortality Rate Per 100 000 Population 95% Confidence Interval - High
+             HD2023_047_PAM_v5:   Premature Age-Adjusted Mortality Rate for  for American Indian/Alaska Native (Aian)
+             HD2023_047_PAM_v6:   Premature Age-Adjusted Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_047_PAM_v7:   Premature Age-Adjusted Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_047_PAM_v8:   Premature Age-Adjusted Mortality Rate for Asian (Asian)
+             HD2023_047_PAM_v9:   Premature Age-Adjusted Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_047_PAM_v10:   Premature Age-Adjusted Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_047_PAM_v11:   Premature Age-Adjusted Mortality Rate for Black (Black)
+             HD2023_047_PAM_v12:   Premature Age-Adjusted Mortality Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_047_PAM_v13:   Premature Age-Adjusted Mortality Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_047_PAM_v14:   Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic)
+             HD2023_047_PAM_v15:   Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_047_PAM_v16:   Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_047_PAM_v17:   Premature Age-Adjusted Mortality Rate for White (White)
+             HD2023_047_PAM_v18:   Premature Age-Adjusted Mortality Rate for White (White) 95% Confidence Interval - Low
+             HD2023_047_PAM_v19:   Premature Age-Adjusted Mortality Rate for White (White) 95% Confidence Interval - High
+
+
+      48. Premature Death
+          Universe:  none
+          Name:      HD2023_048
+          Variables:
+             HD2023_048_PD_v1:   Premature Deaths (Less Than 75 Years)
+             HD2023_048_PD_v2:   Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years)
+             HD2023_048_PD_v3:   Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years) 95% Confidence Interval - Low
+             HD2023_048_PD_v4:   Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years) 95% Confidence Interval - High
+             HD2023_048_PD_v5:   Premature Deaths (Less Than 75 Years) Quartile
+             HD2023_048_PD_v6:   Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian)
+             HD2023_048_PD_v7:   Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low 
+             HD2023_048_PD_v8:   Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_048_PD_v9:   Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian)
+             HD2023_048_PD_v10:   Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_048_PD_v11:   Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_048_PD_v12:   Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black)
+             HD2023_048_PD_v13:   Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_048_PD_v14:   Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_048_PD_v15:   Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic)
+             HD2023_048_PD_v16:   Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_048_PD_v17:   Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_048_PD_v18:   Premature Death Years of Potential Life Lost (Ypll) Rate for White (White)
+             HD2023_048_PD_v19:   Premature Death Years of Potential Life Lost (Ypll) Rate for White (White) 95% Confidence Interval - Low
+             HD2023_048_PD_v20:   Premature Death Years of Potential Life Lost (Ypll) Rate for White (White) 95% Confidence Interval - High
+
+
+      49. Preventable Hospital Stays
+          Universe:  none
+          Name:      HD2023_049
+          Variables:
+             HD2023_049_PHS_v1:   Preventable Hospital Stays Rate
+             HD2023_049_PHS_v2:   Preventable Hospital Stays Quartile
+             HD2023_049_PHS_v3:   Preventable Hosp. Rate for American Indian/Alaska Native (Aian)
+             HD2023_049_PHS_v4:   Preventable Hosp. Rate for Asian (Asian)
+             HD2023_049_PHS_v5:   Preventable Hosp. Rate for Black (Black)
+             HD2023_049_PHS_v6:   Preventable Hosp. Rate for Hispanic (Hispanic)
+             HD2023_049_PHS_v7:   Preventable Hosp. Rate for White (White)
+
+
+      50. Primary Care Physicians
+          Universe:  none
+          Name:      HD2023_050
+          Variables:
+             HD2023_050_PCP_v1:   Primary Care Physicians (Pcp)
+             HD2023_050_PCP_v2:   Primary Care Physicians (Pcp) Rate Per 100 000 Population
+             HD2023_050_PCP_v3:   Primary Care Physicians (Pcp) Ratio
+             HD2023_050_PCP_v4:   Primary Care Physicians (Pcp) Quartile
+
+
+      51. Reading Scores
+          Universe:  none
+          Name:      HD2023_051
+          Variables:
+             HD2023_051_RS_v1:   Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests
+             HD2023_051_RS_v2:   Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Asian (Asian)
+             HD2023_051_RS_v3:   Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Black (Black)
+             HD2023_051_RS_v4:   Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Hispanic (Hispanic)
+             HD2023_051_RS_v5:   Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for White (White)
+
+
+      52. Residential Segregation - Black White
+          Universe:  none
+          Name:      HD2023_052
+          Variables:
+             HD2023_052_RS_B_v1:   Residential Segregation - Black/ White Segregation Index
+
+
+      53. Severe Housing Cost Burden
+          Universe:  none
+          Name:      HD2023_054
+          Variables:
+             HD2023_054_SHCB_v1:   Households with Severe Problems
+             HD2023_054_SHCB_v2:   Percent of Households with Severe Problems
+             HD2023_054_SHCB_v3:   Percent of Households with Severe Problems 95% Confidence Interval - Low
+             HD2023_054_SHCB_v4:   Percent of Households with Severe Problems 95% Confidence Interval - High
+
+
+      54. Severe Housing Problems
+          Universe:  none
+          Name:      HD2023_055
+          Variables:
+             HD2023_055_SHP_v1:   Percentage Of Households with Severe Housing Problems
+             HD2023_055_SHP_v2:   Percentage Of Households with Severe Housing Problems 95% Confidence Interval - Low
+             HD2023_055_SHP_v3:   Percentage Of Households with Severe Housing Problems 95% Confidence Interval - High
+             HD2023_055_SHP_v4:   Percentage of Households with High Housing Costs
+             HD2023_055_SHP_v5:   Percentage of Households with High Housing Costs 95% Confidence Interval - Low
+             HD2023_055_SHP_v6:   Percentage of Households with High Housing Costs 95% Confidence Interval - High
+             HD2023_055_SHP_v7:   Percentage of Households with Overcrowding
+             HD2023_055_SHP_v8:   Percentage of Households with Overcrowding 95% Confidence Interval - Low
+             HD2023_055_SHP_v9:   Percentage of Households with Overcrowding 95% Confidence Interval - High
+             HD2023_055_SHP_v10:   Percentage of Households with Lack of Kitchen or Plumbing Facilities
+             HD2023_055_SHP_v11:   Percentage of Households with Lack of Kitchen or Plumbing Facilities 95% Confidence Interval - Low
+             HD2023_055_SHP_v12:   Percentage of Households with Lack of Kitchen or Plumbing Facilities 95% Confidence Interval - High
+             HD2023_055_SHP_v13:   Severe Housing Problems Quartile
+
+
+      55. Sexually Transmitted Infections
+          Universe:  none
+          Name:      HD2023_056
+          Variables:
+             HD2023_056_STI_v1:   Chlamydia Cases
+             HD2023_056_STI_v2:   Chlamydia Cases Rate Per 100 000 Population
+             HD2023_056_STI_v3:   Chlamydia Cases Quartile
+
+
+      56. Social Associations
+          Universe:  none
+          Name:      HD2023_057
+          Variables:
+             HD2023_057_SA_v1:   Membership Associations
+             HD2023_057_SA_v2:   Membership Associations Per 10 000 Population
+             HD2023_057_SA_v3:   Membership Associations Quartile
+
+
+      57. Some College
+          Universe:  none
+          Name:      HD2023_058
+          Variables:
+             HD2023_058_SC_v1:   Adults Having Some Post-Secondary Education (Persons 25-44 Years)
+             HD2023_058_SC_v2:   Population (Persons 25-44 Years)
+             HD2023_058_SC_v3:   Percent of Adults Having Some Post-Secondary Education (Persons 25-44 Years)
+             HD2023_058_SC_v4:   Percent of Adults Having Some Post-Secondary Education (25-44 Years) 95% Confidence Interval - Low
+             HD2023_058_SC_v5:   Percent of Adults Having Some Post-Secondary Education (25-44 Years) 95% Confidence Interval - High
+             HD2023_058_SC_v6:   Adults Having Some Post-Secondary Education (25-44 Years) Quartile
+
+
+      58. Suicides
+          Universe:  none
+          Name:      HD2023_059
+          Variables:
+             HD2023_059_S_v1:   Number of Deaths Due to Suicide (Age-Adjusted)
+             HD2023_059_S_v2:   Number of Deaths Due to Suicide Per 100 000 Population
+             HD2023_059_S_v3:   Number of Deaths Due to Suicide Per 100 000 Population 95% Confidence Interval - Low
+             HD2023_059_S_v4:   Number of Deaths Due to Suicide Per 100 000 Population 95% Confidence Interval - High
+             HD2023_059_S_v5:   Crude Rate
+             HD2023_059_S_v6:   Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian)
+             HD2023_059_S_v7:   Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_059_S_v8:   Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_059_S_v9:   Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian)
+             HD2023_059_S_v10:   Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_059_S_v11:   Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+             HD2023_059_S_v12:   Number of Deaths Due to Suicide Per 100 000 Population  for Black (Black)
+             HD2023_059_S_v13:   Number of Deaths Due to Suicide Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+             HD2023_059_S_v14:   Number of Deaths Due to Suicide Per 100 000 Population  for Black (Black) 95% Confidence Interval - High
+             HD2023_059_S_v15:   Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic)
+             HD2023_059_S_v16:   Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_059_S_v17:   Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_059_S_v18:   Number of Deaths Due to Suicide Per 100 000 Population for White (White)
+             HD2023_059_S_v19:   Number of Deaths Due to Suicide Per 100 000 Population for White (White) 95% Confidence Interval - Low
+             HD2023_059_S_v20:   Number of Deaths Due to Suicide Per 100 000 Population for White (White) 95% Confidence Interval - High
+
+
+      59. Teen Births
+          Universe:  none
+          Name:      HD2023_060
+          Variables:
+             HD2023_060_TB_v1:   Teen Births Rate Per 1 000 Population (Females 15 to 19 Years)
+             HD2023_060_TB_v2:   Teen Births Rate Per 1 000 Population (Females 15-19 Years) 95% Confidence Interval - Low
+             HD2023_060_TB_v3:   Teen Births Rate Per 1 000 Population (Females 15-19 Years) 95% Confidence Interval - High
+             HD2023_060_TB_v4:   Teen Births (Females 15-19 Years) Quartile
+             HD2023_060_TB_v5:   Teen Birth Rate for American Indian/Alaska Native (Aian) 
+             HD2023_060_TB_v6:   Teen Birth Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+             HD2023_060_TB_v7:   Teen Birth Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+             HD2023_060_TB_v8:   Teen Birth Rate for Asian (Asian) 
+             HD2023_060_TB_v9:   Teen Birth Rate for Asian (Asian) 95% Confidence Interval - Low
+             HD2023_060_TB_v10:   Teen Birth Rate for Asian (Asian) 95% Confidence Interval - High
+             HD2023_060_TB_v11:   Teen Birth Rate for Black (Black)
+             HD2023_060_TB_v12:   Teen Birth Rate for Black (Black) 95% Confidence Interval - Low
+             HD2023_060_TB_v13:   Teen Birth Rate for Black (Black) 95% Confidence Interval - High
+             HD2023_060_TB_v14:   Teen Birth Rate for Hispanic (Hispanic)
+             HD2023_060_TB_v15:   Teen Birth Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+             HD2023_060_TB_v16:   Teen Birth Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+             HD2023_060_TB_v17:   Teen Birth Rate for White (White)
+             HD2023_060_TB_v18:   Teen Birth Rate for White (White) 95% Confidence Interval - Low
+             HD2023_060_TB_v19:   Teen Birth Rate for White (White) 95% Confidence Interval - High
+
+
+      60. Traffic Volume
+          Universe:  none
+          Name:      HD2023_061
+          Variables:
+             HD2023_061_TV_v1:   Average Traffic Volume Per Meter of Major Roadways
+
+
+      61. Unemployment
+          Universe:  none
+          Name:      HD2023_062
+          Variables:
+             HD2023_062_U2nd_v1:   Unemployed (Persons 16 Years and Over)
+             HD2023_062_U2nd_v2:   Labor Force (Persons 16 Years and Over)
+             HD2023_062_U2nd_v3:   Percent of Unemployed (Persons 16 Years and Over)
+             HD2023_062_U2nd_v4:   Unemployed Quartile
+
+
+      62. Uninsured
+          Universe:  none
+          Name:      HD2023_063
+          Variables:
+             HD2023_063_U_v1:   Number of People Under Age 65 Without Insurance
+             HD2023_063_U_v2:   Percentage of People Under Age 65 Without Insurance
+             HD2023_063_U_v3:   Percentage of People Under Age 65 Without Insurance 95% Confidence Interval - Low
+             HD2023_063_U_v4:   Percentage of People Under Age 65 Without Insurance 95% Confidence Interval - High
+             HD2023_063_U_v5:   Uninsured Quartile
+
+
+      63. Uninsured Adults
+          Universe:  none
+          Name:      HD2023_064
+          Variables:
+             HD2023_064_UA_v1:   Number of Adults Under Age 65 Without Health Insurance
+             HD2023_064_UA_v2:   Percentage of Adults Under Age 65 Without Health Insurance
+             HD2023_064_UA_v3:   Percentage of Adults Under Age 65 Without Health Insurance 95% Confidence Interval - Low
+             HD2023_064_UA_v4:   Percentage of Adults Under Age 65 Without Health Insurance 95% Confidence Interval - High
+
+
+      64. Uninsured Children
+          Universe:  none
+          Name:      HD2023_065
+          Variables:
+             HD2023_065_UC_v1:   Number of Children Under Age 19 Without Health Insurance
+             HD2023_065_UC_v2:   Percentage of Children Under Age 19 Without Health Insurance
+             HD2023_065_UC_v3:   Percentage of Children Under Age 19 Without Health Insurance 95% Confidence Interval - Low
+             HD2023_065_UC_v4:   Percentage of Children Under Age 19 Without Health Insurance 95% Confidence Interval - High
+
+
+
+
+
+Survey:           Health Data 2023 Release
+Dataset:          Tables Comparable with Previous Years
+Tables:
+
+      1. Additional Demographics
+         Universe:  none
+         Name:      HD2023_001
+         Variables:
+            HD2023_001_HEALTH_T6_V25:   Population
+            HD2023_001_HEALTH_T6_V24:   Population 95%  Confidence Interval - Low
+            HD2023_001_HEALTH_T6_V23:   Population 95% Confidence Interval - High
+            HD2023_001_HEALTH_T6_V12:   Population (%, < 18 Years)
+            HD2023_001_HEALTH_T6_V13:   Population (%, 65 Years and Over)
+            HD2023_001_HEALTH_T6_V3:   Population (African American)
+            HD2023_001_HEALTH_T6_V14:   Population (%, African American)
+            HD2023_001_HEALTH_T6_V4:   Population  (American Indian/ Alaskan Native)
+            HD2023_001_HEALTH_T6_V15:   Population (%, American Indian/ Alaskan Native)
+            HD2023_001_HEALTH_T6_V5:   Population (Asian)
+            HD2023_001_HEALTH_T6_V16:   Population (%, Asian)
+            HD2023_001_HEALTH_T6_V8:   Population (Native Hawaiian/ Other Pacific Islander)
+            HD2023_001_HEALTH_T6_V19:   Population (%, Native Hawaiian/ Other Pacific Islander)
+            HD2023_001_HEALTH_T6_V7:   Population (Hispanic)
+            HD2023_001_HEALTH_T6_V18:   Population (%, Hispanic)
+            HD2023_001_HEALTH_T6_V9:   Population (Non-Hispanic White)
+            HD2023_001_HEALTH_T6_V20:   Population (%, Non-Hispanic White)
+            HD2023_001_HEALTH_T6_V10:   Population (Not Proficient in English)
+            HD2023_001_HEALTH_T6_V21:   Population (%, Not Proficient in English)
+            HD2023_001_HEALTH_T6_V17:   Population (%, Female)
+            HD2023_001_HEALTH_T6_V11:   Population (Rural)
+            HD2023_001_HEALTH_T6_V22:   Population (%, Rural)
+
+
+      2. Additional Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2023_002
+         Variables:
+            HD2023_002_HEALTH_T8_V3:   Population Who Lack Adequate Access to Food
+            HD2023_002_HEALTH_T8_V4:   Percentage of population who lack adequate access to food
+            HD2023_002_HEALTH_T8_V5:   Persons with Limited Access to Healthy Foods
+            HD2023_002_HEALTH_T8_V6:   Percent of Persons with Limited Access to Healthy Foods
+            HD2023_002_HEALTH_T8_V1:   Drug Poisoning Death Counts
+            HD2023_002_HEALTH_T8_V2:   Drug Poisoning Death Counts per 100 000 Population
+            HD2023_002_HEALTH_T8_V8:   Motor Vehicle Crash Deaths
+            HD2023_002_HEALTH_T8_V11:   Motor Vehicle Crash Deaths per 100 000 Population
+            HD2023_002_HEALTH_T8_V10:   Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - Low
+            HD2023_002_HEALTH_T8_V9:   Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - High
+            HD2023_002_HEALTH_T8_V15:   Percent of Individuals with Insufficient Sleep
+
+
+      3. Additional Health Factors Health Care
+         Universe:  none
+         Name:      HD2023_003
+         Variables:
+            HD2023_003_HEALTH_T9_V13:   Persons Without Insurance (Population Under 19 Years)
+            HD2023_003_HEALTH_T9_V14:   Percent Persons Without Insurance (Population Under 19 Years)
+            HD2023_003_HEALTH_T9_V16:   Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - Low
+            HD2023_003_HEALTH_T9_V15:   Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - High
+            HD2023_003_HEALTH_T9_V6:   Other Primary Care Providers (PCP) Rate per 100,000 Population
+            HD2023_003_HEALTH_T9_V7:   Other Primary Care Providers (PCP) Ratio
+
+
+      4. Additional Health Factors Social Economic Factors
+         Universe:  none
+         Name:      HD2023_004
+         Variables:
+            HD2023_004_HEALTH_T10_V16:   Median Household Income
+            HD2023_004_HEALTH_T10_V15:   Median Household Income 95% Confidence Interval - Low
+            HD2023_004_HEALTH_T10_V14:   Median Household Income 95% Confidence Interval - High
+            HD2023_004_HEALTH_T10_V4:   Children Eligible for Free Lunch (Persons < 18 Years)
+            HD2023_004_HEALTH_T10_V18:   Residential Segregation - Black/ White Segregation Index
+            HD2023_004_HEALTH_T10_V11:   Homicides Rate
+            HD2023_004_HEALTH_T10_V10:   Homicides Rate 95% Confidence Interval - Low
+            HD2023_004_HEALTH_T10_V9:   Homicides Rate 95% Confidence Interval - High
+
+
+      5. Additional Health Outcomes
+         Universe:  none
+         Name:      HD2023_005
+         Variables:
+            HD2023_005_HEALTH_T7_V17:   Premature Age-adjusted mortality (Count Deaths)
+            HD2023_005_HEALTH_T7_V20:   Premature Age-adjusted mortality rate per 100 000 Population
+            HD2023_005_HEALTH_T7_V19:   Premature Age-adjusted rate per 100 000 Population 95% Confidence Interval - Low
+            HD2023_005_HEALTH_T7_V18:   Premature Age-adjusted rate per 100 000 Population 95% Confidence Interval - High
+            HD2023_005_HEALTH_T7_V1:   Child Mortality (Death Counts)
+            HD2023_005_HEALTH_T7_V4:   Child Mortality Rate per 100,000 Population
+            HD2023_005_HEALTH_T7_V3:   Child Mortality Rate per 100,000 Population 95% Confidence Interval - Low
+            HD2023_005_HEALTH_T7_V2:   Child Mortality Rate per 100,000 Population 95% Confidence Interval - High
+            HD2023_005_HEALTH_T7_V13:   Infant Mortality (Death Counts)
+            HD2023_005_HEALTH_T7_V16:   Infant Mortality Rate per 1 000 Live Births
+            HD2023_005_HEALTH_T7_V15:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - Low
+            HD2023_005_HEALTH_T7_V14:   Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - High
+            HD2023_005_HEALTH_T7_V6:   Percent of Diabetics
+            HD2023_005_HEALTH_T7_V8:   Percent of Diabetics 95% Confidence Interval - Low
+            HD2023_005_HEALTH_T7_V7:   Percent of Diabetics 95% Confidence Interval - High
+            HD2023_005_HEALTH_T7_V9:   HIV Prevalence
+            HD2023_005_HEALTH_T7_V10:   HIV Prevalence Rate per 100,000 Population
+
+
+      6. Health Factors Clinical Care
+         Universe:  none
+         Name:      HD2023_006
+         Variables:
+            HD2023_006_HEALTH_T3_V41:   Persons Without Insurance (Population Under 65 Years)
+            HD2023_006_HEALTH_T3_V42:   Percent of Persons Without Insurance (Population Under 65 Years)
+            HD2023_006_HEALTH_T3_V44:   Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - Low
+            HD2023_006_HEALTH_T3_V43:   Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - High
+            HD2023_006_HEALTH_T3_V34:   Primary Care Physicians (PCP)
+            HD2023_006_HEALTH_T3_V35:   Primary Care Physicians (PCP) Rate per 100 000 Population
+            HD2023_006_HEALTH_T3_V36:   Primary Care Physicians (PCP) Ratio
+            HD2023_006_HEALTH_T3_V38:   Primary Care Physicians (PCP) Quartile
+            HD2023_006_HEALTH_T3_V1:   Dentists
+            HD2023_006_HEALTH_T3_V2:   Dentists Rate per 100 000 Population
+            HD2023_006_HEALTH_T3_V3:   Dentists Ratio
+            HD2023_006_HEALTH_T3_V4:   Dentists Quartile
+            HD2023_006_HEALTH_T3_V25:   Preventable Hospital Stays Rate
+            HD2023_006_HEALTH_T3_V24:   Preventable Hospital Stays Quartile
+            HD2023_006_HEALTH_T3_V23:   Percent of Medicare Enrollees Having Mammography Screening
+            HD2023_006_HEALTH_T3_V26:   Medicare Enrollees Having Mammography Screening Quartile
+
+
+      7. Health Factors Environment
+         Universe:  none
+         Name:      HD2023_007
+         Variables:
+            HD2023_007_HEALTH_T5_V6:   Air Pollution Particulate Matter Average Daily PM2.5
+            HD2023_007_HEALTH_T5_V7:   Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+            HD2023_007_HEALTH_T5_V47:   Presence of Drinking Water Violations
+            HD2023_007_HEALTH_T5_V18:   Presence of Drinking Water Violations Quartile
+            HD2023_007_HEALTH_T5_V42:   Percent of Households with Severe Problems
+            HD2023_007_HEALTH_T5_V44:   Households with Severe Problems 95% Confidence Interval - Low
+            HD2023_007_HEALTH_T5_V43:   Households with Severe Problems 95% Confidence Interval - High
+            HD2023_007_HEALTH_T5_V45:   Households with Severe Problems Quartile
+            HD2023_007_HEALTH_T5_V23:   Percent of Driving Alone to Work
+            HD2023_007_HEALTH_T5_V25:   Driving Alone to Work 95% Confidence Interval - Low
+            HD2023_007_HEALTH_T5_V24:   Driving Alone to Work 95% Confidence Interval - High
+            HD2023_007_HEALTH_T5_V26:   Driving Alone to Work Quartile
+            HD2023_007_HEALTH_T5_V35:   Long Commute Driving Alone Workers Who Drive Alone
+            HD2023_007_HEALTH_T5_V36:   Percent of Long Commute Driving Alone Workers Who Drive Alone
+            HD2023_007_HEALTH_T5_V38:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+            HD2023_007_HEALTH_T5_V37:   Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+            HD2023_007_HEALTH_T5_V39:   Long Commute Driving Alone Workers Who Drive Alone Quartile
+
+
+      8. Health Factors Health Behaviours
+         Universe:  none
+         Name:      HD2023_008
+         Variables:
+            HD2023_008_HEALTH_T2_V10:   Percent of Current Smokers (Persons 18 Years and Over)
+            HD2023_008_HEALTH_T2_V12:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V11:   Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V13:   Current Smokers (Persons 18 Years and Over) Quartile
+            HD2023_008_HEALTH_T2_V5:   Percent of Obese Persons (20 Years and Over)
+            HD2023_008_HEALTH_T2_V7:   Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V6:   Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V8:   Obese Persons (20 Years and Over) Quartile
+            HD2023_008_HEALTH_T2_V27:   Food Environment Index
+            HD2023_008_HEALTH_T2_V30:   Percent of Physically Inactive Persons (20 Years and Over)
+            HD2023_008_HEALTH_T2_V32:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V31:   Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V33:   Physically Inactive Persons (20 Years and Over) Quartile
+            HD2023_008_HEALTH_T2_V2:   Percent of Persons with Access to Exercise Opportunities
+            HD2023_008_HEALTH_T2_V3:   Persons with Access to Exercise Opportunities Quartile
+            HD2023_008_HEALTH_T2_V21:   Percent of Drinking Adults (Persons 18 Years and Over)
+            HD2023_008_HEALTH_T2_V23:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V22:   Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V24:   Drinking Adults (Persons 18 Years and Over) Quartile
+            HD2023_008_HEALTH_T2_V16:   Alcohol-impaired Driving Deaths
+            HD2023_008_HEALTH_T2_V18:   Percent of Alcohol-impaired Driving Deaths
+            HD2023_008_HEALTH_T2_V49:   Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V50:   Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V19:   Percent of Alcohol-impaired Driving Deaths Quartile
+            HD2023_008_HEALTH_T2_V35:   Chlamydia Cases
+            HD2023_008_HEALTH_T2_V36:   Chlamydia Cases Rate per 100 000 Population
+            HD2023_008_HEALTH_T2_V38:   Chlamydia Cases Quartile
+            HD2023_008_HEALTH_T2_V44:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+            HD2023_008_HEALTH_T2_V42:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - Low
+            HD2023_008_HEALTH_T2_V41:   Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - High
+            HD2023_008_HEALTH_T2_V43:   Teen Births (Females 15-19 Years) Quartile
+
+
+      9. Health Factors Social Economic Factors
+         Universe:  none
+         Name:      HD2023_009
+         Variables:
+            HD2023_009_HEALTH_T4_V15:   High School Graduation Cohort Size
+            HD2023_009_HEALTH_T4_V18:   High School Graduation Rate
+            HD2023_009_HEALTH_T4_V19:   High School Graduation Quartile
+            HD2023_009_HEALTH_T4_V46:   Adults Having Some Post-secondary Education (Persons 25-44 Years)
+            HD2023_009_HEALTH_T4_V50:   Population (Persons 25-44 Years)
+            HD2023_009_HEALTH_T4_V47:   Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+            HD2023_009_HEALTH_T4_V49:   Percent of Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - Low
+            HD2023_009_HEALTH_T4_V48:   Percent of Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - High
+            HD2023_009_HEALTH_T4_V51:   Adults Having Some Post-secondary Education (25-44 Years) Quartile
+            HD2023_009_HEALTH_T4_V53:   Unemployed (Persons 16 Years and Over)
+            HD2023_009_HEALTH_T4_V57:   Labor Force (Persons 16 Years and Over)
+            HD2023_009_HEALTH_T4_V54:   Percent of Unemployed (Persons 16 Years and Over)
+            HD2023_009_HEALTH_T4_V58:   Unemployment Quartile
+            HD2023_009_HEALTH_T4_V2:   Percent of Children in Poverty
+            HD2023_009_HEALTH_T4_V4:   Percent of Children in Poverty 95% Confidence Interval - Low
+            HD2023_009_HEALTH_T4_V3:   Percent of Children in Poverty 95% Confidence Interval - High
+            HD2023_009_HEALTH_T4_V5:   Children in Poverty Quartile
+            HD2023_009_HEALTH_T4_V28:   Income Inequality 80th Percentile Income
+            HD2023_009_HEALTH_T4_V27:   Income Inequality 20th Percentile Income
+            HD2023_009_HEALTH_T4_V30:   Income Inequality Income Ratio
+            HD2023_009_HEALTH_T4_V31:   Income Inequality Quartile
+            HD2023_009_HEALTH_T4_V8:   Single Parent Households
+            HD2023_009_HEALTH_T4_V7:   Households
+            HD2023_009_HEALTH_T4_V9:   Percent of Single Parent Households
+            HD2023_009_HEALTH_T4_V11:   Percent of Single Parent Households 95% Confidence Interval - Low
+            HD2023_009_HEALTH_T4_V10:   Percent of Single Parent Households 95% Confidence Interval - High
+            HD2023_009_HEALTH_T4_V12:   Single Parent Households Quartile
+            HD2023_009_HEALTH_T4_V43:   Membership Associations
+            HD2023_009_HEALTH_T4_V44:   Membership Associations per 10 000 Population
+            HD2023_009_HEALTH_T4_V65:   Membership Associations Quartile
+            HD2023_009_HEALTH_T4_V33:   Injury Deaths
+            HD2023_009_HEALTH_T4_V36:   Injury Death Rate
+            HD2023_009_HEALTH_T4_V35:   Injury Death Rate 95% Confidence Interval - Low
+            HD2023_009_HEALTH_T4_V34:   Injury Death Rate 95% Confidence Interval - High
+            HD2023_009_HEALTH_T4_V37:   Injury Deaths Quartile
+
+
+      10. Health Outcome
+          Universe:  none
+          Name:      HD2023_010
+          Variables:
+             HD2023_010_HEALTH_T1_V34:   Premature Deaths (Less than 75 Years)
+             HD2023_010_HEALTH_T1_V40:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+             HD2023_010_HEALTH_T1_V36:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V35:   Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V38:   Premature Deaths (Less than 75 Years) Quartile
+             HD2023_010_HEALTH_T1_V22:   Adults That Report Fair or Poor Health
+             HD2023_010_HEALTH_T1_V24:   Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V23:   Adults That Report Fair or Poor Health 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V25:   Adults That Report Fair or Poor Health Quartile
+             HD2023_010_HEALTH_T1_V30:   Physically Unhealthy Days per Month
+             HD2023_010_HEALTH_T1_V29:   Physically Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V28:   Physically Unhealthy Days per Month 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V31:   Physically Unhealthy Days per Month Quartile
+             HD2023_010_HEALTH_T1_V18:   Mentally Unhealthy Days per Month
+             HD2023_010_HEALTH_T1_V17:   Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V16:   Mentally Unhealthy Days per Month 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V19:   Mentally Unhealthy Days per Month Quartile
+             HD2023_010_HEALTH_T1_V8:   Low Birthweight Births (<2.5kg) Unreliable
+             HD2023_010_HEALTH_T1_V3:   Percent of Low Birthweight Births (<2.5kg)
+             HD2023_010_HEALTH_T1_V5:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V4:   Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V6:   Low Birthweight Births (<2.5kg) Quartile
+             HD2023_010_HEALTH_T1_V10:   Mental Health Providers (MHP)
+             HD2023_010_HEALTH_T1_V11:   Mental Health Providers (MHP) Rate per 100 000 Population
+             HD2023_010_HEALTH_T1_V12:   Mental Health Providers (MHP) Ratio
+             HD2023_010_HEALTH_T1_V14:   Mental Health Providers (MHP) Quartile
+             HD2023_010_HEALTH_T1_V42:   Percent of Frequent Physical Distress
+             HD2023_010_HEALTH_T1_V43:   Percent of Frequent Physical Distress 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V44:   Percent of Frequent Physical Distress 95% Confidence Interval - High
+             HD2023_010_HEALTH_T1_V45:   Percent of Frequent Mental Distress
+             HD2023_010_HEALTH_T1_V46:   Percent of Frequent Mental Distress 95% Confidence Interval - Low
+             HD2023_010_HEALTH_T1_V47:   Percent of Frequent Mental Distress 95% Confidence Interval - High
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QNAME:          Qualifying Name
+      NATION:         Nation
+      STATE:          State
+      COUNTY:         County
+      T001_001:       Physically Unhealthy Days per Month (Persons 18 Years and Over)
+      T001_002:       Mentally Unhealthy Days per Month (Persons 18 Years and Over)
+      T002_001:       Percent of Adults That Report Fair or Poor Health (Persons 18 Years and Over)
+      T003_001:       Percent of Low Birthweight Births (<2.5kg)
+      T004_001:       Primary Care Physicians (PCP)
+      T004_002:       Mental Health Providers (MHP)
+      T004_003:       Dentists
+      NV003_001:      Primary Care Physicians (PCP) Rate per 100,000 Population
+      NV003_002:      Mental Health Providers (MHP) Rate per 100,000 Population
+      NV003_003:      Dentists Rate per 100,000 Population
+      T006_001:       Percent of Persons Without Insurance (Population Under 19 Years, 2013 est.)
+      T006_003:       Percent of Persons Without Insurance (Population Under 65 Years, 2013 est.)
+      NV005_001:      Persons Without Insurance (Population Under 19 Years, 2013 est.)
+      NV005_003:      Persons Without Insurance (Population Under 65 Years, 2013 est.)
+      T008_002:       Child Mortality (Death Counts)
+      T008_003:       Premature Age-adjusted Mortality (Death Counts)
+      T008_004:       Drug Poisoning Mortality (Death Counts)
+      NV006_002:      Child Mortality Rate per 100,000 Population
+      NV006_003:      Premature Age-adjusted Mortality Rate per 100,000 Population
+      NV006_004:      Drug Poisoning Mortality Rate per 100,000 Population
+      T014_001:       Infant Mortality (Death Counts)
+      NV009_001:      Infant Mortality Rate per 1,000 Live Births
+      T009_001:       Percent Diabetics (Adults)
+      NV007_001:      Diabetics
+      T010_002:       Chlamydia Cases (Count)
+      T010_003:       HIV Prevalence (Count)
+      NV008_002:      Chlamydia Cases Rate per 100,000 Population
+      NV008_003:      HIV Prevalence Rate per 100,000 Population
+      T011_001:       Percent Current Smokers (Persons 18 Years and Over)
+      T011_002:       Percent Drinking Adults (Persons 18 Years and Over)
+      T012_001:       Percent of Persons with Limited Access to Healthy Foods
+      T012_002:       Percent of Persons with Access to Exercise Opportunities
+      T012_003:       Percent Obese Persons (20 Years and Over)
+      T012_004:       Percent Percent Physically Inactive Persons (20 Years and Over)
+      T012_005:       Percent of Children Eligible for Free Lunch (Persons < 18 Years)
+      T013_001:       Food Environment Index
+      HD2023_001_ATEO_v1: Percent of Persons with Access to Exercise Opportunities
+      HD2023_001_ATEO_v2: Persons with Access to Exercise Opportunities Quartile
+      HD2023_002_AO_v1: Percentage of Adults with Obesity
+      HD2023_002_AO_v2: Percentage of Adults with Obesity 95% Confidence Interval - Low
+      HD2023_002_AO_v3: Percentage of Adults with Obesity 95% Confidence Interval - High
+      HD2023_002_AO_v4: Percentage of Adults with Obesity Quartile
+      HD2023_003_AS_v1: Percent of Current Smokers (Persons 18 Years and Over)
+      HD2023_003_AS_v2: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2023_003_AS_v3: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2023_003_AS_v4: Current Smokers (Persons 18 Years and Over) Quartile
+      HD2023_004_AP_PM_v1: Air Pollution Particulate Matter Average Daily Pm2.5
+      HD2023_004_AP_PM_v2: Air Pollution Particulate Matter Average Daily Pm2.5 Quartile
+      HD2023_005_ADD_v1: Alcohol-Impaired Driving Deaths
+      HD2023_005_ADD_v2: Number of Driving Deaths
+      HD2023_005_ADD_v3: Percentage of Driving Deaths with Alcohol Involvement
+      HD2023_005_ADD_v4: Percent of Alcohol-Impaired Driving Deaths 95% Confidence Interval - Low
+      HD2023_005_ADD_v5: Percent of Alcohol-Impaired Driving Deaths 95% Confidence Interval - High
+      HD2023_005_ADD_v6: Percent of Alcohol-Impaired Driving Deaths Quartile
+      HD2023_006_CEFFORPL_v1: Children Eligible for Free Lunch (Persons < 18 Years)
+      HD2023_007_CIP_v1: Percent of Children in Poverty
+      HD2023_007_CIP_v2: Percent of Children in Poverty 95% Confidence Interval - Low
+      HD2023_007_CIP_v3: Percent of Children in Poverty 95% Confidence Interval - High
+      HD2023_007_CIP_v4: Children in Poverty Quartile
+      HD2023_007_CIP_v5: Percent of Children in Poverty for American Indian/Alaska Native (Aian)
+      HD2023_007_CIP_v6: Percent of Children in Poverty for Asian (Asian)
+      HD2023_007_CIP_v7: Percent of Children in Poverty for Black (Black)
+      HD2023_007_CIP_v8: Percent of Children in Poverty for Hispanic (Hispanic)
+      HD2023_007_CIP_v9: Percent of Children in Poverty for White (White)
+      HD2023_008_CISH_v1: Single Parent Households
+      HD2023_008_CISH_v2: Households
+      HD2023_008_CISH_v3: Percent of Single Parent Households
+      HD2023_008_CISH_v4: Percent of Single Parent Households 95% Confidence Interval - Low
+      HD2023_008_CISH_v5: Percent of Single Parent Households 95% Confidence Interval - High
+      HD2023_008_CISH_v6: Single Parent Households Quartile
+      HD2023_009_CM_v1: Child Mortality (Death Counts)
+      HD2023_009_CM_v2: Child Mortality Rate
+      HD2023_009_CM_v3: Child Mortality Rate 95% Confidence Interval - Low
+      HD2023_009_CM_v4: Child Mortality Rate 95% Confidence Interval - High
+      HD2023_009_CM_v5: Child Mortality Rate for American Indian/Alaska Native (Aian)
+      HD2023_009_CM_v6: Child Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_009_CM_v7: Child Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_009_CM_v8: Child Mortality Rate for Asian (Asian)
+      HD2023_009_CM_v9: Child Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_009_CM_v10: Child Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_009_CM_v11: Child Mortality Rate for Black (Black)
+      HD2023_009_CM_v12: Child Mortality Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_009_CM_v13: Child Mortality Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_009_CM_v14: Child Mortality Rate for Hispanic (Hispanic)
+      HD2023_009_CM_v15: Child Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_009_CM_v16: Child Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_009_CM_v17: Child Mortality Rate for White (White)
+      HD2023_009_CM_v18: Child Mortality Rate for White (White) 95% Confidence Interval - Low
+      HD2023_009_CM_v19: Child Mortality Rate for White (White) 95% Confidence Interval - High
+      HD2023_010_D_v1: Population
+      HD2023_010_D_v2: Population (%  < 18 Years)
+      HD2023_010_D_v3: Population (%  65 Years and Over)
+      HD2023_010_D_v4: Population (African American)
+      HD2023_010_D_v5: Population (%  African American)
+      HD2023_010_D_v6: Population  (American Indian/ Alaskan Native)
+      HD2023_010_D_v7: Population (%  American Indian/ Alaskan Native)
+      HD2023_010_D_v8: Population for Asian (Asian)
+      HD2023_010_D_v9: Population (%  Asian)
+      HD2023_010_D_v10: Population (Native Hawaiian/ Other Pacific Islander)
+      HD2023_010_D_v11: Population (%  Native Hawaiian/ Other Pacific Islander)
+      HD2023_010_D_v12: Population for Hispanic (Hispanic)
+      HD2023_010_D_v13: Population (%  Hispanic)
+      HD2023_010_D_v14: Population (Non-Hispanic White)
+      HD2023_010_D_v15: Population (%  Non-Hispanic White)
+      HD2023_010_D_v16: Population (Not Proficient in English)
+      HD2023_010_D_v17: Population (%  Not Proficient in English)
+      HD2023_010_D_v18: Population 95%  Confidence Interval - Low
+      HD2023_010_D_v19: Population 95% Confidence Interval - High
+      HD2023_010_D_v20: Population (%  Female)
+      HD2023_010_D_v21: Population (Rural)
+      HD2023_010_D_v22: Population (%  Rural)
+      HD2023_011_D2nd_v1: Dentists
+      HD2023_011_D2nd_v2: Dentists Rate Per 100 000 Population
+      HD2023_011_D2nd_v3: Dentists Ratio
+      HD2023_011_D2nd_v4: Dentists Quartile
+      HD2023_012_DP_v1: Percentage of Adults Aged 20 and Above with Diagnosed Diabetes
+      HD2023_012_DP_v2: Percentage of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - Low
+      HD2023_012_DP_v3: Percentage of Adults Aged 20 and Above with Diagnosed Diabetes 95% Confidence Interval - High
+      HD2023_013_DY_v1: Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School
+      HD2023_013_DY_v2: Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School 95% Confidence Interval - Low
+      HD2023_013_DY_v3: Percentage of Teens and Young Adults Ages 16-19 Who Are Neither Working Nor in School 95% Confidence Interval - High
+      HD2023_014_DWV_v1: Presence of Drinking Water Violations
+      HD2023_014_DWV_v2: Presence of Drinking Water Violations Quartile
+      HD2023_015_DATW_v1: Percent of Driving Alone to Work
+      HD2023_015_DATW_v2: Percent of Driving Alone to Work 95% Confidence Interval - Low
+      HD2023_015_DATW_v3: Percent of Driving Alone to Work 95% Confidence Interval - High
+      HD2023_015_DATW_v4: Driving Alone to Work Quartile
+      HD2023_015_DATW_v5: Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian)
+      HD2023_015_DATW_v6: Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_015_DATW_v7: Percent of Workers Who Drive Alone to Work for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_015_DATW_v8: Percent of Workers Who Drive Alone to Work for Asian (Asian)
+      HD2023_015_DATW_v9: Percent of Workers Who Drive Alone to Work for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_015_DATW_v10: Percent of Workers Who Drive Alone to Work (Asian) 95% Confidence Interval - High
+      HD2023_015_DATW_v11: Percent of Workers Who Drive Alone to Work for Black (Black)
+      HD2023_015_DATW_v12: Percent of Workers Who Drive Alone to Work for Black (Black) 95% Confidence Interval - Low
+      HD2023_015_DATW_v13: Percent of Workers Who Drive Alone to Work for Black (Black) 95% Confidence Interval - High
+      HD2023_015_DATW_v14: Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic)
+      HD2023_015_DATW_v15: Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_015_DATW_v16: Percent of Workers Who Drive Alone to Work for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_015_DATW_v17: Percent of Workers Who Drive Alone to Work for White (White)
+      HD2023_015_DATW_v18: Percent of Workers Who Drive Alone to Work for White (White) 95% Confidence Interval - Low
+      HD2023_015_DATW_v19: Percent of Workers Who Drive Alone to Work for White (White) 95% Confidence Interval - High
+      HD2023_016_DOD_v1: Drug Poisoning Death Counts
+      HD2023_016_DOD_v2: Drug Poisoning Death Counts Per 100 000 Population
+      HD2023_016_DOD_v3: Drug Poisoning Death Counts Per 100 000 Population 95% Confidence Interval - Low
+      HD2023_016_DOD_v4: Drug Poisoning Death Counts Per 100 000 Population 95% Confidence Interval - High
+      HD2023_016_DOD_v5: Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian)
+      HD2023_016_DOD_v6: Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_016_DOD_v7: Drug Poisoning Death Counts Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_016_DOD_v8: Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian)
+      HD2023_016_DOD_v9: Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_016_DOD_v10: Drug Poisoning Death Counts Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+      HD2023_016_DOD_v11: Drug Poisoning Death Counts Per 100 000 Population for Black (Black)
+      HD2023_016_DOD_v12: Drug Poisoning Death Counts Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+      HD2023_016_DOD_v13: Drug Poisoning Death Counts Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+      HD2023_016_DOD_v14: Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic)
+      HD2023_016_DOD_v15: Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_016_DOD_v16: Drug Poisoning Death Counts Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_016_DOD_v17: Drug Poisoning Death Counts Per 100 000 Population for White (White)
+      HD2023_016_DOD_v18: Drug Poisoning Death Counts Per 100 000 Population for White (White) 95% Confidence Interval - Low
+      HD2023_016_DOD_v19: Drug Poisoning Death Counts Per 100 000 Population for White (White) 95% Confidence Interval - High
+      HD2023_017_ED_v1: Percent of Drinking Adults (Persons 18 Years and Over)
+      HD2023_017_ED_v2: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2023_017_ED_v3: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2023_017_ED_v4: Drinking Adults (Persons 18 Years and Over) Quartile
+      HD2023_018_FF_v1: Number of Deaths Due to Firearms
+      HD2023_018_FF_v2: Number of Deaths Due to Firearms Per 100 000 Population
+      HD2023_018_FF_v3: Number of Deaths Due to Firearms Per 100 000 Population 95% Confidence Interval - Low
+      HD2023_018_FF_v4: Number of Deaths Due to Firearms Per 100 000 Population 95% Confidence Interval - High
+      HD2023_018_FF_v5: Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian)
+      HD2023_018_FF_v6: Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_018_FF_v7: Number of Deaths Due to Firearms Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_018_FF_v8: Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian)
+      HD2023_018_FF_v9: Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_018_FF_v10: Number of Deaths Due to Firearms Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+      HD2023_018_FF_v11: Number of Deaths Due to Firearms Per 100 000 Population for Black (Black)
+      HD2023_018_FF_v12: Number of Deaths Due to Firearms Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+      HD2023_018_FF_v13: Number of Deaths Due to Firearms Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+      HD2023_018_FF_v14: Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic)
+      HD2023_018_FF_v15: Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_018_FF_v16: Number of Deaths Due to Firearms Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_018_FF_v17: Number of Deaths Due to Firearms Per 100 000 Population for White (White)
+      HD2023_018_FF_v18: Number of Deaths Due to Firearms Per 100 000 Population for White (White) 95% Confidence Interval - Low
+      HD2023_018_FF_v19: Number of Deaths Due to Firearms Per 100 000 Population for White (White) 95% Confidence Interval - High
+      HD2023_019_FV_v1: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination
+      HD2023_019_FV_v2: Flu Vaccinations Quartile
+      HD2023_019_FV_v3: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for American Indian/Alaska Natives
+      HD2023_019_FV_v4: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Asian/Pacific Islanders
+      HD2023_019_FV_v5: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Blacks
+      HD2023_019_FV_v6: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Hispanics
+      HD2023_019_FV_v7: Percentage of Annual Medicare Enrollees Having An Annual Flu Vaccination for Whites
+      HD2023_020_FEI_v1: Food Environment Index
+      HD2023_020_FEI_v2: Food Environment Index Quartile
+      HD2023_021_FI_v1: Number of Residents Who Lack Adequate Access to Food
+      HD2023_021_FI_v2: Percentage of Population Who Lack Adequate Access to Food
+      HD2023_022_FMD_v1: Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month
+      HD2023_022_FMD_v2: Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month 95% Confidence Interval - Low
+      HD2023_022_FMD_v3: Percentage of Adults Reporting 14 or More Days of Poor Mental Health Per Month 95% Confidence Interval - High
+      HD2023_023_FPD_v1: Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month
+      HD2023_023_FPD_v2: Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month 95% Confidence Interval - Low
+      HD2023_023_FPD_v3: Percentage of Adults Reporting 14 or More Days of Poor Physical Health Per Month 95% Confidence Interval - High
+      HD2023_024_HSG_v1: High School Graduation Cohort Size
+      HD2023_024_HSG_v2: High School Graduation Rate
+      HD2023_024_HSG_v3: High School Graduation Quartile
+      HD2023_025_HP_v1: Number of People Aged 13 Years and Older Living with A Diagnosis of Human Immunodeficiency Virus (Hiv) Infection
+      HD2023_025_HP_v2: Number of People Aged 13 Years and Older Living with A Diagnosis of Human Immunodeficiency Virus (Hiv) Infection Per 100 000 Population
+      HD2023_026_H2nd_v1: Number of Homeowners
+      HD2023_026_H2nd_v2: Percentage of Homeowners
+      HD2023_026_H2nd_v3: Percentage of Homeowners 95% Confidence Interval - Low
+      HD2023_026_H2nd_v4: Percentage of Homeowners 95% Confidence Interval - High
+      HD2023_027_H_v1: Homicides Rate
+      HD2023_027_H_v2: Homicides Rate 95% Confidence Interval - Low
+      HD2023_027_H_v3: Homicides Rate 95% Confidence Interval - High
+      HD2023_027_H_v4: Homicide Rate for American Indian/Alaska Native (Aian)
+      HD2023_027_H_v5: Homicide Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_027_H_v6: Homicide Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_027_H_v7: Homicide Rate for Asian (Asian)
+      HD2023_027_H_v8: Homicide Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_027_H_v9: Homicide Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_027_H_v10: Homicide Rate for Black (Black)
+      HD2023_027_H_v11: Homicide Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_027_H_v12: Homicide Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_027_H_v13: Homicide Rate for Hispanic (Hispanic)
+      HD2023_027_H_v14: Homicide Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_027_H_v15: Homicide Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_027_H_v16: Homicide Rate for White (White)
+      HD2023_027_H_v17: Homicide Rate for White (White) 95% Confidence Interval - Low
+      HD2023_027_H_v18: Homicide Rate for White (White) 95% Confidence Interval - High
+      HD2023_028_II_v1: Income Inequality 80th Percentile Income
+      HD2023_028_II_v2: Income Inequality 20th Percentile Income
+      HD2023_028_II_v3: Income Inequality Income Ratio
+      HD2023_028_II_v4: Income Inequality Quartile
+      HD2023_029_IM_v1: Infant Mortality (Death Counts)
+      HD2023_029_IM_v2: Infant Mortality Rate Per 1 000 Live Births
+      HD2023_029_IM_v3: Infant Mortality Rate Per 1 000 Live Births 95% Confidence Interval - Low
+      HD2023_029_IM_v4: Infant Mortality Rate Per 1 000 Live Births 95% Confidence Interval - High
+      HD2023_029_IM_v5: Infant Mortality Rate for American Indian/Alaska Native (Aian)
+      HD2023_029_IM_v6: Infant Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_029_IM_v7: Infant Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_029_IM_v8: Infant Mortality Rate for Asian (Asian)
+      HD2023_029_IM_v9: Infant Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_029_IM_v10: Infant Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_029_IM_v11: Infant Mortality Rate for Black (Black)
+      HD2023_029_IM_v12: Infant Mortality Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_029_IM_v13: Infant Mortality Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_029_IM_v14: Infant Mortality Rate for Hispanic (Hispanic)
+      HD2023_029_IM_v15: Infant Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_029_IM_v16: Infant Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_029_IM_v17: Infant Mortality Rate for White (White)
+      HD2023_029_IM_v18: Infant Mortality Rate for White (White) 95% Confidence Interval - Low
+      HD2023_029_IM_v19: Infant Mortality Rate for White (White) 95% Confidence Interval - High
+      HD2023_030_ID_v1: Injury Deaths
+      HD2023_030_ID_v2: Injury Death Rate
+      HD2023_030_ID_v3: Injury Death Rate 95% Confidence Interval - Low
+      HD2023_030_ID_v4: Injury Death Rate 95% Confidence Interval - High
+      HD2023_030_ID_v5: Injury Deaths Quartile
+      HD2023_030_ID_v6: Injury Death Rate for American Indian/Alaska Native (Aian)
+      HD2023_030_ID_v7: Injury Death Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_030_ID_v8: Injury Death Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_030_ID_v9: Injury Death Rate for Asian (Asian)
+      HD2023_030_ID_v10: Injury Death Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_030_ID_v11: Injury Death Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_030_ID_v12: Injury Death Rate for Black (Black)
+      HD2023_030_ID_v13: Injury Death Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_030_ID_v14: Injury Death Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_030_ID_v15: Injury Death Rate for Hispanic (Hispanic)
+      HD2023_030_ID_v16: Injury Death Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_030_ID_v17: Injury Death Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_030_ID_v18: Injury Death Rate for White (White)
+      HD2023_030_ID_v19: Injury Death Rate for White (White) 95% Confidence Interval - Low
+      HD2023_030_ID_v20: Injury Death Rate for White (White) 95% Confidence Interval - High
+      HD2023_031_IS_v1: Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average
+      HD2023_031_IS_v2: Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average 95% Confidence Interval - Low
+      HD2023_031_IS_v3: Percentage of Adults Who Report Fewer Than 7 Hours of Sleep on Average 95% Confidence Interval - High
+      HD2023_032_JA_v1: Non-Petitioned Cases
+      HD2023_032_JA_v2: Petitioned Cases
+      HD2023_032_JA_v3: Denominator
+      HD2023_032_JA_v4: Juvenile Arrest Rate
+      HD2023_033_LE_v1: Life Expectancy
+      HD2023_033_LE_v2: Life Expectancy 95% Confidence Interval - Low
+      HD2023_033_LE_v3: Life Expectancy 95% Confidence Interval - High
+      HD2023_033_LE_v4: Life Expectancy for American Indian/Alaska Native (Aian)
+      HD2023_033_LE_v5: Llife Expectancy for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_033_LE_v6: Life Expectancy for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_033_LE_v7: Life Expectancy for Asian (Asian)
+      HD2023_033_LE_v8: Life Expectancy for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_033_LE_v9: Life Expectancy for Asian (Asian) 95% Confidence Interval - High
+      HD2023_033_LE_v10: Life Expectancy for Black (Black)
+      HD2023_033_LE_v11: Life Expectancy for Black (Black) 95% Confidence Interval - Low
+      HD2023_033_LE_v12: Life Expectancy for Black (Black) 95% Confidence Interval - High
+      HD2023_033_LE_v13: Life Expectancy for Hispanic (Hispanic)
+      HD2023_033_LE_v14: Life Expectancy for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_033_LE_v15: Life Expectancy for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_033_LE_v16: Life Expectancy for White (White)
+      HD2023_033_LE_v17: Life Expectancy for White (White) 95% Confidence Interval - Low
+      HD2023_033_LE_v18: Life Expectancy for White (White) 95% Confidence Interval - High
+      HD2023_034_LATHF_v1: Number of Residents Who Are Low-Income and Do Not Live Close to A Grocery Store
+      HD2023_034_LATHF_v2: Percentage of Population Who Are Low-Income and Do Not Live Close to A Grocery Store
+      HD2023_035_LC_DA_v1: Long Commute Driving Alone Workers Who Drive Alone
+      HD2023_035_LC_DA_v2: Percent of Long Commute Driving Alone Workers Who Drive Alone
+      HD2023_035_LC_DA_v3: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+      HD2023_035_LC_DA_v4: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+      HD2023_035_LC_DA_v5: Long Commute Driving Alone Workers Who Drive Alone Quartile
+      HD2023_036_LB_v1: Low Birthweight Births (<2.5kg) Unreliable
+      HD2023_036_LB_v2: Percent of Low Birthweight Births (<2.5kg)
+      HD2023_036_LB_v3: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+      HD2023_036_LB_v4: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+      HD2023_036_LB_v5: Low Birthweight Births (<2.5kg) Quartile
+      HD2023_036_LB_v6: Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 
+      HD2023_036_LB_v7: Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_036_LB_v8: Percentage of Low Birthweight Births for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_036_LB_v9: Percentage of Low Birthweight Births for Asian (Asian) 
+      HD2023_036_LB_v10: Percentage of Low Birthweight Births for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_036_LB_v11: Percentage of Low Birthweight Births for Asian (Asian) 95% Confidence Interval - High
+      HD2023_036_LB_v12: Percentage of Low Birthweight Births for Black (Black)
+      HD2023_036_LB_v13: Percentage of Low Birthweight Births for Black (Black) 95% Confidence Interval - Low
+      HD2023_036_LB_v14: Percentage of Low Birthweight Births for Black (Black) 95% Confidence Interval - High
+      HD2023_036_LB_v15: Percentage of Low Birthweight Births for Hispanic (Hispanic)
+      HD2023_036_LB_v16: Percentage of Low Birthweight Births for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_036_LB_v17: Percentage of Low Birthweight Births for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_036_LB_v18: Percentage of Low Birthweight Births for White (White)
+      HD2023_036_LB_v19: Percentage of Low Birthweight Births for White (White) 95% Confidence Interval - Low
+      HD2023_036_LB_v20: Percentage of Low Birthweight Births for White (White) 95% Confidence Interval - High
+      HD2023_037_MS2nd_v1: Percentage of Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_037_MS2nd_v2: Mammography Screening Quartile
+      HD2023_037_MS2nd_v3: Percentage of American Indian/Alaska Native Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_037_MS2nd_v4: Percentage of Asian/Pacific Islander Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_037_MS2nd_v5: Percentage of Black Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_037_MS2nd_v6: Percentage of Hispanic Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_037_MS2nd_v7: Percentage of White Female Medicare Enrollees Having An Annual Mammogram (Age 65-74)
+      HD2023_038_MS_v1: Average Grade Level Performance for 3rd Graders on Math Standardized Tests
+      HD2023_038_MS_v2: Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Asian (Asian)
+      HD2023_038_MS_v3: Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Black (Black)
+      HD2023_038_MS_v4: Average Grade Level Performance for 3rd Graders on Math Standardized Tests for Hispanic (Hispanic)
+      HD2023_038_MS_v5: Average Grade Level Performance for 3rd Graders on Math Standardized Tests for White (White)
+      HD2023_039_MHI_v1: Median Household Income
+      HD2023_039_MHI_v2: Median Household Income 95% Confidence Interval - Low
+      HD2023_039_MHI_v3: Median Household Income 95% Confidence Interval - High
+      HD2023_039_MHI_v4: Median Household Income for American Indian/Alaska Native (Aian)
+      HD2023_039_MHI_v5: Median Household Income for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_039_MHI_v6: Median Household Income for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_039_MHI_v7: Median Household Income for Asian (Asian)
+      HD2023_039_MHI_v8: Median Household Income for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_039_MHI_v9: Median Household Income for Asian (Asian) 95% Confidence Interval - High
+      HD2023_039_MHI_v10: Median Household Income for Black (Black)
+      HD2023_039_MHI_v11: Median Household Income for Black (Black) 95% Confidence Interval - Low
+      HD2023_039_MHI_v12: Median Household Income for Black (Black) 95% Confidence Interval - High
+      HD2023_039_MHI_v13: Median Household Income for Hispanic (Hispanic)
+      HD2023_039_MHI_v14: Median Household Income for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_039_MHI_v15: Median Household Income for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_039_MHI_v16: Median Household Income for White (White)
+      HD2023_039_MHI_v17: Median Household Income for White (White) 95% Confidence Interval - Low
+      HD2023_039_MHI_v18: Median Household Income for White (White) 95% Confidence Interval - High
+      HD2023_040_MHP_v1: Mental Health Providers (Mhp)
+      HD2023_040_MHP_v2: Mental Health Providers (Mhp) Rate Per 100 000 Population
+      HD2023_040_MHP_v3: Mental Health Providers (Mhp) Ratio
+      HD2023_040_MHP_v4: Mental Health Providers (Mhp) Quartile
+      HD2023_041_MVCD_v1: Motor Vehicle Crash Deaths
+      HD2023_041_MVCD_v2: Motor Vehicle Crash Deaths Per 100 000 Population
+      HD2023_041_MVCD_v3: Motor Vehicle Crash Deaths Per 100 000 Population 95% Confidence Interval - Low
+      HD2023_041_MVCD_v4: Motor Vehicle Crash Deaths Per 100 000 Population 95% Confidence Interval - High
+      HD2023_041_MVCD_v5: Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian)
+      HD2023_041_MVCD_v6: Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_041_MVCD_v7: Motor Vehicle Crash Deaths Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_041_MVCD_v8: Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian)
+      HD2023_041_MVCD_v9: Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_041_MVCD_v10: Motor Vehicle Crash Deaths Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+      HD2023_041_MVCD_v11: Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black)
+      HD2023_041_MVCD_v12: Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+      HD2023_041_MVCD_v13: Motor Vehicle Crash Deaths Per 100 000 Population for Black (Black) 95% Confidence Interval - High
+      HD2023_041_MVCD_v14: Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic)
+      HD2023_041_MVCD_v15: Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_041_MVCD_v16: Motor Vehicle Crash Deaths Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_041_MVCD_v17: Motor Vehicle Crash Deaths Per 100 000 Population for White (White)
+      HD2023_041_MVCD_v18: Motor Vehicle Crash Deaths Per 100 000 Population for White (White) 95% Confidence Interval - Low
+      HD2023_041_MVCD_v19: Motor Vehicle Crash Deaths Per 100 000 Population for White (White) 95% Confidence Interval - High
+      HD2023_042_OPCP_v1: Number of Other Primary Care Providers Per 100 000 Population
+      HD2023_042_OPCP_v2: Ratio of Population to Primary Care Providers Other Than Physicians
+      HD2023_043_PI_v1: Percent of Physically Inactive Persons (20 Years and Over)
+      HD2023_043_PI_v2: Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2023_043_PI_v3: Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2023_043_PI_v4: Physically Inactive Persons (20 Years and Over) Quartile
+      HD2023_044_PMHD_v1: Mentally Unhealthy Days Per Month
+      HD2023_044_PMHD_v2: Mentally Unhealthy Days Per Month 95% Confidence Interval - Low
+      HD2023_044_PMHD_v3: Mentally Unhealthy Days Per Month 95% Confidence Interval - High
+      HD2023_044_PMHD_v4: Mentally Unhealthy Days Per Month Quartile
+      HD2023_045_POFH_v1: Adults That Report Fair or Poor Health
+      HD2023_045_POFH_v2: Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+      HD2023_045_POFH_v3: Adults That Report Fair or Poor Health 95% Confidence Interval - High
+      HD2023_045_POFH_v4: Adults That Report Fair or Poor Health Quartile
+      HD2023_046_PPHD_v1: Physically Unhealthy Days Per Month
+      HD2023_046_PPHD_v2: Physically Unhealthy Days Per Month 95% Confidence Interval - Low
+      HD2023_046_PPHD_v3: Physically Unhealthy Days Per Month 95% Confidence Interval - High
+      HD2023_046_PPHD_v4: Physically Unhealthy Days Per Month Quartile
+      HD2023_047_PAM_v1: Premature Age-Adjusted Mortality (Count Deaths)
+      HD2023_047_PAM_v2: Premature Age-Adjusted Mortality Rate Per 100 000 Population
+      HD2023_047_PAM_v3: Premature Age-Adjusted Mortality Rate Per 100 000 Population 95% Confidence Interval - Low
+      HD2023_047_PAM_v4: Premature Age-Adjusted Mortality Rate Per 100 000 Population 95% Confidence Interval - High
+      HD2023_047_PAM_v5: Premature Age-Adjusted Mortality Rate for  for American Indian/Alaska Native (Aian)
+      HD2023_047_PAM_v6: Premature Age-Adjusted Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_047_PAM_v7: Premature Age-Adjusted Mortality Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_047_PAM_v8: Premature Age-Adjusted Mortality Rate for Asian (Asian)
+      HD2023_047_PAM_v9: Premature Age-Adjusted Mortality Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_047_PAM_v10: Premature Age-Adjusted Mortality Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_047_PAM_v11: Premature Age-Adjusted Mortality Rate for Black (Black)
+      HD2023_047_PAM_v12: Premature Age-Adjusted Mortality Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_047_PAM_v13: Premature Age-Adjusted Mortality Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_047_PAM_v14: Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic)
+      HD2023_047_PAM_v15: Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_047_PAM_v16: Premature Age-Adjusted Mortality Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_047_PAM_v17: Premature Age-Adjusted Mortality Rate for White (White)
+      HD2023_047_PAM_v18: Premature Age-Adjusted Mortality Rate for White (White) 95% Confidence Interval - Low
+      HD2023_047_PAM_v19: Premature Age-Adjusted Mortality Rate for White (White) 95% Confidence Interval - High
+      HD2023_048_PD_v1: Premature Deaths (Less Than 75 Years)
+      HD2023_048_PD_v2: Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years)
+      HD2023_048_PD_v3: Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years) 95% Confidence Interval - Low
+      HD2023_048_PD_v4: Years of Potential Life Lost (Ypll) Rate Per 100 000 Population (Less Than 75 Years) 95% Confidence Interval - High
+      HD2023_048_PD_v5: Premature Deaths (Less Than 75 Years) Quartile
+      HD2023_048_PD_v6: Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian)
+      HD2023_048_PD_v7: Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low 
+      HD2023_048_PD_v8: Premature Death Years of Potential Life Lost (Ypll) Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_048_PD_v9: Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian)
+      HD2023_048_PD_v10: Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_048_PD_v11: Premature Death Years of Potential Life Lost (Ypll) Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_048_PD_v12: Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black)
+      HD2023_048_PD_v13: Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_048_PD_v14: Premature Death Years of Potential Life Lost (Ypll) Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_048_PD_v15: Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic)
+      HD2023_048_PD_v16: Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_048_PD_v17: Premature Death Years of Potential Life Lost (Ypll) Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_048_PD_v18: Premature Death Years of Potential Life Lost (Ypll) Rate for White (White)
+      HD2023_048_PD_v19: Premature Death Years of Potential Life Lost (Ypll) Rate for White (White) 95% Confidence Interval - Low
+      HD2023_048_PD_v20: Premature Death Years of Potential Life Lost (Ypll) Rate for White (White) 95% Confidence Interval - High
+      HD2023_049_PHS_v1: Preventable Hospital Stays Rate
+      HD2023_049_PHS_v2: Preventable Hospital Stays Quartile
+      HD2023_049_PHS_v3: Preventable Hosp. Rate for American Indian/Alaska Native (Aian)
+      HD2023_049_PHS_v4: Preventable Hosp. Rate for Asian (Asian)
+      HD2023_049_PHS_v5: Preventable Hosp. Rate for Black (Black)
+      HD2023_049_PHS_v6: Preventable Hosp. Rate for Hispanic (Hispanic)
+      HD2023_049_PHS_v7: Preventable Hosp. Rate for White (White)
+      HD2023_050_PCP_v1: Primary Care Physicians (Pcp)
+      HD2023_050_PCP_v2: Primary Care Physicians (Pcp) Rate Per 100 000 Population
+      HD2023_050_PCP_v3: Primary Care Physicians (Pcp) Ratio
+      HD2023_050_PCP_v4: Primary Care Physicians (Pcp) Quartile
+      HD2023_051_RS_v1: Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests
+      HD2023_051_RS_v2: Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Asian (Asian)
+      HD2023_051_RS_v3: Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Black (Black)
+      HD2023_051_RS_v4: Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for Hispanic (Hispanic)
+      HD2023_051_RS_v5: Average Grade Level Performance for 3rd Graders on English Language Arts Standardized Tests for White (White)
+      HD2023_052_RS_B_v1: Residential Segregation - Black/ White Segregation Index
+      HD2023_054_SHCB_v1: Households with Severe Problems
+      HD2023_054_SHCB_v2: Percent of Households with Severe Problems
+      HD2023_054_SHCB_v3: Percent of Households with Severe Problems 95% Confidence Interval - Low
+      HD2023_054_SHCB_v4: Percent of Households with Severe Problems 95% Confidence Interval - High
+      HD2023_055_SHP_v1: Percentage Of Households with Severe Housing Problems
+      HD2023_055_SHP_v2: Percentage Of Households with Severe Housing Problems 95% Confidence Interval - Low
+      HD2023_055_SHP_v3: Percentage Of Households with Severe Housing Problems 95% Confidence Interval - High
+      HD2023_055_SHP_v4: Percentage of Households with High Housing Costs
+      HD2023_055_SHP_v5: Percentage of Households with High Housing Costs 95% Confidence Interval - Low
+      HD2023_055_SHP_v6: Percentage of Households with High Housing Costs 95% Confidence Interval - High
+      HD2023_055_SHP_v7: Percentage of Households with Overcrowding
+      HD2023_055_SHP_v8: Percentage of Households with Overcrowding 95% Confidence Interval - Low
+      HD2023_055_SHP_v9: Percentage of Households with Overcrowding 95% Confidence Interval - High
+      HD2023_055_SHP_v10: Percentage of Households with Lack of Kitchen or Plumbing Facilities
+      HD2023_055_SHP_v11: Percentage of Households with Lack of Kitchen or Plumbing Facilities 95% Confidence Interval - Low
+      HD2023_055_SHP_v12: Percentage of Households with Lack of Kitchen or Plumbing Facilities 95% Confidence Interval - High
+      HD2023_055_SHP_v13: Severe Housing Problems Quartile
+      HD2023_056_STI_v1: Chlamydia Cases
+      HD2023_056_STI_v2: Chlamydia Cases Rate Per 100 000 Population
+      HD2023_056_STI_v3: Chlamydia Cases Quartile
+      HD2023_057_SA_v1: Membership Associations
+      HD2023_057_SA_v2: Membership Associations Per 10 000 Population
+      HD2023_057_SA_v3: Membership Associations Quartile
+      HD2023_058_SC_v1: Adults Having Some Post-Secondary Education (Persons 25-44 Years)
+      HD2023_058_SC_v2: Population (Persons 25-44 Years)
+      HD2023_058_SC_v3: Percent of Adults Having Some Post-Secondary Education (Persons 25-44 Years)
+      HD2023_058_SC_v4: Percent of Adults Having Some Post-Secondary Education (25-44 Years) 95% Confidence Interval - Low
+      HD2023_058_SC_v5: Percent of Adults Having Some Post-Secondary Education (25-44 Years) 95% Confidence Interval - High
+      HD2023_058_SC_v6: Adults Having Some Post-Secondary Education (25-44 Years) Quartile
+      HD2023_059_S_v1: Number of Deaths Due to Suicide (Age-Adjusted)
+      HD2023_059_S_v2: Number of Deaths Due to Suicide Per 100 000 Population
+      HD2023_059_S_v3: Number of Deaths Due to Suicide Per 100 000 Population 95% Confidence Interval - Low
+      HD2023_059_S_v4: Number of Deaths Due to Suicide Per 100 000 Population 95% Confidence Interval - High
+      HD2023_059_S_v5: Crude Rate
+      HD2023_059_S_v6: Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian)
+      HD2023_059_S_v7: Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_059_S_v8: Number of Deaths Due to Suicide Per 100 000 Population for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_059_S_v9: Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian)
+      HD2023_059_S_v10: Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_059_S_v11: Number of Deaths Due to Suicide Per 100 000 Population for Asian (Asian) 95% Confidence Interval - High
+      HD2023_059_S_v12: Number of Deaths Due to Suicide Per 100 000 Population  for Black (Black)
+      HD2023_059_S_v13: Number of Deaths Due to Suicide Per 100 000 Population for Black (Black) 95% Confidence Interval - Low
+      HD2023_059_S_v14: Number of Deaths Due to Suicide Per 100 000 Population  for Black (Black) 95% Confidence Interval - High
+      HD2023_059_S_v15: Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic)
+      HD2023_059_S_v16: Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_059_S_v17: Number of Deaths Due to Suicide Per 100 000 Population for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_059_S_v18: Number of Deaths Due to Suicide Per 100 000 Population for White (White)
+      HD2023_059_S_v19: Number of Deaths Due to Suicide Per 100 000 Population for White (White) 95% Confidence Interval - Low
+      HD2023_059_S_v20: Number of Deaths Due to Suicide Per 100 000 Population for White (White) 95% Confidence Interval - High
+      HD2023_060_TB_v1: Teen Births Rate Per 1 000 Population (Females 15 to 19 Years)
+      HD2023_060_TB_v2: Teen Births Rate Per 1 000 Population (Females 15-19 Years) 95% Confidence Interval - Low
+      HD2023_060_TB_v3: Teen Births Rate Per 1 000 Population (Females 15-19 Years) 95% Confidence Interval - High
+      HD2023_060_TB_v4: Teen Births (Females 15-19 Years) Quartile
+      HD2023_060_TB_v5: Teen Birth Rate for American Indian/Alaska Native (Aian) 
+      HD2023_060_TB_v6: Teen Birth Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - Low
+      HD2023_060_TB_v7: Teen Birth Rate for American Indian/Alaska Native (Aian) 95% Confidence Interval - High
+      HD2023_060_TB_v8: Teen Birth Rate for Asian (Asian) 
+      HD2023_060_TB_v9: Teen Birth Rate for Asian (Asian) 95% Confidence Interval - Low
+      HD2023_060_TB_v10: Teen Birth Rate for Asian (Asian) 95% Confidence Interval - High
+      HD2023_060_TB_v11: Teen Birth Rate for Black (Black)
+      HD2023_060_TB_v12: Teen Birth Rate for Black (Black) 95% Confidence Interval - Low
+      HD2023_060_TB_v13: Teen Birth Rate for Black (Black) 95% Confidence Interval - High
+      HD2023_060_TB_v14: Teen Birth Rate for Hispanic (Hispanic)
+      HD2023_060_TB_v15: Teen Birth Rate for Hispanic (Hispanic) 95% Confidence Interval - Low
+      HD2023_060_TB_v16: Teen Birth Rate for Hispanic (Hispanic) 95% Confidence Interval - High
+      HD2023_060_TB_v17: Teen Birth Rate for White (White)
+      HD2023_060_TB_v18: Teen Birth Rate for White (White) 95% Confidence Interval - Low
+      HD2023_060_TB_v19: Teen Birth Rate for White (White) 95% Confidence Interval - High
+      HD2023_061_TV_v1: Average Traffic Volume Per Meter of Major Roadways
+      HD2023_062_U2nd_v1: Unemployed (Persons 16 Years and Over)
+      HD2023_062_U2nd_v2: Labor Force (Persons 16 Years and Over)
+      HD2023_062_U2nd_v3: Percent of Unemployed (Persons 16 Years and Over)
+      HD2023_062_U2nd_v4: Unemployed Quartile
+      HD2023_063_U_v1: Number of People Under Age 65 Without Insurance
+      HD2023_063_U_v2: Percentage of People Under Age 65 Without Insurance
+      HD2023_063_U_v3: Percentage of People Under Age 65 Without Insurance 95% Confidence Interval - Low
+      HD2023_063_U_v4: Percentage of People Under Age 65 Without Insurance 95% Confidence Interval - High
+      HD2023_063_U_v5: Uninsured Quartile
+      HD2023_064_UA_v1: Number of Adults Under Age 65 Without Health Insurance
+      HD2023_064_UA_v2: Percentage of Adults Under Age 65 Without Health Insurance
+      HD2023_064_UA_v3: Percentage of Adults Under Age 65 Without Health Insurance 95% Confidence Interval - Low
+      HD2023_064_UA_v4: Percentage of Adults Under Age 65 Without Health Insurance 95% Confidence Interval - High
+      HD2023_065_UC_v1: Number of Children Under Age 19 Without Health Insurance
+      HD2023_065_UC_v2: Percentage of Children Under Age 19 Without Health Insurance
+      HD2023_065_UC_v3: Percentage of Children Under Age 19 Without Health Insurance 95% Confidence Interval - Low
+      HD2023_065_UC_v4: Percentage of Children Under Age 19 Without Health Insurance 95% Confidence Interval - High
+      HD2023_001_HEALTH_T6_V25: Population
+      HD2023_001_HEALTH_T6_V24: Population 95%  Confidence Interval - Low
+      HD2023_001_HEALTH_T6_V23: Population 95% Confidence Interval - High
+      HD2023_001_HEALTH_T6_V12: Population (%, < 18 Years)
+      HD2023_001_HEALTH_T6_V13: Population (%, 65 Years and Over)
+      HD2023_001_HEALTH_T6_V3: Population (African American)
+      HD2023_001_HEALTH_T6_V14: Population (%, African American)
+      HD2023_001_HEALTH_T6_V4: Population  (American Indian/ Alaskan Native)
+      HD2023_001_HEALTH_T6_V15: Population (%, American Indian/ Alaskan Native)
+      HD2023_001_HEALTH_T6_V5: Population (Asian)
+      HD2023_001_HEALTH_T6_V16: Population (%, Asian)
+      HD2023_001_HEALTH_T6_V8: Population (Native Hawaiian/ Other Pacific Islander)
+      HD2023_001_HEALTH_T6_V19: Population (%, Native Hawaiian/ Other Pacific Islander)
+      HD2023_001_HEALTH_T6_V7: Population (Hispanic)
+      HD2023_001_HEALTH_T6_V18: Population (%, Hispanic)
+      HD2023_001_HEALTH_T6_V9: Population (Non-Hispanic White)
+      HD2023_001_HEALTH_T6_V20: Population (%, Non-Hispanic White)
+      HD2023_001_HEALTH_T6_V10: Population (Not Proficient in English)
+      HD2023_001_HEALTH_T6_V21: Population (%, Not Proficient in English)
+      HD2023_001_HEALTH_T6_V17: Population (%, Female)
+      HD2023_001_HEALTH_T6_V11: Population (Rural)
+      HD2023_001_HEALTH_T6_V22: Population (%, Rural)
+      HD2023_002_HEALTH_T8_V3: Population Who Lack Adequate Access to Food
+      HD2023_002_HEALTH_T8_V4: Percentage of population who lack adequate access to food
+      HD2023_002_HEALTH_T8_V5: Persons with Limited Access to Healthy Foods
+      HD2023_002_HEALTH_T8_V6: Percent of Persons with Limited Access to Healthy Foods
+      HD2023_002_HEALTH_T8_V1: Drug Poisoning Death Counts
+      HD2023_002_HEALTH_T8_V2: Drug Poisoning Death Counts per 100 000 Population
+      HD2023_002_HEALTH_T8_V8: Motor Vehicle Crash Deaths
+      HD2023_002_HEALTH_T8_V11: Motor Vehicle Crash Deaths per 100 000 Population
+      HD2023_002_HEALTH_T8_V10: Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - Low
+      HD2023_002_HEALTH_T8_V9: Motor Vehicle Crash Deaths per 100 000 Population 95% Confidence Interval - High
+      HD2023_002_HEALTH_T8_V15: Percent of Individuals with Insufficient Sleep
+      HD2023_003_HEALTH_T9_V13: Persons Without Insurance (Population Under 19 Years)
+      HD2023_003_HEALTH_T9_V14: Percent Persons Without Insurance (Population Under 19 Years)
+      HD2023_003_HEALTH_T9_V16: Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - Low
+      HD2023_003_HEALTH_T9_V15: Percent Persons Without Insurance (Population Under 19 Years) 95% Confidence Interval - High
+      HD2023_003_HEALTH_T9_V6: Other Primary Care Providers (PCP) Rate per 100,000 Population
+      HD2023_003_HEALTH_T9_V7: Other Primary Care Providers (PCP) Ratio
+      HD2023_004_HEALTH_T10_V16: Median Household Income
+      HD2023_004_HEALTH_T10_V15: Median Household Income 95% Confidence Interval - Low
+      HD2023_004_HEALTH_T10_V14: Median Household Income 95% Confidence Interval - High
+      HD2023_004_HEALTH_T10_V4: Children Eligible for Free Lunch (Persons < 18 Years)
+      HD2023_004_HEALTH_T10_V18: Residential Segregation - Black/ White Segregation Index
+      HD2023_004_HEALTH_T10_V11: Homicides Rate
+      HD2023_004_HEALTH_T10_V10: Homicides Rate 95% Confidence Interval - Low
+      HD2023_004_HEALTH_T10_V9: Homicides Rate 95% Confidence Interval - High
+      HD2023_005_HEALTH_T7_V17: Premature Age-adjusted mortality (Count Deaths)
+      HD2023_005_HEALTH_T7_V20: Premature Age-adjusted mortality rate per 100 000 Population
+      HD2023_005_HEALTH_T7_V19: Premature Age-adjusted rate per 100 000 Population 95% Confidence Interval - Low
+      HD2023_005_HEALTH_T7_V18: Premature Age-adjusted rate per 100 000 Population 95% Confidence Interval - High
+      HD2023_005_HEALTH_T7_V1: Child Mortality (Death Counts)
+      HD2023_005_HEALTH_T7_V4: Child Mortality Rate
+      HD2023_005_HEALTH_T7_V3: Child Mortality Rate per 100,000 Population 95% Confidence Interval - Low
+      HD2023_005_HEALTH_T7_V2: Child Mortality Rate per 100,000 Population 95% Confidence Interval - High
+      HD2023_005_HEALTH_T7_V13: Infant Mortality (Death Counts)
+      HD2023_005_HEALTH_T7_V16: Infant Mortality Rate per 1 000 Live Births
+      HD2023_005_HEALTH_T7_V15: Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - Low
+      HD2023_005_HEALTH_T7_V14: Infant Mortality Rate per 1 000 Live Births 95% Confidence Interval - High
+      HD2023_005_HEALTH_T7_V6: Percent of Diabetics
+      HD2023_005_HEALTH_T7_V8: Percent of Diabetics 95% Confidence Interval - Low
+      HD2023_005_HEALTH_T7_V7: Percent of Diabetics 95% Confidence Interval - High
+      HD2023_005_HEALTH_T7_V9: HIV Prevalence
+      HD2023_005_HEALTH_T7_V10: HIV Prevalence Rate per 100,000 Population
+      HD2023_006_HEALTH_T3_V41: Persons Without Insurance (Population Under 65 Years)
+      HD2023_006_HEALTH_T3_V42: Percent of Persons Without Insurance (Population Under 65 Years)
+      HD2023_006_HEALTH_T3_V44: Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - Low
+      HD2023_006_HEALTH_T3_V43: Percent of Persons Without Insurance (Population Under 65 Years) 95% Confidence Interval - High
+      HD2023_006_HEALTH_T3_V34: Primary Care Physicians (PCP)
+      HD2023_006_HEALTH_T3_V35: Primary Care Physicians (PCP) Rate per 100 000 Population
+      HD2023_006_HEALTH_T3_V36: Primary Care Physicians (PCP) Ratio
+      HD2023_006_HEALTH_T3_V38: Primary Care Physicians (PCP) Quartile
+      HD2023_006_HEALTH_T3_V1: Dentists
+      HD2023_006_HEALTH_T3_V2: Dentists Rate per 100 000 Population
+      HD2023_006_HEALTH_T3_V3: Dentists Ratio
+      HD2023_006_HEALTH_T3_V4: Dentists Quartile
+      HD2023_006_HEALTH_T3_V25: Preventable Hospital Stays Rate
+      HD2023_006_HEALTH_T3_V24: Preventable Hospital Stays Quartile
+      HD2023_006_HEALTH_T3_V23: Percent of Medicare Enrollees Having Mammography Screening
+      HD2023_006_HEALTH_T3_V26: Medicare Enrollees Having Mammography Screening Quartile
+      HD2023_007_HEALTH_T5_V6: Air Pollution Particulate Matter Average Daily PM2.5
+      HD2023_007_HEALTH_T5_V7: Air Pollution Particulate Matter Average Daily PM2.5 Quartile
+      HD2023_007_HEALTH_T5_V47: Presence of Drinking Water Violations
+      HD2023_007_HEALTH_T5_V18: Presence of Drinking Water Violations Quartile
+      HD2023_007_HEALTH_T5_V42: Percent of Households with Severe Problems
+      HD2023_007_HEALTH_T5_V44: Households with Severe Problems 95% Confidence Interval - Low
+      HD2023_007_HEALTH_T5_V43: Households with Severe Problems 95% Confidence Interval - High
+      HD2023_007_HEALTH_T5_V45: Households with Severe Problems Quartile
+      HD2023_007_HEALTH_T5_V23: Percent of Driving Alone to Work
+      HD2023_007_HEALTH_T5_V25: Driving Alone to Work 95% Confidence Interval - Low
+      HD2023_007_HEALTH_T5_V24: Driving Alone to Work 95% Confidence Interval - High
+      HD2023_007_HEALTH_T5_V26: Driving Alone to Work Quartile
+      HD2023_007_HEALTH_T5_V35: Long Commute Driving Alone Workers Who Drive Alone
+      HD2023_007_HEALTH_T5_V36: Percent of Long Commute Driving Alone Workers Who Drive Alone
+      HD2023_007_HEALTH_T5_V38: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - Low
+      HD2023_007_HEALTH_T5_V37: Percent of Long Commute Driving Alone Workers Who Drive Alone 95% Confidence Interval - High
+      HD2023_007_HEALTH_T5_V39: Long Commute Driving Alone Workers Who Drive Alone Quartile
+      HD2023_008_HEALTH_T2_V10: Percent of Current Smokers (Persons 18 Years and Over)
+      HD2023_008_HEALTH_T2_V12: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V11: Percent of Current Smokers (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V13: Current Smokers (Persons 18 Years and Over) Quartile
+      HD2023_008_HEALTH_T2_V5: Percent of Obese Persons (20 Years and Over)
+      HD2023_008_HEALTH_T2_V7: Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V6: Percent of Obese Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V8: Obese Persons (20 Years and Over) Quartile
+      HD2023_008_HEALTH_T2_V27: Food Environment Index
+      HD2023_008_HEALTH_T2_V30: Percent of Physically Inactive Persons (20 Years and Over)
+      HD2023_008_HEALTH_T2_V32: Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V31: Percent of Physically Inactive Persons (20 Years and Over) 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V33: Physically Inactive Persons (20 Years and Over) Quartile
+      HD2023_008_HEALTH_T2_V2: Percent of Persons with Access to Exercise Opportunities
+      HD2023_008_HEALTH_T2_V3: Persons with Access to Exercise Opportunities Quartile
+      HD2023_008_HEALTH_T2_V21: Percent of Drinking Adults (Persons 18 Years and Over)
+      HD2023_008_HEALTH_T2_V23: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V22: Percent of Drinking Adults (Persons 18 Years and Over) 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V24: Drinking Adults (Persons 18 Years and Over) Quartile
+      HD2023_008_HEALTH_T2_V16: Alcohol-impaired Driving Deaths
+      HD2023_008_HEALTH_T2_V18: Percent of Alcohol-impaired Driving Deaths
+      HD2023_008_HEALTH_T2_V49: Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V50: Percent of Alcohol-impaired Driving Deaths 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V19: Percent of Alcohol-impaired Driving Deaths Quartile
+      HD2023_008_HEALTH_T2_V35: Chlamydia Cases
+      HD2023_008_HEALTH_T2_V36: Chlamydia Cases Rate per 100 000 Population
+      HD2023_008_HEALTH_T2_V38: Chlamydia Cases Quartile
+      HD2023_008_HEALTH_T2_V44: Teen Births Rate per 1 000 Population (Females 15 to 19 Years)
+      HD2023_008_HEALTH_T2_V42: Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - Low
+      HD2023_008_HEALTH_T2_V41: Teen Births Rate per 1 000 Population (Females 15 to 19 Years) 95% Confidence Interval - High
+      HD2023_008_HEALTH_T2_V43: Teen Births (Females 15-19 Years) Quartile
+      HD2023_009_HEALTH_T4_V15: High School Graduation Cohort Size
+      HD2023_009_HEALTH_T4_V18: High School Graduation Rate
+      HD2023_009_HEALTH_T4_V19: High School Graduation Quartile
+      HD2023_009_HEALTH_T4_V46: Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2023_009_HEALTH_T4_V50: Population (Persons 25-44 Years)
+      HD2023_009_HEALTH_T4_V47: Percent of Adults Having Some Post-secondary Education (Persons 25-44 Years)
+      HD2023_009_HEALTH_T4_V49: Percent of Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - Low
+      HD2023_009_HEALTH_T4_V48: Percent of Adults Having Some Post-secondary Education (25-44 Years) 95% Confidence Interval - High
+      HD2023_009_HEALTH_T4_V51: Adults Having Some Post-secondary Education (25-44 Years) Quartile
+      HD2023_009_HEALTH_T4_V53: Unemployed (Persons 16 Years and Over)
+      HD2023_009_HEALTH_T4_V57: Labor Force (Persons 16 Years and Over)
+      HD2023_009_HEALTH_T4_V54: Percent of Unemployed (Persons 16 Years and Over)
+      HD2023_009_HEALTH_T4_V58: Unemployment Quartile
+      HD2023_009_HEALTH_T4_V2: Percent of Children in Poverty
+      HD2023_009_HEALTH_T4_V4: Percent of Children in Poverty 95% Confidence Interval - Low
+      HD2023_009_HEALTH_T4_V3: Percent of Children in Poverty 95% Confidence Interval - High
+      HD2023_009_HEALTH_T4_V5: Children in Poverty Quartile
+      HD2023_009_HEALTH_T4_V28: Income Inequality 80th Percentile Income
+      HD2023_009_HEALTH_T4_V27: Income Inequality 20th Percentile Income
+      HD2023_009_HEALTH_T4_V30: Income Inequality Income Ratio
+      HD2023_009_HEALTH_T4_V31: Income Inequality Quartile
+      HD2023_009_HEALTH_T4_V8: Single Parent Households
+      HD2023_009_HEALTH_T4_V7: Households
+      HD2023_009_HEALTH_T4_V9: Percent of Single Parent Households
+      HD2023_009_HEALTH_T4_V11: Percent of Single Parent Households 95% Confidence Interval - Low
+      HD2023_009_HEALTH_T4_V10: Percent of Single Parent Households 95% Confidence Interval - High
+      HD2023_009_HEALTH_T4_V12: Single Parent Households Quartile
+      HD2023_009_HEALTH_T4_V43: Membership Associations
+      HD2023_009_HEALTH_T4_V44: Membership Associations per 10 000 Population
+      HD2023_009_HEALTH_T4_V65: Membership Associations Quartile
+      HD2023_009_HEALTH_T4_V33: Injury Deaths
+      HD2023_009_HEALTH_T4_V36: Injury Death Rate
+      HD2023_009_HEALTH_T4_V35: Injury Death Rate 95% Confidence Interval - Low
+      HD2023_009_HEALTH_T4_V34: Injury Death Rate 95% Confidence Interval - High
+      HD2023_009_HEALTH_T4_V37: Injury Deaths Quartile
+      HD2023_010_HEALTH_T1_V34: Premature Deaths (Less than 75 Years)
+      HD2023_010_HEALTH_T1_V40: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years)
+      HD2023_010_HEALTH_T1_V36: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V35: Years of Potential Life Lost (YPLL) Rate per 100 000 Population (Less than 75 Years) 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V38: Premature Deaths (Less than 75 Years) Quartile
+      HD2023_010_HEALTH_T1_V22: Adults That Report Fair or Poor Health
+      HD2023_010_HEALTH_T1_V24: Adults That Report Fair or Poor Health 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V23: Adults That Report Fair or Poor Health 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V25: Adults That Report Fair or Poor Health Quartile
+      HD2023_010_HEALTH_T1_V30: Physically Unhealthy Days per Month
+      HD2023_010_HEALTH_T1_V29: Physically Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V28: Physically Unhealthy Days per Month 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V31: Physically Unhealthy Days per Month Quartile
+      HD2023_010_HEALTH_T1_V18: Mentally Unhealthy Days per Month
+      HD2023_010_HEALTH_T1_V17: Mentally Unhealthy Days per Month 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V16: Mentally Unhealthy Days per Month 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V19: Mentally Unhealthy Days per Month Quartile
+      HD2023_010_HEALTH_T1_V8: Low Birthweight Births (<2.5kg) Unreliable
+      HD2023_010_HEALTH_T1_V3: Percent of Low Birthweight Births (<2.5kg)
+      HD2023_010_HEALTH_T1_V5: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V4: Percent of Low Birthweight Births (<2.5kg) 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V6: Low Birthweight Births (<2.5kg) Quartile
+      HD2023_010_HEALTH_T1_V10: Mental Health Providers (MHP)
+      HD2023_010_HEALTH_T1_V11: Mental Health Providers (MHP) Rate per 100 000 Population
+      HD2023_010_HEALTH_T1_V12: Mental Health Providers (MHP) Ratio
+      HD2023_010_HEALTH_T1_V14: Mental Health Providers (MHP) Quartile
+      HD2023_010_HEALTH_T1_V42: Percent of Frequent Physical Distress
+      HD2023_010_HEALTH_T1_V43: Percent of Frequent Physical Distress 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V44: Percent of Frequent Physical Distress 95% Confidence Interval - High
+      HD2023_010_HEALTH_T1_V45: Percent of Frequent Mental Distress
+      HD2023_010_HEALTH_T1_V46: Percent of Frequent Mental Distress 95% Confidence Interval - Low
+      HD2023_010_HEALTH_T1_V47: Percent of Frequent Mental Distress 95% Confidence Interval - High
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2024
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13670962
+
+If you have any questions contact info@socialexplorer.com
