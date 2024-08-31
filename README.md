@@ -23,10 +23,12 @@ values, using histograms to partition the feature space and build an ensemble of
 *From scikit-learn.org:* “During training, the tree grower learns at each split point whether samples with missing values should go to the left or right child, based on the potential gain. When predicting, samples with missing values are assigned to the left or right child consequently. If no missing values were encountered for a given feature during training, then samples with missing values are mapped to whichever child has the most samples.”
 
 ## Correlation Analysis
-The correlations between each quantitative column of health data from the merged and
-cleaned data frame and the column
-corresponding to total quantities of toxic
-chemicals released to air, water and land on-site at industrial facilities were calculated. Every metric with a correlation greater than 0.25 is displayed, alongside the correlation, above. There is a weak correlation on a county level between on-site release totals and child mortality rate for American Indian/Alaska Native (Aian), homicide rate for Aian, and infant mortality rate for Aian.
+
+![Choropleth Map of County On-Site Toxics Release Totals (Jenks Natural Breaks) with Tribal Land Overlay - Contiguous U.S.](Assets/CorrelationTable.jpg)
+
+The correlations between each quantitative column of health data from the merged and cleaned data frame and the column corresponding to total quantities of toxic chemicals released to air, water and land on-site at industrial facilities were calculated. Every metric with a correlation greater than 0.25 is displayed, alongside the correlation, above. There is a weak correlation on a county level between on-site release totals and child mortality rate for American Indian/Alaska Native (Aian), homicide rate for Aian, and infant mortality rate for Aian.
+
+![Choropleth Map of County On-Site Toxics Release Totals (Jenks Natural Breaks) with Tribal Land Overlay - Contiguous U.S.](Assets/ChildMortalityRate.jpg)
 
 ## Data Analysis
 Analysis of toxics release and health data using correlation, choropleth mapping, and machine learning led to several takeaways:
