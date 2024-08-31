@@ -24,7 +24,7 @@ values, using histograms to partition the feature space and build an ensemble of
 
 ## Correlation Analysis
 
-![Choropleth Map of County On-Site Toxics Release Totals (Jenks Natural Breaks) with Tribal Land Overlay - Contiguous U.S.](Assets/CorrelationTable.jpg)
+<img src="Assets/CorrelationTable.jpg" alt="Choropleth Map of County On-Site Toxics Release Totals (Jenks Natural Breaks) with Tribal Land Overlay - Contiguous U.S." width="500">
 
 The correlations between each quantitative column of health data from the merged and cleaned data frame and the column corresponding to total quantities of toxic chemicals released to air, water and land on-site at industrial facilities were calculated. Every metric with a correlation greater than 0.25 is displayed, alongside the correlation, above. There is a weak correlation on a county level between on-site release totals and child mortality rate for American Indian/Alaska Native (Aian), homicide rate for Aian, and infant mortality rate for Aian.
 
